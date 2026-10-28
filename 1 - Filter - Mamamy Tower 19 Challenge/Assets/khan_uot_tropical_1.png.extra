@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "33f46923-eadf-cd7f-8dec-a23fba581ee7",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "khan_uot_tropical_1",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/sprites/khan_uot_tropical_1.png",
+    "references": []
+  }
+]

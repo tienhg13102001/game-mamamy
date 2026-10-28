@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "fdf52f42-994a-9978-1b3a-0c13994b9f5f",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "MMM SBD Effect 2 TACH HINH 7",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Downloads/MMM SBD Effect 3/MMM SBD Effect 2 TACH HINH 7.png",
+    "references": []
+  }
+]

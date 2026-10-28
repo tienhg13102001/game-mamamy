@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "0e6903d8-afb3-dba0-6e4b-2226ce694e34",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "baby_tr_wrong",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 1/Build/sprites/baby_tr_wrong.png",
+    "references": []
+  }
+]

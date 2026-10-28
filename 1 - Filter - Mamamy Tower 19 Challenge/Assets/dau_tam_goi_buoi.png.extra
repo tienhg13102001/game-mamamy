@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "6e201b29-9a25-62c0-9b66-97d298ca61d0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "dau_tam_goi_buoi",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/1 - Filter - Mamamy Tower 19 Challenge/Tools/dau_tam_goi_buoi.png",
+    "references": []
+  }
+]

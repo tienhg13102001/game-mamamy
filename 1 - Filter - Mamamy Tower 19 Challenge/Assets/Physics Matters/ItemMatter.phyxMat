@@ -1,0 +1,5 @@
+%YAML 1.1
+--- !AMGPhysicsMaterial &1
+name: !<str> ""
+guid: {a: 1603764577818007239, b: 8523431800353889925}
+data: [1, 1, 0]

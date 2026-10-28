@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "027b273d-ce05-f08c-af95-cbeb6c37227e",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Physics Matters",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

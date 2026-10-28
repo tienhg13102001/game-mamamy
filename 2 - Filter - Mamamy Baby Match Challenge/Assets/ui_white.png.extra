@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "86f8ed10-ec8c-e8fc-ffba-3806b77e3f8c",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "ui_white",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 1/Build/ui/ui_white.png",
+    "references": []
+  }
+]

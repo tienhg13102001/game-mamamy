@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "84cf61f5-4a87-9abf-9052-f1b268f5ccf8",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "sub_floor",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/text/sub_floor.png",
+    "references": []
+  }
+]

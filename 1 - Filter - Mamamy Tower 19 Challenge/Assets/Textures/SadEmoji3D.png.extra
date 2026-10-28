@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "0ac17a18-92c5-2755-12db-3f2ea6edd0ab",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "SadEmoji3D",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/var/folders/qc/08x7mtd91x392rw1c1kzzgnc0000gp/T/tteh-aigc/5e795e94/SadEmoji3D.png",
+    "references": []
+  }
+]

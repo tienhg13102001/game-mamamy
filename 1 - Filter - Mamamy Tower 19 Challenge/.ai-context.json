@@ -1,0 +1,3630 @@
+{
+  "version": 1,
+  "annotations": {
+    "52d76568-52f7-2a61-4bea-a6706a43bed9": {
+      "description": "Purple mechanical claw (376x301) with two curved arms and red tips; hangs from a short stem at top-center",
+      "userDescription": "Purple mechanical claw (376x301) with two curved arms and red tips; hangs from a short stem at top-center",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.067Z"
+    },
+    "784f7bbd-c00e-c94f-e40b-6a1c4e553a77": {
+      "description": "Pink pill panel (272x237) anchored to the right screen edge with white double chevron on its left; hosts the next-item thumbnail",
+      "userDescription": "Pink pill panel (272x237) anchored to the right screen edge with white double chevron on its left; hosts the next-item thumbnail",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.071Z"
+    },
+    "22288ecb-ef23-e1e2-2b92-46d071025661": {
+      "description": "MAMAMY TOWER logo (561x216): pink puffy MAMAMY above plum TOWER, transparent background",
+      "userDescription": "MAMAMY TOWER logo (561x216): pink puffy MAMAMY above plum TOWER, transparent background",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.074Z"
+    },
+    "613e6e3f-04b2-4404-63ab-630fdfda3b2e": {
+      "description": "Pink rounded rectangle badge (280x214) with plum drop shadow, used for HUD counters",
+      "userDescription": "Pink rounded rectangle badge (280x214) with plum drop shadow, used for HUD counters",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.078Z"
+    },
+    "1e0aa9a5-c1f3-58a3-da66-0e183f96feb5": {
+      "description": "Pink pill button background (600x140), no text",
+      "userDescription": "Pink pill button background (600x140), no text",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.082Z"
+    },
+    "0b1383d0-f40a-7119-fe29-64fac7074e75": {
+      "description": "Plain white rounded card (840x760) for the result panel",
+      "userDescription": "Plain white rounded card (840x760) for the result panel",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.085Z"
+    },
+    "8f82b289-95af-828f-3f40-621d980a7830": {
+      "description": "16x16 solid white pixel texture, tinted via Image.color for dims and backgrounds",
+      "userDescription": "16x16 solid white pixel texture, tinted via Image.color for dims and backgrounds",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.089Z"
+    },
+    "3c4792a8-78e5-451b-c9dd-a8387e70874e": {
+      "description": "Soft blurred plum ellipse shadow (900x120) placed under the tower base",
+      "userDescription": "Soft blurred plum ellipse shadow (900x120) placed under the tower base",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.093Z"
+    },
+    "0b1c6e72-8043-ef53-18c3-9f8293c3ce02": {
+      "description": "Mamamy wet wipes pack, magenta side band, baby photo, wide flat (512x258)",
+      "userDescription": "Mamamy wet wipes pack, magenta side band, baby photo, wide flat (512x258)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.096Z"
+    },
+    "ebd78b64-722d-d40f-154e-bad9cc7e5730": {
+      "description": "Mamamy wet wipes pack, green side band, baby photo, wide flat (511x276)",
+      "userDescription": "Mamamy wet wipes pack, green side band, baby photo, wide flat (511x276)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.099Z"
+    },
+    "33f46923-eadf-cd7f-8dec-a23fba581ee7": {
+      "description": "Mamamy Tropical wet wipes pack with toucan, wide flat (487x245)",
+      "userDescription": "Mamamy Tropical wet wipes pack with toucan, wide flat (487x245)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.102Z"
+    },
+    "ba83c1a7-6f01-b259-9455-784e1f6245be": {
+      "description": "Mamamy Tropical wet wipes pack variant, wide flat (490x245)",
+      "userDescription": "Mamamy Tropical wet wipes pack variant, wide flat (490x245)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.105Z"
+    },
+    "2a55c151-2e2b-c2bc-3d03-3f827bbad48b": {
+      "description": "Mamamy Tropical dry tissue bag, wide top lip and narrower body (486x430)",
+      "userDescription": "Mamamy Tropical dry tissue bag, wide top lip and narrower body (486x430)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.110Z"
+    },
+    "12290a27-f5c7-d1e0-be21-eef3390c8c95": {
+      "description": "Mamamy foam body wash pump bottle, rounded body, narrow pump top (300x431)",
+      "userDescription": "Mamamy foam body wash pump bottle, rounded body, narrow pump top (300x431)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.113Z"
+    },
+    "805470d0-bc1d-bce3-e788-69ce23410d84": {
+      "description": "Mamamy baby bottle and vegetable wash pump bottle (236x430)",
+      "userDescription": "Mamamy baby bottle and vegetable wash pump bottle (236x430)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.116Z"
+    },
+    "fc1f87e4-f4a1-0a24-4c3e-d4711b571195": {
+      "description": "Mamamy 2-in-1 laundry detergent refill pouch 2.3L (297x430)",
+      "userDescription": "Mamamy 2-in-1 laundry detergent refill pouch 2.3L (297x430)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.119Z"
+    },
+    "a07543f0-59c7-f28a-cedf-7c038b725824": {
+      "description": "Mamamy baby bottle brush set in blister pack, tall and narrow (210x432)",
+      "userDescription": "Mamamy baby bottle brush set in blister pack, tall and narrow (210x432)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:24:30.122Z"
+    },
+    "6cb5122c-89e5-4ec8-27f5-265a5421df2a": {
+      "description": "Full MAMAMY TOWER logo (801x244): pink puffy MAMAMY over plum TOWER with a plum shield showing cream number 19 on the right",
+      "userDescription": "Full MAMAMY TOWER logo (801x244): pink puffy MAMAMY over plum TOWER with a plum shield showing cream number 19 on the right",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:25:52.110Z"
+    },
+    "ff0c949b-f7a2-5e5c-1cad-32e19b48e45c": {
+      "description": "Widened pink next-item pill (464x237): rounded left end with white double chevron at 13-24% width, flat pink body to the right for the product thumbnail",
+      "userDescription": "Widened pink next-item pill (464x237): rounded left end with white double chevron at 13-24% width, flat pink body to the right for the product thumbnail",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:36:35.712Z"
+    },
+    "909d20ed-c39c-7a50-db6d-f2318ef09439": {
+      "source": "library",
+      "description": "An animated overlay of sparkly golden confetti falling and floating gracefully across the screen, creating a glamorous and festive atmosphere perfect for celebrations like birthdays, holidays, or New Year's.",
+      "visualConfirmed": true,
+      "metadata": {
+        "sourceType": "asset_library_search",
+        "assetId": "7571627997313269776",
+        "title": "Sparkly Confetti",
+        "tags": [
+          "sparkly",
+          "confetti",
+          "sparkle",
+          "shine",
+          "shimmer",
+          "party",
+          "celebration",
+          "festive",
+          "overlay",
+          "particle",
+          "gold",
+          "golden",
+          "yellow",
+          "metallic",
+          "animated",
+          "falling",
+          "floating",
+          "drifting",
+          "spinning",
+          "glamorous",
+          "luxe",
+          "elegant",
+          "fun",
+          "newyear",
+          "birthday",
+          "anniversary",
+          "holiday",
+          "congratulations",
+          "glitter"
+        ],
+        "subCategory": [
+          "celebration"
+        ],
+        "searchedAt": "2026-09-28T04:43:25.392Z",
+        "lastQuery": "Sparkly Confetti"
+      },
+      "stale": false,
+      "updated": "2026-09-28T04:44:06.322Z",
+      "userDescription": "Sparkly Confetti overlay texture from TikTok Asset Library: golden sparkle/glitter overlay layer"
+    },
+    "f8659c3d-cd8c-98bd-19af-45d84f44be94": {
+      "source": "library",
+      "description": "An animated overlay of sparkly golden confetti falling and floating gracefully across the screen, creating a glamorous and festive atmosphere perfect for celebrations like birthdays, holidays, or New Year's.",
+      "visualConfirmed": true,
+      "metadata": {
+        "sourceType": "asset_library_search",
+        "assetId": "7571627997313269776",
+        "title": "Sparkly Confetti",
+        "tags": [
+          "sparkly",
+          "confetti",
+          "sparkle",
+          "shine",
+          "shimmer",
+          "party",
+          "celebration",
+          "festive",
+          "overlay",
+          "particle",
+          "gold",
+          "golden",
+          "yellow",
+          "metallic",
+          "animated",
+          "falling",
+          "floating",
+          "drifting",
+          "spinning",
+          "glamorous",
+          "luxe",
+          "elegant",
+          "fun",
+          "newyear",
+          "birthday",
+          "anniversary",
+          "holiday",
+          "congratulations",
+          "glitter"
+        ],
+        "subCategory": [
+          "celebration"
+        ],
+        "searchedAt": "2026-09-28T04:43:25.392Z",
+        "lastQuery": "Sparkly Confetti"
+      },
+      "stale": false,
+      "updated": "2026-09-28T04:44:06.324Z",
+      "userDescription": "Sparkly Confetti texture sequence: golden confetti pieces falling across the screen"
+    },
+    "7b11d477-12fd-2080-c190-b5e3ad876990": {
+      "source": "library",
+      "description": "An animated overlay of sparkly golden confetti falling and floating gracefully across the screen, creating a glamorous and festive atmosphere perfect for celebrations like birthdays, holidays, or New Year's.",
+      "visualConfirmed": true,
+      "metadata": {
+        "sourceType": "asset_library_search",
+        "assetId": "7571627997313269776",
+        "title": "Sparkly Confetti",
+        "tags": [
+          "sparkly",
+          "confetti",
+          "sparkle",
+          "shine",
+          "shimmer",
+          "party",
+          "celebration",
+          "festive",
+          "overlay",
+          "particle",
+          "gold",
+          "golden",
+          "yellow",
+          "metallic",
+          "animated",
+          "falling",
+          "floating",
+          "drifting",
+          "spinning",
+          "glamorous",
+          "luxe",
+          "elegant",
+          "fun",
+          "newyear",
+          "birthday",
+          "anniversary",
+          "holiday",
+          "congratulations",
+          "glitter"
+        ],
+        "subCategory": [
+          "celebration"
+        ],
+        "searchedAt": "2026-09-28T04:43:25.392Z",
+        "lastQuery": "Sparkly Confetti"
+      },
+      "stale": false,
+      "updated": "2026-09-28T04:44:06.326Z",
+      "userDescription": "Animated texture driving the falling golden confetti image"
+    },
+    "70fb1283-ebc4-2205-db82-50945554bed3": {
+      "source": "library",
+      "description": "An animated overlay of sparkly golden confetti falling and floating gracefully across the screen, creating a glamorous and festive atmosphere perfect for celebrations like birthdays, holidays, or New Year's.",
+      "visualConfirmed": false,
+      "metadata": {
+        "sourceType": "asset_library_search",
+        "assetId": "7571627997313269776",
+        "title": "Sparkly Confetti",
+        "tags": [
+          "sparkly",
+          "confetti",
+          "sparkle",
+          "shine",
+          "shimmer",
+          "party",
+          "celebration",
+          "festive",
+          "overlay",
+          "particle",
+          "gold",
+          "golden",
+          "yellow",
+          "metallic",
+          "animated",
+          "falling",
+          "floating",
+          "drifting",
+          "spinning",
+          "glamorous",
+          "luxe",
+          "elegant",
+          "fun",
+          "newyear",
+          "birthday",
+          "anniversary",
+          "holiday",
+          "congratulations",
+          "glitter"
+        ],
+        "subCategory": [
+          "celebration"
+        ],
+        "searchedAt": "2026-09-28T04:43:25.392Z",
+        "lastQuery": "Sparkly Confetti"
+      },
+      "stale": false,
+      "updated": "2026-09-28T04:43:38.140Z"
+    },
+    "3163c125-d4b5-18c3-ddf7-10275d16e40e": {
+      "description": "Sad face icon (256x256): light pink face, plum outline, worried brows, frown and a blue tear; shown on the lose screen",
+      "userDescription": "Sad face icon (256x256): light pink face, plum outline, worried brows, frown and a blue tear; shown on the lose screen",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T04:49:08.595Z"
+    },
+    "0ac17a18-92c5-2755-12db-3f2ea6edd0ab": {
+      "source": "aigc",
+      "description": "A glossy 3D round emoji face in soft pastel pink, sad worried expression with raised inner eyebrows, big shiny dark eyes, small downturned frown, rosy blush cheeks, one blue teardrop on the right cheek, smooth plastic toy look, centered, isolated",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T05:00:09.360Z",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "fc1e11a07604f1e9cbf6ca25dfa21553",
+          "width": 360,
+          "height": 355,
+          "aspect": 1.0141,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.7834,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.0028,
+            "y": 0.0028,
+            "w": 0.9944,
+            "h": 0.9944
+          },
+          "transparentPaddingNorm": {
+            "left": 0.0028,
+            "right": 0.0028,
+            "top": 0.0028,
+            "bottom": 0.0028
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "notes": [],
+        "updated": "2026-09-28T04:58:34.647Z"
+      },
+      "userDescription": "AI 3D glossy pastel-pink sad emoji: worried brows, big dark eyes, small frown, rosy cheeks, blue tear on right cheek (631x622)"
+    },
+    "0d662435-8196-e551-4680-3c8c9d24f492": {
+      "source": "aigc",
+      "description": "A wide glossy 3D game button shaped like a rounded capsule pill, vivid magenta pink with a darker berry pink rim and a bright white glossy highlight along the top edge, candy-like shiny surface, completely blank with no text or icons, front view, isolated",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T05:00:09.540Z",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "c6bd58cba365e6aca74c78b49b642f30",
+          "width": 360,
+          "height": 154,
+          "aspect": 2.3377,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.9036,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 1
+          },
+          "transparentPaddingNorm": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "notes": [],
+        "updated": "2026-09-28T04:58:36.195Z"
+      },
+      "userDescription": "AI glossy 3D magenta capsule button, dark berry rim, white top highlight, blank (919x394)"
+    },
+    "cb077be6-6280-7dd4-2f77-141aab0d5f64": {
+      "description": "Display-weight digits with soft rounded corners. Fill is a vertical gradient from white through bright orange to deep red. No outline. A warm orange-red glow halo sits behind the digits. A subtle highlight at the top of each glyph reads as a soft 3D form.",
+      "source": "library",
+      "visualConfirmed": true,
+      "metadata": {
+        "sourceType": "game_asset_catalog",
+        "assetId": "67",
+        "path": "art_text/67.oart",
+        "category": "art_text",
+        "tags": [
+          "art_text",
+          "score",
+          "countdown",
+          "counter",
+          "digits",
+          "gradient",
+          "warm",
+          "orange",
+          "red",
+          "fire",
+          "energetic",
+          "hot-streak",
+          "3d",
+          "chunky"
+        ],
+        "format": "OART",
+        "license": "Internal"
+      },
+      "stale": false,
+      "updated": "2026-09-28T04:58:40.262Z"
+    },
+    "f1b31f2c-52d7-4776-a0c1-f50a0fe76d40": {
+      "description": "Soft rounded sans-serif. Fill is solid pure white. Thick orange-red outer outline/glow ring surrounds each glyph. A soft pink-tinted drop shadow falls below the letters. Curves are smooth with no sharp corners.",
+      "source": "library",
+      "visualConfirmed": true,
+      "metadata": {
+        "sourceType": "game_asset_catalog",
+        "assetId": "vi_cool",
+        "path": "art_text/vi_cool.oart",
+        "category": "art_text",
+        "tags": [
+          "art_text",
+          "celebration",
+          "soft",
+          "cute",
+          "friendly",
+          "kid",
+          "adorable",
+          "warm",
+          "white",
+          "orange-glow",
+          "pink-shadow",
+          "gentle",
+          "rounded",
+          "kawaii"
+        ],
+        "format": "OART",
+        "license": "Internal"
+      },
+      "stale": false,
+      "updated": "2026-09-28T04:58:41.920Z"
+    },
+    "fa14e2cf-4b61-d3e0-206d-06102b1250b1": {
+      "description": "Glossy magenta pill button (847x328) with a thin dark-pink border, white top highlight band and darker bottom lip; blank",
+      "userDescription": "Glossy magenta pill button (847x328) with a thin dark-pink border, white top highlight band and darker bottom lip; blank",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T06:04:33.047Z"
+    },
+    "ee835844-7d8f-a455-cfb4-4a577123d144": {
+      "description": "Flat rounded HUD badge in exact Mamamy brand pink #CF0055",
+      "userDescription": "Flat rounded HUD badge in exact Mamamy brand pink #CF0055",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T07:42:28.619Z"
+    },
+    "1329cc36-e20e-48de-300b-f5fde2a29ced": {
+      "description": "Next-item pill recolored to Mamamy brand pink #CF0055 with white double chevron",
+      "userDescription": "Next-item pill recolored to Mamamy brand pink #CF0055 with white double chevron",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T07:42:28.783Z"
+    },
+    "4b590b6e-0d92-3b5f-d865-929d19943ba4": {
+      "description": "Glossy CTA pill recolored: flat body exactly #CF0055, thin darker brand-pink rim, white highlight",
+      "userDescription": "Glossy CTA pill recolored: flat body exactly #CF0055, thin darker brand-pink rim, white highlight",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T07:42:28.951Z"
+    },
+    "dbd174f2-7c40-85cf-7392-87781437761f": {
+      "description": "Brand-pink #CF0055 glossy pill fitted to the PLAY AGAIN label (aspect 4.43)",
+      "userDescription": "Brand-pink #CF0055 glossy pill fitted to the PLAY AGAIN label (aspect 4.43)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T07:57:09.882Z"
+    },
+    "583c7647-2a15-6a7e-c165-759dd949c197": {
+      "description": "Brand-pink #CF0055 glossy pill fitted to the RECORD TO PLAY label (aspect 5.72)",
+      "userDescription": "Brand-pink #CF0055 glossy pill fitted to the RECORD TO PLAY label (aspect 5.72)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T07:57:09.989Z"
+    },
+    "a30b4820-eccc-1f94-24b7-e31ab7d1789b": {
+      "source": "user",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "f32a53fee303bf0d432af9aea80627e9",
+          "width": 360,
+          "height": 360,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.6418,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.0472,
+            "y": 0.0472,
+            "w": 0.9056,
+            "h": 0.9056
+          },
+          "transparentPaddingNorm": {
+            "left": 0.0472,
+            "right": 0.0472,
+            "top": 0.0472,
+            "bottom": 0.0472
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "notes": [],
+        "updated": "2026-10-07T04:44:38.733Z"
+      },
+      "stale": false,
+      "updated": "2026-10-07T04:44:38.741Z"
+    },
+    "d5aafcf9-772a-22f7-5238-5bc6ac7f49df": {
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-11T11:25:54.172Z"
+    }
+  },
+  "handoff": {
+    "plan": "starter_template:\n  mode: none\n  rationale: stack_the_tower shares the win/lose (10 in 30s) and tap-drop input, but its single\n    fixed-size block, tilt check and no claw diverge from our variable-size product sprites, 30%\n    overlap topple rule, claw rig, next-item preview and tower scrolling; build from scratch and\n    borrow its win/lose, runtime-prefab and freeze-on-land patterns.\nmechanic_refs:\n  - mechanic_id: stack_drop_balance\n    borrowed_elements:\n      - win by stacking 10 blocks before the 30s timer expires, lose on timeout or bad drop\n      - runtime prefab.instantiate for each dropped block\n      - landed blocks freeze static so the stack stays stable\n      - intro overlay tap-to-start and result overlay tap-to-retry\n      - countdown timer HUD next to the stack-count score\ngame_type:\n  camera_feed: visible\n  ar_tracking: none\n  core_loop_seconds: 3\n  total_duration_seconds: 30\ncamera_feed_constraints:\n  tracking_type: none\n  tracking_range: not applicable - live camera feed is only the backdrop\n  user_image_visible: true\n  composition: none\nmechanic:\n  class: other\n  description: \"Claw-drop stacking: a claw swings left-right holding a Mamamy product; tap drops it\n    straight down (rotation and x locked). If at least 30% of the upper item's width overlaps the\n    item below (and a wider item's center stays over it) it freezes and scores +1 floor; otherwise\n    it topples and the player loses. Win by stacking 10 floors before the 30s countdown ends; lose\n    on timeout or topple.\"\n  parameters:\n    time_limit_sec: 30\n    min_overlap: 0.3\n    item_types: 9\n    swing_speed_px_per_sec: 160\n    scroll: tower slides down when its top passes y=-127\n    win_floors: 10\nscreens:\n  - name: Intro\n    role: intro\n    initial_visible: true\n    layout:\n      - id: intro_logo\n        element: MAMAMY TOWER logo image\n        position: center, y=+90\n        size: 505x194\n        kind: decoration\n      - id: intro_hint\n        element: instruction text\n        position: center, y=-40\n        content: Xếp đủ 10 tầng trong 30 giây!\n        kind: hud\n      - id: intro_button\n        element: pink pill button with text CHẠM ĐỂ CHƠI\n        position: center, y=-170\n        size: 300x70\n        kind: button\n        interactive: true\n  - name: Gameplay\n    role: gameplay\n    initial_visible: true\n    layout:\n      - id: claw\n        element: claw image swinging horizontally\n        position: top, y=+420, x in [-220,160]\n        size: 251x201\n        kind: playable\n      - id: held_item\n        element: current product hanging under the claw\n        position: under claw, top at y=+436\n        kind: playable\n        interactive: true\n      - id: tower\n        element: stack of dropped product sprites\n        position: bottom, ground top y=-400\n        kind: playable\n      - id: next_panel\n        element: next-item preview pill with thumbnail\n        position: right edge, y=+408\n        size: 181x158\n        kind: hud\n      - id: score_badge\n        element: pink badge TẦNG + floors as n/10\n        position: top-left (-266,+423)\n        size: 140x100\n        kind: hud\n      - id: timer_badge\n        element: plum badge GIÂY + seconds left\n        position: top-left (-116,+423)\n        size: 140x100\n        kind: hud\n      - id: popup_text\n        element: +1 / HOÀN HẢO! popup above the landed item\n        position: above tower top\n        kind: hud\n  - name: Result\n    role: result\n    initial_visible: false\n    layout:\n      - id: result_dim\n        element: dark translucent full-screen dim\n        position: full screen\n        kind: result\n        translucent: true\n        opacity: 0.55\n      - id: result_card\n        element: \"white rounded card: title THÀNH CÔNG! (win) or HẾT GIỜ! / THÁP ĐỔ RỒI! (lose), floors\n          x/10\"\n        position: center, y=+40\n        size: 420x380\n        kind: result\n      - id: retry_button\n        element: pink pill button CHƠI LẠI\n        position: center, y=-230\n        size: 300x70\n        kind: button\n        interactive: true\ninteractions:\n  - kind: record_start_reset\n    trigger: APJS.EventType.RecordStart\n    response: Destroy all spawned items, reset score/timer/scroll, show intro\n    state_change: any -> INTRO\n    target:\n      scope: none\n      rationale: global lifecycle event\n  - kind: screen_transition\n    trigger: tap anywhere while INTRO\n    response: Hide intro overlay, start timer, spawn first item under the claw\n    state_change: INTRO -> AIMING\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - intro_button\n    feedback:\n      visual: intro overlay disappears and the first product drops into the claw\n  - kind: gameplay_action\n    trigger: tap anywhere while AIMING\n    response: \"Release the held product: physics on, rotation and x frozen, falls straight down; on\n      settle apply the 30% overlap rule\"\n    state_change: AIMING -> DROPPING -> AIMING (stacked), RESULT win (10th floor) or RESULT lose (toppled)\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - held_item\n    feedback:\n      visual: product falls, lands, +1 / HOÀN HẢO! popup, floor counter increments; claw opens then grips\n        next item\n  - kind: retry\n    trigger: tap anywhere on RESULT after 0.8s\n    response: Clear tower, reset score and timer, restart\n    state_change: RESULT -> AIMING\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - retry_button\n    feedback:\n      visual: result card hides and a fresh item appears in the claw\nassets:\n  - id: asset.claw\n    role: claw\n    description: Purple mechanical claw with red tips (TACH HINH 1, cropped), swings at the top\n    is_background: false\n    count: 1\n    animated: false\n    coverage: partial\n    interactive_role: addressable_part\n    kind: visual\n  - id: asset.products\n    role: droppable items\n    description: Nine cropped Mamamy product sprites (wet wipes x4, dry tissue, laundry pouch, two pump\n      bottles, bottle brush set)\n    is_background: false\n    count: 9\n    animated: false\n    coverage: partial\n    interactive_role: spawnable_pool\n    kind: visual\n  - id: asset.next_panel\n    role: next preview\n    description: Pink right-edge pill with double chevron (TACH HINH 2) hosting the next item thumbnail\n    is_background: false\n    count: 1\n    animated: false\n    coverage: partial\n    interactive_role: decoration\n    kind: visual\n  - id: asset.logo\n    role: title\n    description: MAMAMY TOWER bubble-letter logo cropped from TACH HINH 13 without the baked 19 shield\n    is_background: false\n    count: 1\n    animated: false\n    coverage: partial\n    interactive_role: decoration\n    kind: visual\n  - id: asset.ui\n    role: hud and buttons\n    description: \"Generated brand-colored UI shapes: pink badge, pink pill button, white card, white\n      pixel for tinted dims, soft ground shadow\"\n    is_background: false\n    count: 5\n    animated: false\n    coverage: partial\n    interactive_role: decoration\n    kind: visual\nrandom_behaviors:\n  - what: next product type\n    range: floors 0-3 wipes/tissue only; then 30% bottles/pouch; brush set from floor 9; never two\n      narrow-top items in a row\n    verify_strategy: log picked item names over several drops via get_script_logs\ncriteria:\n  - category: layout\n    check: Claw, HUD badges and intro/result content stay inside 720x1280 with interactive content in\n      the TikTok safe zone\n  - category: state\n    check: Tap on intro starts the timer and puts an item in the claw\n  - category: state\n    check: Item with >=30% overlap freezes on the tower and floor count increments\n  - category: state\n    check: Item with <30% overlap topples and the result card shows THÁP ĐỔ RỒI!\n  - category: value\n    check: Result card shows the same floor count as the HUD\n  - category: camera_feed\n    check: Live camera feed stays visible behind the game (Camera clearType DEPTH)\n  - category: visual\n    check: Tower scrolls down when it grows so the drop gap stays visible\n  - category: boundary\n    check: Timer reaching 0 before 10 floors shows HẾT GIỜ! (lose) with floors n/10\n  - category: state\n    check: Landing the 10th floor before time runs out shows THÀNH CÔNG! (win)\nscene_representation:\n  planning_mode: explicit\n  decision_summary: \"Flat 2D screen-space game over the live camera feed: Screen Images with\n    RigidBody2D/BoxCollider2D for items, script-driven claw swing, HUD and overlays as 2D objects.\"\n  space:\n    kind: screen\n    description: 720x1280 ScreenTransform space, origin at center\n  content_form:\n    kind: flat_2d\n    description: PNG sprites on Screen Images plus 2D Text\n  requirements:\n    - id: req.drop_stack\n      description: Tap drops the held product which stacks on the tower\n      must: true\n      layer_refs:\n        - layer.game\n      verification_refs:\n        - ver.stack\n    - id: req.overlap_rule\n      description: Item stays if >=30% overlaps the item below, otherwise topples\n      must: true\n      layer_refs:\n        - layer.game\n      verification_refs:\n        - ver.stack\n    - id: req.timer\n      description: Win at 10 floors within 30s; lose on timeout or topple; result card shows outcome\n      must: true\n      layer_refs:\n        - layer.hud\n      verification_refs:\n        - ver.result\n    - id: req.camera\n      description: Camera feed visible behind the game\n      must: true\n      layer_refs:\n        - layer.camera\n      verification_refs:\n        - ver.intro\n  layers:\n    - id: layer.game\n      role: gameplay\n      description: Claw, held item, tower items, ground collider\n      space:\n        kind: screen\n        description: screen\n      content_form:\n        kind: flat_2d\n        description: flat_2d\n      requirement_refs:\n        - req.drop_stack\n        - req.overlap_rule\n    - id: layer.hud\n      role: hud and overlays\n      description: Score/timer badges, next preview, intro and result overlays\n      space:\n        kind: screen\n        description: screen\n      content_form:\n        kind: flat_2d\n        description: flat_2d\n      requirement_refs:\n        - req.timer\n    - id: layer.camera\n      role: backdrop\n      description: Live camera feed via existing Camera with DEPTH clear\n      space:\n        kind: screen\n        description: screen\n      content_form:\n        kind: camera_feed\n        description: camera_feed\n      requirement_refs:\n        - req.camera\n  verification:\n    - id: ver.intro\n      description: capture_preview shows intro over camera feed\n      requirement_refs:\n        - req.camera\n      views_or_states:\n        - intro\n      success_criteria: |-\n        logo and play button visible\n        camera feed visible\n    - id: ver.stack\n      description: interact_by_dsl taps to start and drop several items\n      requirement_refs:\n        - req.drop_stack\n        - req.overlap_rule\n      views_or_states:\n        - aiming\n        - stacked\n      success_criteria: |-\n        items stack\n        floor count increments\n    - id: ver.result\n      description: wait out the timer or force a topple and screenshot the result card\n      requirement_refs:\n        - req.timer\n      views_or_states:\n        - result\n      success_criteria: result card with floor count visible\n  fallbacks:\n    unknown_requirement: adapt_and_verify\n    unmet_must: stop_and_explain\nplan_type: game\n",
+    "template": {
+      "status": "none",
+      "rationale": "stack_the_tower shares the win/lose (10 in 30s) and tap-drop input, but its single fixed-size block, tilt check and no claw diverge from our variable-size product sprites, 30% overlap topple rule, claw rig, next-item preview and tower scrolling; build from scratch and borrow its win/lose, runtime-prefab and freeze-on-land patterns.",
+      "updatedAt": "2026-09-28T04:23:48.775Z"
+    },
+    "updatedAt": "2026-09-28T07:55:33.431Z",
+    "autoBrief": {
+      "summary": "Auto-baseline at save: 60 object(s) in 2 render group(s); scripts: MamamyTowerGame; resources: 108 (95 Texture2D, 4 Prefab, 3 AnimatedTexture, 3 TextureSequence, 2 ArtTextAsset, 1 PhysicsMaterial).",
+      "updatedAt": "2026-10-11T12:16:18.942Z"
+    },
+    "summary": "Brand pass: all in-game text is SVN-Gotham rendered to PNG (Tools/make_text.py; EH cannot import fonts) in #CF0055 or white; numbers composed from digit_brand_0..9 via setNumber(). HUD boxes white with pink text; CTA/next panel/badges recolored to #CF0055 (Tools/make_ui.py to_brand). CTAs: RECORD TO PLAY / PLAY AGAIN. Old Text objects removed."
+  },
+  "uiOwnership": {},
+  "uiOwnershipBaseline": {
+    "takenAt": "2026-09-28T04:25:15.158Z",
+    "count": 0
+  },
+  "shortIdMap": {
+    "mappings": [
+      {
+        "guid": "0b1c6e72-8043-ef53-18c3-9f8293c3ce02",
+        "shortId": "r1",
+        "type": "resource"
+      },
+      {
+        "guid": "ebd78b64-722d-d40f-154e-bad9cc7e5730",
+        "shortId": "r2",
+        "type": "resource"
+      },
+      {
+        "guid": "33f46923-eadf-cd7f-8dec-a23fba581ee7",
+        "shortId": "r3",
+        "type": "resource"
+      },
+      {
+        "guid": "ba83c1a7-6f01-b259-9455-784e1f6245be",
+        "shortId": "r4",
+        "type": "resource"
+      },
+      {
+        "guid": "2a55c151-2e2b-c2bc-3d03-3f827bbad48b",
+        "shortId": "r5",
+        "type": "resource"
+      },
+      {
+        "guid": "12290a27-f5c7-d1e0-be21-eef3390c8c95",
+        "shortId": "r6",
+        "type": "resource"
+      },
+      {
+        "guid": "805470d0-bc1d-bce3-e788-69ce23410d84",
+        "shortId": "r7",
+        "type": "resource"
+      },
+      {
+        "guid": "fc1f87e4-f4a1-0a24-4c3e-d4711b571195",
+        "shortId": "r8",
+        "type": "resource"
+      },
+      {
+        "guid": "a07543f0-59c7-f28a-cedf-7c038b725824",
+        "shortId": "r9",
+        "type": "resource"
+      },
+      {
+        "guid": "52d76568-52f7-2a61-4bea-a6706a43bed9",
+        "shortId": "r10",
+        "type": "resource"
+      },
+      {
+        "guid": "784f7bbd-c00e-c94f-e40b-6a1c4e553a77",
+        "shortId": "r11",
+        "type": "resource"
+      },
+      {
+        "guid": "22288ecb-ef23-e1e2-2b92-46d071025661",
+        "shortId": "r12",
+        "type": "resource"
+      },
+      {
+        "guid": "613e6e3f-04b2-4404-63ab-630fdfda3b2e",
+        "shortId": "r13",
+        "type": "resource"
+      },
+      {
+        "guid": "1e0aa9a5-c1f3-58a3-da66-0e183f96feb5",
+        "shortId": "r14",
+        "type": "resource"
+      },
+      {
+        "guid": "0b1383d0-f40a-7119-fe29-64fac7074e75",
+        "shortId": "r15",
+        "type": "resource"
+      },
+      {
+        "guid": "8f82b289-95af-828f-3f40-621d980a7830",
+        "shortId": "r16",
+        "type": "resource"
+      },
+      {
+        "guid": "3c4792a8-78e5-451b-c9dd-a8387e70874e",
+        "shortId": "r17",
+        "type": "resource"
+      },
+      {
+        "guid": "602a125f-adef-400a-1092-0fec2f5a3f83",
+        "shortId": "r18",
+        "type": "resource"
+      },
+      {
+        "guid": "9baa39a1-99dd-68c7-f365-ef9fb4e1cf1c",
+        "shortId": "s1",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "131eee15-64bf-4bea-a12e-b1016d0e5d2a",
+        "shortId": "c1",
+        "type": "component"
+      },
+      {
+        "guid": "8f8f8437-a9a9-74f5-a884-8d54dcd4d0d9",
+        "shortId": "c2",
+        "type": "component"
+      },
+      {
+        "guid": "5d47e184-1155-51dc-d80e-05284843fa65",
+        "shortId": "s2",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a1a92e96-a5a2-4570-f104-212571a98418",
+        "shortId": "c3",
+        "type": "component"
+      },
+      {
+        "guid": "9eb6289d-4a46-2ccc-518e-a99efdc9d666",
+        "shortId": "c4",
+        "type": "component"
+      },
+      {
+        "guid": "3de9af1c-2d82-4e33-4665-b69e88a11cbd",
+        "shortId": "s3",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "c4063ad3-7c36-9e0c-83e4-d634841b125c",
+        "shortId": "c5",
+        "type": "component"
+      },
+      {
+        "guid": "1c9c2e51-1bda-3f00-2e51-efbc8579a4a6",
+        "shortId": "s4",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d9cbb9dc-699c-1a75-a5b3-5ff532d514ac",
+        "shortId": "c6",
+        "type": "component"
+      },
+      {
+        "guid": "7ef622db-a4ab-4957-5870-dfda97ea8c2c",
+        "shortId": "s5",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1e3dbb80-3c78-6e6d-0050-125242c1e2ce",
+        "shortId": "c7",
+        "type": "component"
+      },
+      {
+        "guid": "8c317eab-1633-fe9d-d862-d9396e64dc61",
+        "shortId": "c8",
+        "type": "component"
+      },
+      {
+        "guid": "c0125d8b-cf98-bf87-0056-aa5ee1fa8cc3",
+        "shortId": "c9",
+        "type": "component"
+      },
+      {
+        "guid": "6ba1441e-15ca-6ee9-15ce-c10d97954503",
+        "shortId": "c10",
+        "type": "component"
+      },
+      {
+        "guid": "8baf67ed-db73-36c6-35ed-3ea01dc51034",
+        "shortId": "s6",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "6c29c74d-ef4a-c02a-ef29-92092507c704",
+        "shortId": "c11",
+        "type": "component"
+      },
+      {
+        "guid": "16c1fe2e-275d-2c70-ec43-c939c7fc7e87",
+        "shortId": "c12",
+        "type": "component"
+      },
+      {
+        "guid": "80948997-2e29-6069-0108-49bea6458403",
+        "shortId": "s7",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "49645376-e69b-0e09-8127-cbb211233079",
+        "shortId": "c13",
+        "type": "component"
+      },
+      {
+        "guid": "7a48c0e9-c210-aa61-a569-085558191bf4",
+        "shortId": "c14",
+        "type": "component"
+      },
+      {
+        "guid": "00c3cb21-faf6-7f74-c516-e5706df22828",
+        "shortId": "s8",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "65225db6-5a49-58f2-fb18-55809dc00264",
+        "shortId": "c15",
+        "type": "component"
+      },
+      {
+        "guid": "cbc8cc80-ccad-9cf7-c34e-488da3020db2",
+        "shortId": "c16",
+        "type": "component"
+      },
+      {
+        "guid": "5ca07608-b178-e769-3dc3-b46289ce5909",
+        "shortId": "s9",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "8984861f-9fb1-d862-9796-812c36673095",
+        "shortId": "c17",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-0000000000c0",
+        "shortId": "r19",
+        "type": "resource"
+      },
+      {
+        "guid": "6cb5122c-89e5-4ec8-27f5-265a5421df2a",
+        "shortId": "r20",
+        "type": "resource"
+      },
+      {
+        "guid": "ac7b3609-b899-2f4d-f3a4-dbc679e24ceb",
+        "shortId": "s10",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "90b990eb-3f42-c76e-110b-095839c79361",
+        "shortId": "c18",
+        "type": "component"
+      },
+      {
+        "guid": "f80c2ec3-4003-2f2e-48b7-ff5b9b392178",
+        "shortId": "c19",
+        "type": "component"
+      },
+      {
+        "guid": "d45064c1-2d87-988e-d409-52c7038d4958",
+        "shortId": "s11",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "38fda156-f9db-a86f-6501-0f187fdeb6f4",
+        "shortId": "c20",
+        "type": "component"
+      },
+      {
+        "guid": "f8d5704a-50c5-a660-5385-ba1e2c9ea32f",
+        "shortId": "c21",
+        "type": "component"
+      },
+      {
+        "guid": "6cbba995-1594-ab5e-741a-3c6b224d19dc",
+        "shortId": "s12",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "48cc518f-9819-c7fe-c870-0e14037231d0",
+        "shortId": "c22",
+        "type": "component"
+      },
+      {
+        "guid": "45ece317-fb26-3341-2ccc-d4b426f24156",
+        "shortId": "c23",
+        "type": "component"
+      },
+      {
+        "guid": "7c1f0aa6-3ef2-58eb-976f-7b5786491fb2",
+        "shortId": "s13",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4846e5ec-ddd4-e057-eea3-9d63429dad13",
+        "shortId": "c24",
+        "type": "component"
+      },
+      {
+        "guid": "8ceda8ba-e779-f25c-7e68-61a4bcc02354",
+        "shortId": "c25",
+        "type": "component"
+      },
+      {
+        "guid": "eb2151d6-b007-bf25-07f9-db63a31d9233",
+        "shortId": "s14",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "7d13a45b-089a-99c6-c206-3c909112fff8",
+        "shortId": "c26",
+        "type": "component"
+      },
+      {
+        "guid": "efcd6f68-2d4e-6816-42f7-f5042d06e115",
+        "shortId": "c27",
+        "type": "component"
+      },
+      {
+        "guid": "903cfc9f-0b0a-65a4-1daf-28c3843324bc",
+        "shortId": "s15",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "de21ea47-6542-6141-15b7-e6c7aec9e006",
+        "shortId": "c28",
+        "type": "component"
+      },
+      {
+        "guid": "96b4775e-5256-39e3-b8a9-15c61deeaabe",
+        "shortId": "c29",
+        "type": "component"
+      },
+      {
+        "guid": "312a2dc8-667d-357c-13b6-0762f72691f0",
+        "shortId": "s16",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "875ee024-ce71-ddd8-c6d8-4cef0df02158",
+        "shortId": "c30",
+        "type": "component"
+      },
+      {
+        "guid": "ffcb69a3-fcd4-72a2-67c8-dbc5f7157a73",
+        "shortId": "c31",
+        "type": "component"
+      },
+      {
+        "guid": "56d48d15-9930-4ac0-f04b-dec59d57dd2a",
+        "shortId": "s17",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ef276a50-9d71-6367-5049-5645eeb2826a",
+        "shortId": "c32",
+        "type": "component"
+      },
+      {
+        "guid": "79199a8e-1bf4-08b6-36c4-24426c625b89",
+        "shortId": "c33",
+        "type": "component"
+      },
+      {
+        "guid": "30ca89a1-3ede-9c9d-c3d6-8f7f51fea13b",
+        "shortId": "s18",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "59cdbe17-e6a5-73e3-cd97-ddb43328d8ae",
+        "shortId": "c34",
+        "type": "component"
+      },
+      {
+        "guid": "1b6a6738-96d2-bdc8-9a59-06435021329b",
+        "shortId": "c35",
+        "type": "component"
+      },
+      {
+        "guid": "0062a969-30f7-398a-55f4-3cf91852e64b",
+        "shortId": "s19",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "3a6d5832-2994-fd4d-80ef-fbddd10fa209",
+        "shortId": "c36",
+        "type": "component"
+      },
+      {
+        "guid": "fff7c080-4de3-0958-e54e-753cc4a48aaa",
+        "shortId": "c37",
+        "type": "component"
+      },
+      {
+        "guid": "caaa67c9-7981-081f-a2d6-2157dd94d66c",
+        "shortId": "s20",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b0f28f35-b7c1-4416-bd91-3276a3a8f92d",
+        "shortId": "c38",
+        "type": "component"
+      },
+      {
+        "guid": "04b1db21-9d89-231f-da79-1903d6cf1a8a",
+        "shortId": "c39",
+        "type": "component"
+      },
+      {
+        "guid": "dbeca73d-acc0-c435-e24f-cca067fda1bb",
+        "shortId": "s21",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a117c206-ee25-664c-4763-c9cf0469ed9a",
+        "shortId": "c40",
+        "type": "component"
+      },
+      {
+        "guid": "b82c74a0-d803-5a42-c8dc-e1dadc4e3c59",
+        "shortId": "c41",
+        "type": "component"
+      },
+      {
+        "guid": "10fea90b-4514-ed89-54bd-b26eacf32353",
+        "shortId": "s22",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ca3bc559-e943-12a6-5eb2-acf6f924e0f6",
+        "shortId": "c42",
+        "type": "component"
+      },
+      {
+        "guid": "5bc90963-b7c9-cd56-ab1c-7ce31d7c5f91",
+        "shortId": "c43",
+        "type": "component"
+      },
+      {
+        "guid": "8ecf7f76-bfa9-4c66-09ea-c891a9db42ca",
+        "shortId": "s23",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "93a80900-2ec0-0bd6-1329-8dc1f740e6ed",
+        "shortId": "c44",
+        "type": "component"
+      },
+      {
+        "guid": "6e800994-1c5f-94b7-061a-37990a7b60ca",
+        "shortId": "c45",
+        "type": "component"
+      },
+      {
+        "guid": "47d0939f-fe12-852c-a2b5-7dd6b594f113",
+        "shortId": "s24",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "6522210f-b2be-b6ed-3f74-71653fcf21da",
+        "shortId": "c46",
+        "type": "component"
+      },
+      {
+        "guid": "604c59fa-7d23-4a70-44e7-4d5c0fb586d3",
+        "shortId": "c47",
+        "type": "component"
+      },
+      {
+        "guid": "3ef6f2a4-98cc-9f55-be50-2ff33d0073fd",
+        "shortId": "s25",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9bdb996f-ef35-25ad-8c92-d6047e0355cc",
+        "shortId": "c48",
+        "type": "component"
+      },
+      {
+        "guid": "f734db8a-06d6-0ded-6f62-0f5075cdb74a",
+        "shortId": "c49",
+        "type": "component"
+      },
+      {
+        "guid": "62e8908a-761e-2b3a-71d9-e48f5367d593",
+        "shortId": "s26",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "6b71196e-c0ef-c4bf-3c6f-85a06171d3ff",
+        "shortId": "c50",
+        "type": "component"
+      },
+      {
+        "guid": "e9ec4e73-cad4-629c-2662-04b22deb1493",
+        "shortId": "c51",
+        "type": "component"
+      },
+      {
+        "guid": "46798799-9fec-50fa-60d4-411960bc8e55",
+        "shortId": "s27",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ef4498a0-1271-f64f-1d24-9f520a5c2a69",
+        "shortId": "c52",
+        "type": "component"
+      },
+      {
+        "guid": "5f4d2888-36e7-364d-c1f4-d00b482ca2ae",
+        "shortId": "c53",
+        "type": "component"
+      },
+      {
+        "guid": "bb31ec7d-7f91-1ee6-2469-0f1c80c5aef0",
+        "shortId": "s28",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "aa3c4026-e584-ae92-9360-6b3b8b40f07d",
+        "shortId": "c54",
+        "type": "component"
+      },
+      {
+        "guid": "490358b7-3359-64c4-987e-342a42ddbc9d",
+        "shortId": "c55",
+        "type": "component"
+      },
+      {
+        "guid": "de8387dc-cd46-4b09-95bd-5d2ba12c8968",
+        "shortId": "s29",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "34ef575b-6237-1435-64dd-dd4fc41dfa57",
+        "shortId": "c56",
+        "type": "component"
+      },
+      {
+        "guid": "aea2b2e4-c1ad-69e4-5cc4-c48a9aaa6673",
+        "shortId": "c57",
+        "type": "component"
+      },
+      {
+        "guid": "c0f7a40e-d112-fbff-0bd3-180f26b0be93",
+        "shortId": "s30",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a1ec1273-09fd-671a-dd7e-e5aff1833cb9",
+        "shortId": "c58",
+        "type": "component"
+      },
+      {
+        "guid": "3fd0f495-8076-9c06-6d4b-f60ca78c8804",
+        "shortId": "c59",
+        "type": "component"
+      },
+      {
+        "guid": "4da44a60-c71d-27a9-59c4-63d2926cf856",
+        "shortId": "s31",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "dacf3136-4c74-61b0-1264-07fd6e1d14b4",
+        "shortId": "c60",
+        "type": "component"
+      },
+      {
+        "guid": "e07635af-2a80-418d-f3c4-023c23183bb0",
+        "shortId": "c61",
+        "type": "component"
+      },
+      {
+        "guid": "5291e1d9-e4aa-8f47-bc3a-674a0de5e86d",
+        "shortId": "r21",
+        "type": "resource"
+      },
+      {
+        "guid": "8003f5a2-2229-8f63-68b6-0bce29e981be",
+        "shortId": "s32",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d5241d0e-f2a7-2690-d5cf-a393746161e0",
+        "shortId": "c62",
+        "type": "component"
+      },
+      {
+        "guid": "297c26df-974c-4d20-fe38-915f0bb1981d",
+        "shortId": "c63",
+        "type": "component"
+      },
+      {
+        "guid": "ca2e71bb-5607-0af5-dff4-18d1f994fdd1",
+        "shortId": "c64",
+        "type": "component"
+      },
+      {
+        "guid": "61005386-dd87-5a03-862e-4462e44f3c1a",
+        "shortId": "c65",
+        "type": "component"
+      },
+      {
+        "guid": "97c9f4e7-a41e-7db8-a2ac-e4f7db4cd2de",
+        "shortId": "r22",
+        "type": "resource"
+      },
+      {
+        "guid": "897b7a90-f498-342a-5ac3-0170b8facfaa",
+        "shortId": "s33",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d3ff8f0c-d15d-c85c-47ec-177432cd42c9",
+        "shortId": "c66",
+        "type": "component"
+      },
+      {
+        "guid": "31385874-2aea-632c-5af5-61c9ac141792",
+        "shortId": "c67",
+        "type": "component"
+      },
+      {
+        "guid": "c7cec3b9-8594-bbcd-81a7-946a0d64f2bd",
+        "shortId": "c68",
+        "type": "component"
+      },
+      {
+        "guid": "a1cf097f-80ad-bfb0-04ad-0590ed2c41e0",
+        "shortId": "c69",
+        "type": "component"
+      },
+      {
+        "guid": "76d8e401-7ba7-031a-2d71-72e806bff8da",
+        "shortId": "s34",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "478ed027-a4ee-4441-b173-ac4dbfc05db9",
+        "shortId": "c70",
+        "type": "component"
+      },
+      {
+        "guid": "a14549c6-3c13-1889-78c8-60c94e8139ac",
+        "shortId": "c71",
+        "type": "component"
+      },
+      {
+        "guid": "e025f329-2246-e1c9-5ca2-7fd184ced378",
+        "shortId": "c72",
+        "type": "component"
+      },
+      {
+        "guid": "b2638dc2-a7a1-64ad-1d68-e98e35168db6",
+        "shortId": "c73",
+        "type": "component"
+      },
+      {
+        "guid": "4b2a42e7-883c-aeef-0d2f-c6fc6cd2ab6b",
+        "shortId": "s35",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4e6b3b06-3886-5adb-82c7-6a73902aa58e",
+        "shortId": "c74",
+        "type": "component"
+      },
+      {
+        "guid": "475b6e3b-d40a-15d4-4770-a256aa89dfb6",
+        "shortId": "c75",
+        "type": "component"
+      },
+      {
+        "guid": "9a394fda-3e34-9ec9-cc16-8a76bb4236a7",
+        "shortId": "c76",
+        "type": "component"
+      },
+      {
+        "guid": "5e70b01b-130d-c68e-7065-ff6de111399a",
+        "shortId": "c77",
+        "type": "component"
+      },
+      {
+        "guid": "8af7795e-08ea-df87-a405-716dd294a9ab",
+        "shortId": "s36",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "5865fe09-b484-5206-8cac-2fa2e0408f33",
+        "shortId": "c78",
+        "type": "component"
+      },
+      {
+        "guid": "2f5f459f-6dd4-d032-9daa-5ddf13eeafda",
+        "shortId": "c79",
+        "type": "component"
+      },
+      {
+        "guid": "95a4cd9d-b0ae-148e-84f0-8c384d296378",
+        "shortId": "c80",
+        "type": "component"
+      },
+      {
+        "guid": "290eda01-f24a-7977-d2d8-654c868c4f61",
+        "shortId": "c81",
+        "type": "component"
+      },
+      {
+        "guid": "d6188442-3e18-d64a-88bc-05339f437891",
+        "shortId": "s37",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "7865b275-b068-4710-e797-9b6b8bdf3ff5",
+        "shortId": "c82",
+        "type": "component"
+      },
+      {
+        "guid": "2b879392-d7f8-9e9c-6e90-701f8649f3f6",
+        "shortId": "c83",
+        "type": "component"
+      },
+      {
+        "guid": "6f4a4b89-2587-1e47-3818-37be38d5f010",
+        "shortId": "c84",
+        "type": "component"
+      },
+      {
+        "guid": "abce4f36-a9a1-53aa-fabd-a96790fd6e4a",
+        "shortId": "c85",
+        "type": "component"
+      },
+      {
+        "guid": "2ed0cfa0-f44f-1a68-616d-0901f1052bad",
+        "shortId": "s38",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "96e70db1-c1af-e874-e509-4ad6921d50f6",
+        "shortId": "c86",
+        "type": "component"
+      },
+      {
+        "guid": "23b7fa96-6633-d7a1-3f30-aca483f63787",
+        "shortId": "c87",
+        "type": "component"
+      },
+      {
+        "guid": "2fb801ac-46dc-162e-b5ef-9e2b7daf8781",
+        "shortId": "c88",
+        "type": "component"
+      },
+      {
+        "guid": "5cf8d868-5389-ea88-0643-8ccf82b663f8",
+        "shortId": "c89",
+        "type": "component"
+      },
+      {
+        "guid": "40ea3548-17ff-7f65-e9bc-17742fb92ed1",
+        "shortId": "s39",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e12f5c54-8360-1d34-495c-af3f2ac239e2",
+        "shortId": "c90",
+        "type": "component"
+      },
+      {
+        "guid": "68aa17ac-5e3c-e826-ef69-4eb7aef1b4d5",
+        "shortId": "c91",
+        "type": "component"
+      },
+      {
+        "guid": "ccc92563-f993-b595-a85f-6c94cca328a8",
+        "shortId": "c92",
+        "type": "component"
+      },
+      {
+        "guid": "f3d70a97-d2a3-be19-e22a-a1d24244eaa3",
+        "shortId": "c93",
+        "type": "component"
+      },
+      {
+        "guid": "df4158d2-42f7-0c24-7699-2afa061b4cdc",
+        "shortId": "s40",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "5e2dc81d-9bf4-e150-4ee3-adc44d214bc4",
+        "shortId": "c94",
+        "type": "component"
+      },
+      {
+        "guid": "a6a0016d-40dd-2786-a8c3-b37d619baed5",
+        "shortId": "c95",
+        "type": "component"
+      },
+      {
+        "guid": "e27f33be-0a3a-28ac-df12-cdcd8522d0bc",
+        "shortId": "c96",
+        "type": "component"
+      },
+      {
+        "guid": "57c56f2e-46a6-84a5-2ecf-3ca419901d2a",
+        "shortId": "c97",
+        "type": "component"
+      },
+      {
+        "guid": "978b3027-d120-34b6-1f19-ad019afdd240",
+        "shortId": "s41",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "10e13161-1aec-90b4-ac7e-f734156cdac0",
+        "shortId": "c98",
+        "type": "component"
+      },
+      {
+        "guid": "7963a105-ab88-54ad-a909-80db18ae8b2b",
+        "shortId": "c99",
+        "type": "component"
+      },
+      {
+        "guid": "6f49fc36-b276-0a1d-421d-6e196b0d589f",
+        "shortId": "c100",
+        "type": "component"
+      },
+      {
+        "guid": "c609b61a-6fe6-bf9d-358e-5c989111eb98",
+        "shortId": "c101",
+        "type": "component"
+      },
+      {
+        "guid": "05c99cce-52f3-a2de-3c4f-db1b9b4cc6b0",
+        "shortId": "s42",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "15f8145c-9c21-dabb-4d67-ee73c774a4a4",
+        "shortId": "c102",
+        "type": "component"
+      },
+      {
+        "guid": "44e0df87-5460-4176-767a-d9a0ce0e8ccf",
+        "shortId": "c103",
+        "type": "component"
+      },
+      {
+        "guid": "9885a201-d466-226a-14e0-ed65c05b5a67",
+        "shortId": "c104",
+        "type": "component"
+      },
+      {
+        "guid": "2eb1038f-ef55-9d5a-5551-fc6de29d2ee7",
+        "shortId": "c105",
+        "type": "component"
+      },
+      {
+        "guid": "ce9b4f83-e131-eec2-a1bd-20729e1f9302",
+        "shortId": "s43",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9eb96769-a7a5-73a2-39a4-300a56f2fed2",
+        "shortId": "c106",
+        "type": "component"
+      },
+      {
+        "guid": "a022fe28-7e99-b94f-259b-0fc60bce5dc0",
+        "shortId": "c107",
+        "type": "component"
+      },
+      {
+        "guid": "1ec56e25-80b1-50e5-2877-cd7a92128d8d",
+        "shortId": "c108",
+        "type": "component"
+      },
+      {
+        "guid": "a343d963-162c-4d94-4a61-9c908602227e",
+        "shortId": "c109",
+        "type": "component"
+      },
+      {
+        "guid": "64dfbf80-a44e-e7af-ff7f-14b5c31fdb50",
+        "shortId": "s44",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a3066841-c541-3a9f-f1b8-181b9571ef89",
+        "shortId": "c110",
+        "type": "component"
+      },
+      {
+        "guid": "f8fe3dda-3782-bb2a-84c0-8f58e99ff58b",
+        "shortId": "c111",
+        "type": "component"
+      },
+      {
+        "guid": "780b2664-f711-c2e2-3e1a-f58667d9ab6b",
+        "shortId": "c112",
+        "type": "component"
+      },
+      {
+        "guid": "568a84bb-3a02-bcd7-acba-744f8fc54648",
+        "shortId": "c113",
+        "type": "component"
+      },
+      {
+        "guid": "3b897d01-5fde-657d-4d0c-0ea2bed809c2",
+        "shortId": "r23",
+        "type": "resource"
+      },
+      {
+        "guid": "400ba410-3b54-9fda-ebcf-7b09395fe8a6",
+        "shortId": "r24",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000132",
+        "shortId": "r25",
+        "type": "resource"
+      },
+      {
+        "guid": "ff0c949b-f7a2-5e5c-1cad-32e19b48e45c",
+        "shortId": "r26",
+        "type": "resource"
+      },
+      {
+        "guid": "7324092a-5180-1b3a-046f-b587f50a9fcd",
+        "shortId": "s45",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "641676c0-0687-411e-093a-54968144b836",
+        "shortId": "c114",
+        "type": "component"
+      },
+      {
+        "guid": "1ce19c80-e574-cab1-2121-e7f6c01c1c31",
+        "shortId": "s46",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "2c53d574-c7b5-d4e3-3e7e-078a954f40c4",
+        "shortId": "c115",
+        "type": "component"
+      },
+      {
+        "guid": "d10d2b66-4e77-d360-1565-056be6d1a58a",
+        "shortId": "c116",
+        "type": "component"
+      },
+      {
+        "guid": "c761e459-b3cf-cd3d-4cec-a08485dd272b",
+        "shortId": "s47",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "63013c29-c834-299d-d688-b9640b2de090",
+        "shortId": "c117",
+        "type": "component"
+      },
+      {
+        "guid": "ed4e1ff2-c25e-b211-cdd9-c7842aff9810",
+        "shortId": "c118",
+        "type": "component"
+      },
+      {
+        "guid": "909d20ed-c39c-7a50-db6d-f2318ef09439",
+        "shortId": "r27",
+        "type": "resource"
+      },
+      {
+        "guid": "f8659c3d-cd8c-98bd-19af-45d84f44be94",
+        "shortId": "r28",
+        "type": "resource"
+      },
+      {
+        "guid": "7b11d477-12fd-2080-c190-b5e3ad876990",
+        "shortId": "r29",
+        "type": "resource"
+      },
+      {
+        "guid": "70fb1283-ebc4-2205-db82-50945554bed3",
+        "shortId": "r30",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000009",
+        "shortId": "r31",
+        "type": "resource"
+      },
+      {
+        "guid": "3af2588f-fc4b-06e0-22ec-14f0bfc6a822",
+        "shortId": "r32",
+        "type": "resource"
+      },
+      {
+        "guid": "3163c125-d4b5-18c3-ddf7-10275d16e40e",
+        "shortId": "r33",
+        "type": "resource"
+      },
+      {
+        "guid": "d6616d42-f6c1-b03a-17e9-a24e4d739f9d",
+        "shortId": "s48",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "2dfe5fbb-463d-5288-9f2f-b47fde8f4e1b",
+        "shortId": "c119",
+        "type": "component"
+      },
+      {
+        "guid": "f167a4b7-2e2e-5c45-9b63-3428e5d2b43e",
+        "shortId": "c120",
+        "type": "component"
+      },
+      {
+        "guid": "5d27cb1e-9600-690f-8f85-81497dc2f773",
+        "shortId": "s49",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "2ce2ef4b-fc98-722a-a568-8e8ca89e7558",
+        "shortId": "c121",
+        "type": "component"
+      },
+      {
+        "guid": "926dac5a-4fe2-4d6d-c8b7-2b2c78789da5",
+        "shortId": "c122",
+        "type": "component"
+      },
+      {
+        "guid": "e04bbcba-46d2-12a0-a50d-c05ebf2c5aac",
+        "shortId": "r34",
+        "type": "resource"
+      },
+      {
+        "guid": "0ac17a18-92c5-2755-12db-3f2ea6edd0ab",
+        "shortId": "r35",
+        "type": "resource"
+      },
+      {
+        "guid": "c00bb039-85f1-3134-1026-6cd64e325550",
+        "shortId": "r36",
+        "type": "resource"
+      },
+      {
+        "guid": "0d662435-8196-e551-4680-3c8c9d24f492",
+        "shortId": "r37",
+        "type": "resource"
+      },
+      {
+        "guid": "6b0715c5-ffe5-c93a-7501-e2b81a2e723f",
+        "shortId": "r38",
+        "type": "resource"
+      },
+      {
+        "guid": "2d49f092-b80b-7f34-828d-61d3275cef5e",
+        "shortId": "r39",
+        "type": "resource"
+      },
+      {
+        "guid": "cb077be6-6280-7dd4-2f77-141aab0d5f64",
+        "shortId": "r40",
+        "type": "resource"
+      },
+      {
+        "guid": "f1b31f2c-52d7-4776-a0c1-f50a0fe76d40",
+        "shortId": "r41",
+        "type": "resource"
+      },
+      {
+        "guid": "b528f4fe-1412-195b-e80d-e785a6e9dcd9",
+        "shortId": "r42",
+        "type": "resource"
+      },
+      {
+        "guid": "34d08bc2-099a-d2c7-a8f6-e6b1eeab381e",
+        "shortId": "r43",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000008000",
+        "shortId": "r44",
+        "type": "resource"
+      },
+      {
+        "guid": "fcd75f46-8def-aecd-d388-cf483dbe9053",
+        "shortId": "r45",
+        "type": "resource"
+      },
+      {
+        "guid": "fa14e2cf-4b61-d3e0-206d-06102b1250b1",
+        "shortId": "r46",
+        "type": "resource"
+      },
+      {
+        "guid": "fe1cd0ab-e6c3-c9fa-7235-7b87afaa0395",
+        "shortId": "r47",
+        "type": "resource"
+      },
+      {
+        "guid": "8224ea9e-4622-b207-e127-ed13f544aa15",
+        "shortId": "r48",
+        "type": "resource"
+      },
+      {
+        "guid": "c45ed3f3-dec8-6a73-172f-4622d4df9784",
+        "shortId": "r49",
+        "type": "resource"
+      },
+      {
+        "guid": "4eac98bc-3590-6ed1-3e9b-730424cfc607",
+        "shortId": "r50",
+        "type": "resource"
+      },
+      {
+        "guid": "59972fbd-344c-7fb6-0a4e-f654a0ac9034",
+        "shortId": "r51",
+        "type": "resource"
+      },
+      {
+        "guid": "079b517e-f8f2-4b74-bd7b-960b9695bd14",
+        "shortId": "r52",
+        "type": "resource"
+      },
+      {
+        "guid": "eadcba42-10fa-b6bf-41d5-342db7469d92",
+        "shortId": "r53",
+        "type": "resource"
+      },
+      {
+        "guid": "b3e9c645-39af-990d-4d24-1de726521e21",
+        "shortId": "r54",
+        "type": "resource"
+      },
+      {
+        "guid": "a52f9d76-1642-6297-9f78-abc2632c65df",
+        "shortId": "r55",
+        "type": "resource"
+      },
+      {
+        "guid": "222a8728-9d28-7c90-120d-416f772afe63",
+        "shortId": "r56",
+        "type": "resource"
+      },
+      {
+        "guid": "62a69281-8759-cf32-98f2-9fa5c6e35fb2",
+        "shortId": "r57",
+        "type": "resource"
+      },
+      {
+        "guid": "937f3fd1-4967-aade-674b-959bf1e4155c",
+        "shortId": "r58",
+        "type": "resource"
+      },
+      {
+        "guid": "fdf52f42-994a-9978-1b3a-0c13994b9f5f",
+        "shortId": "r59",
+        "type": "resource"
+      },
+      {
+        "guid": "a8c55bec-7086-c21a-283f-72900b7f0c8e",
+        "shortId": "r60",
+        "type": "resource"
+      },
+      {
+        "guid": "6ceb51ad-d285-2934-6fc8-6846fded8a20",
+        "shortId": "r61",
+        "type": "resource"
+      },
+      {
+        "guid": "3bf6fe6f-0962-6b0f-6612-8a7a1b70b9dd",
+        "shortId": "r62",
+        "type": "resource"
+      },
+      {
+        "guid": "d6a8fb34-5c99-b9b2-292c-e75cc72af892",
+        "shortId": "r63",
+        "type": "resource"
+      },
+      {
+        "guid": "ef9359bc-eacc-8830-2177-65c361f0ca7f",
+        "shortId": "r64",
+        "type": "resource"
+      },
+      {
+        "guid": "9cf64af3-b3fb-e88b-6986-22086a87902d",
+        "shortId": "r65",
+        "type": "resource"
+      },
+      {
+        "guid": "907dc125-6f3a-0aad-66f1-f5da784562d2",
+        "shortId": "r66",
+        "type": "resource"
+      },
+      {
+        "guid": "50c503b1-72cc-7794-4f70-91ec9e5f488e",
+        "shortId": "r67",
+        "type": "resource"
+      },
+      {
+        "guid": "89849e72-c664-dd0b-a89c-95bedd10ccb5",
+        "shortId": "r68",
+        "type": "resource"
+      },
+      {
+        "guid": "7eaf42e4-5132-d3dc-5bdc-c2cd47b97230",
+        "shortId": "r69",
+        "type": "resource"
+      },
+      {
+        "guid": "583aabc9-9e45-2af4-c9fd-a491b3fc8f63",
+        "shortId": "r70",
+        "type": "resource"
+      },
+      {
+        "guid": "e448f3cd-0c40-9716-9c46-b9f0f85e9e2c",
+        "shortId": "r71",
+        "type": "resource"
+      },
+      {
+        "guid": "838ec33d-f60a-97bf-a35b-aac6df9e308f",
+        "shortId": "r72",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000001c",
+        "shortId": "r73",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000001d",
+        "shortId": "r74",
+        "type": "resource"
+      },
+      {
+        "guid": "ee835844-7d8f-a455-cfb4-4a577123d144",
+        "shortId": "r75",
+        "type": "resource"
+      },
+      {
+        "guid": "1329cc36-e20e-48de-300b-f5fde2a29ced",
+        "shortId": "r76",
+        "type": "resource"
+      },
+      {
+        "guid": "4b590b6e-0d92-3b5f-d865-929d19943ba4",
+        "shortId": "r77",
+        "type": "resource"
+      },
+      {
+        "guid": "595845ba-9f6b-403e-a481-8266b0bac5f3",
+        "shortId": "r78",
+        "type": "resource"
+      },
+      {
+        "guid": "6dcf1462-ff4a-c748-e5ce-de305bea87f4",
+        "shortId": "r79",
+        "type": "resource"
+      },
+      {
+        "guid": "d19571a1-de4e-6a97-9e28-6e947a9da5d0",
+        "shortId": "r80",
+        "type": "resource"
+      },
+      {
+        "guid": "600f5b0e-3dc0-3b9c-e1b3-e9d1a9da3aae",
+        "shortId": "r81",
+        "type": "resource"
+      },
+      {
+        "guid": "664a018b-fc0f-a353-e279-9d066b1b570b",
+        "shortId": "r82",
+        "type": "resource"
+      },
+      {
+        "guid": "fb04e263-d2cb-b926-2466-309d8ec96a4b",
+        "shortId": "r83",
+        "type": "resource"
+      },
+      {
+        "guid": "2ea3f7a4-db8f-314e-9edf-840cf139fa58",
+        "shortId": "r84",
+        "type": "resource"
+      },
+      {
+        "guid": "2ce1be44-aea6-f684-3beb-c1d63e80a915",
+        "shortId": "r85",
+        "type": "resource"
+      },
+      {
+        "guid": "f677ef41-55d5-be46-7a7f-bc43359f5106",
+        "shortId": "r86",
+        "type": "resource"
+      },
+      {
+        "guid": "45a42c22-dc49-6c38-2827-3afa50bdb3e7",
+        "shortId": "r87",
+        "type": "resource"
+      },
+      {
+        "guid": "088086fa-518a-3669-7377-c9f514fdd4a7",
+        "shortId": "r88",
+        "type": "resource"
+      },
+      {
+        "guid": "0d8574e0-f507-76df-b593-d72d40e5b095",
+        "shortId": "r89",
+        "type": "resource"
+      },
+      {
+        "guid": "6211d5c2-5cfa-0d7f-2989-c99df0a31f93",
+        "shortId": "r90",
+        "type": "resource"
+      },
+      {
+        "guid": "40a6bf0d-82d6-d6b9-8323-2bc20b63d1fa",
+        "shortId": "r91",
+        "type": "resource"
+      },
+      {
+        "guid": "e6999e8b-0c43-9949-0096-6340f5442c35",
+        "shortId": "r92",
+        "type": "resource"
+      },
+      {
+        "guid": "52d06924-73f6-31d5-a13d-7f2c9fa4f2c0",
+        "shortId": "r93",
+        "type": "resource"
+      },
+      {
+        "guid": "90a1be50-a014-6de4-77b4-13935545f346",
+        "shortId": "r94",
+        "type": "resource"
+      },
+      {
+        "guid": "b56f3aab-6011-a53f-99bb-84e8f84077e1",
+        "shortId": "r95",
+        "type": "resource"
+      },
+      {
+        "guid": "2b5579ae-e1da-5cea-2099-70db750cbcaa",
+        "shortId": "r96",
+        "type": "resource"
+      },
+      {
+        "guid": "ecd1d471-9516-e852-9eaf-c93c29f123b4",
+        "shortId": "r97",
+        "type": "resource"
+      },
+      {
+        "guid": "56a9f78a-459b-566a-48a2-f9248224c4f8",
+        "shortId": "r98",
+        "type": "resource"
+      },
+      {
+        "guid": "4ce6aee7-3e08-f569-8dbc-5f3d0c3f53b8",
+        "shortId": "r99",
+        "type": "resource"
+      },
+      {
+        "guid": "721033d2-e4d4-841c-9e45-8cd015f385c5",
+        "shortId": "r100",
+        "type": "resource"
+      },
+      {
+        "guid": "c6d23118-9f43-9215-7d64-07f9408b1209",
+        "shortId": "r101",
+        "type": "resource"
+      },
+      {
+        "guid": "84cf61f5-4a87-9abf-9052-f1b268f5ccf8",
+        "shortId": "r102",
+        "type": "resource"
+      },
+      {
+        "guid": "fb57111d-7c74-a8b3-c85c-a7e7e3ec847f",
+        "shortId": "r103",
+        "type": "resource"
+      },
+      {
+        "guid": "581a13dc-5de2-04b2-5a82-9ef99c074641",
+        "shortId": "r104",
+        "type": "resource"
+      },
+      {
+        "guid": "50d97d57-da37-67b1-f127-0aa7f2fe4884",
+        "shortId": "r105",
+        "type": "resource"
+      },
+      {
+        "guid": "e430219f-7760-8e77-058c-1ffec5ea1ca8",
+        "shortId": "s50",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1d1149c6-9e15-bfcb-918e-f1b89925ca7a",
+        "shortId": "c123",
+        "type": "component"
+      },
+      {
+        "guid": "b9500748-bd73-bacb-169b-47e825a6e8fe",
+        "shortId": "c124",
+        "type": "component"
+      },
+      {
+        "guid": "ff75964f-ed5c-5e00-a1f2-d4feab9758e4",
+        "shortId": "s51",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e339161a-5207-2104-9803-00afba49ba0e",
+        "shortId": "c125",
+        "type": "component"
+      },
+      {
+        "guid": "b29ab8a0-d378-fb7d-de08-d8840316454b",
+        "shortId": "s52",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "c0f9e3cf-ff72-8918-0f7b-f25e5672906c",
+        "shortId": "c126",
+        "type": "component"
+      },
+      {
+        "guid": "984260ea-ee49-f400-ae8a-f2dec5ef9fa6",
+        "shortId": "c127",
+        "type": "component"
+      },
+      {
+        "guid": "bb49d568-4ee4-c12a-40fd-b8e4cd4fa700",
+        "shortId": "s53",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "85fcab91-d18a-b9d0-b1e2-450de552d2e4",
+        "shortId": "c128",
+        "type": "component"
+      },
+      {
+        "guid": "a5a0a14e-2cdc-a422-f55c-4809dcf898ad",
+        "shortId": "c129",
+        "type": "component"
+      },
+      {
+        "guid": "2c51e457-2dbf-130b-2128-873a80d71ee3",
+        "shortId": "s54",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ffd642ce-aecf-d9c4-b588-fce234e2809e",
+        "shortId": "c130",
+        "type": "component"
+      },
+      {
+        "guid": "ad14f5dd-8453-ed1d-cb3c-4ab082626a11",
+        "shortId": "c131",
+        "type": "component"
+      },
+      {
+        "guid": "207a80d5-a12c-9664-b51a-9a10d041f1da",
+        "shortId": "s55",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "0ee8eedc-fd12-cbc8-c7f6-8026c81702fc",
+        "shortId": "c132",
+        "type": "component"
+      },
+      {
+        "guid": "9375b70e-bcdf-b74d-9c79-d3be45261f80",
+        "shortId": "c133",
+        "type": "component"
+      },
+      {
+        "guid": "bfd4ba46-08d5-1a61-cd2d-7ae116ff1e96",
+        "shortId": "s56",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b9ad6286-8ba7-d74f-c6bc-e11b7073df9a",
+        "shortId": "c134",
+        "type": "component"
+      },
+      {
+        "guid": "2c5c2981-c971-6109-efd2-fce188a5e5b8",
+        "shortId": "s57",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4ce39fcb-b73e-8065-809a-0709d6d12549",
+        "shortId": "c135",
+        "type": "component"
+      },
+      {
+        "guid": "b7a00f59-0f80-4a7c-26a3-9f5a46638cd3",
+        "shortId": "c136",
+        "type": "component"
+      },
+      {
+        "guid": "4cf2f4bd-8b40-53c2-8cb8-0426e4fbe3af",
+        "shortId": "s58",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "87a3e141-6a21-9309-c4e1-2a97c2c46cd5",
+        "shortId": "c137",
+        "type": "component"
+      },
+      {
+        "guid": "aa16d256-8348-53f4-dd53-8d0296ece6e3",
+        "shortId": "c138",
+        "type": "component"
+      },
+      {
+        "guid": "276b211a-84aa-e59e-a17d-b598271502ab",
+        "shortId": "s59",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a725fea7-974e-41a1-4be0-93e69b6ac0e8",
+        "shortId": "c139",
+        "type": "component"
+      },
+      {
+        "guid": "2a8688c6-d39c-a1c3-26d1-8eb622fdb91c",
+        "shortId": "c140",
+        "type": "component"
+      },
+      {
+        "guid": "fcb87251-46a5-1f1b-934f-1581ceb289e6",
+        "shortId": "s60",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "8f3dacf7-cc74-00ba-cfa7-467a08f4840e",
+        "shortId": "c141",
+        "type": "component"
+      },
+      {
+        "guid": "41f0808f-9d25-9138-2d54-ff0cbaebe5cf",
+        "shortId": "c142",
+        "type": "component"
+      },
+      {
+        "guid": "6829408b-90c4-21ed-718e-ee84574b33e6",
+        "shortId": "s61",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e11847fa-3163-54f1-38fb-12b869bae65c",
+        "shortId": "c143",
+        "type": "component"
+      },
+      {
+        "guid": "0a836257-961b-3836-6955-621cf21ebc58",
+        "shortId": "c144",
+        "type": "component"
+      },
+      {
+        "guid": "35f2d335-3500-8f01-8c50-2a48b1cb473d",
+        "shortId": "s62",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "8008a322-9fae-b9cb-b8b4-35a4ac4d3283",
+        "shortId": "c145",
+        "type": "component"
+      },
+      {
+        "guid": "d6cfc4e2-49f8-410b-8228-6b14c2c2116e",
+        "shortId": "c146",
+        "type": "component"
+      },
+      {
+        "guid": "e7cfa141-04a8-daa2-a750-7fc4f99edb11",
+        "shortId": "s63",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9eced1e8-f15e-41b9-6a79-aef82555b4b7",
+        "shortId": "c147",
+        "type": "component"
+      },
+      {
+        "guid": "47d7daa5-d37d-2e08-18d9-57a253d9d56f",
+        "shortId": "c148",
+        "type": "component"
+      },
+      {
+        "guid": "7a23d4c3-a7ad-90a0-346e-75d178e791cf",
+        "shortId": "s64",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "70887271-4b5c-9112-2468-03c5523131c1",
+        "shortId": "c149",
+        "type": "component"
+      },
+      {
+        "guid": "5ef8af0a-3c23-1740-66a8-63cc375bc68a",
+        "shortId": "s65",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "0e914e9f-114b-e29e-6dd7-d3ed995c5c43",
+        "shortId": "c150",
+        "type": "component"
+      },
+      {
+        "guid": "97005a48-ab9c-0361-b3fe-d6db1082ad97",
+        "shortId": "c151",
+        "type": "component"
+      },
+      {
+        "guid": "0dda4858-dc75-8d01-7761-6d2477a2e773",
+        "shortId": "s66",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d0b82375-7847-bd00-9279-5cd66022a8a3",
+        "shortId": "c152",
+        "type": "component"
+      },
+      {
+        "guid": "8ed42b00-9c19-d118-ced0-0b384a70684d",
+        "shortId": "c153",
+        "type": "component"
+      },
+      {
+        "guid": "192bea53-bb6b-f571-ac50-987c9df4a7bb",
+        "shortId": "s67",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "78b55933-8c0f-f1bf-4fc2-fef88f0cc577",
+        "shortId": "c154",
+        "type": "component"
+      },
+      {
+        "guid": "08be57b5-857f-7ceb-6805-acba33b56696",
+        "shortId": "c155",
+        "type": "component"
+      },
+      {
+        "guid": "45472234-8d51-6253-ecb3-f57f7107f7fc",
+        "shortId": "s68",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "05627da0-195a-7b60-124b-fd5ffdf9e6d1",
+        "shortId": "c156",
+        "type": "component"
+      },
+      {
+        "guid": "e03b9c62-46b1-413b-e0e0-f8c8acfe9fad",
+        "shortId": "c157",
+        "type": "component"
+      },
+      {
+        "guid": "7e3c6ba2-7261-37f7-bbe4-667c906126d6",
+        "shortId": "s69",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "271ca7ea-29c2-79d2-4017-36f7030bfc2f",
+        "shortId": "c158",
+        "type": "component"
+      },
+      {
+        "guid": "8c95453c-9728-57e1-45f0-3d5463a28dcf",
+        "shortId": "c159",
+        "type": "component"
+      },
+      {
+        "guid": "11a93f58-c831-bbe1-a4fb-1a8b1c9ad5dc",
+        "shortId": "s70",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "90bb2272-632e-6e06-3270-ef1221e87e26",
+        "shortId": "c160",
+        "type": "component"
+      },
+      {
+        "guid": "0bd68e60-7aeb-7bc3-bc90-aaab326aba39",
+        "shortId": "c161",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000006b",
+        "shortId": "r106",
+        "type": "resource"
+      },
+      {
+        "guid": "dbd174f2-7c40-85cf-7392-87781437761f",
+        "shortId": "r107",
+        "type": "resource"
+      },
+      {
+        "guid": "583c7647-2a15-6a7e-c165-759dd949c197",
+        "shortId": "r108",
+        "type": "resource"
+      },
+      {
+        "guid": "beb5ba06-2656-0b5d-4399-7396b26210ba",
+        "shortId": "r109",
+        "type": "resource"
+      },
+      {
+        "guid": "38a999b3-6a4c-6a90-cf1e-51658525f30d",
+        "shortId": "r110",
+        "type": "resource"
+      },
+      {
+        "guid": "62a6e234-a52f-87be-b6a8-b7a4f42eb67f",
+        "shortId": "r111",
+        "type": "resource"
+      },
+      {
+        "guid": "17d2b026-c4c1-4381-ecb3-1d7cef04adcf",
+        "shortId": "r112",
+        "type": "resource"
+      },
+      {
+        "guid": "fd92df0b-04ac-d6ca-2645-eb4d27fa5f8f",
+        "shortId": "r113",
+        "type": "resource"
+      },
+      {
+        "guid": "f05fa624-57b1-d0ea-3dcd-43a7fef12cdc",
+        "shortId": "r114",
+        "type": "resource"
+      },
+      {
+        "guid": "a5466096-256d-dab2-7842-da9e3851db70",
+        "shortId": "r115",
+        "type": "resource"
+      },
+      {
+        "guid": "ddaa222f-6a3b-88e3-45d6-b045b5e4a84d",
+        "shortId": "r116",
+        "type": "resource"
+      },
+      {
+        "guid": "c0fbe0ac-b7b2-f3c4-409c-c26823162bae",
+        "shortId": "r117",
+        "type": "resource"
+      },
+      {
+        "guid": "f4f8bff2-29a6-8c9e-baaa-7c3b2c943f91",
+        "shortId": "r118",
+        "type": "resource"
+      },
+      {
+        "guid": "e762ab7a-f32e-3419-636e-f9c33259f58d",
+        "shortId": "r119",
+        "type": "resource"
+      },
+      {
+        "guid": "0b0799d0-9102-a007-e3a3-c169bbef053d",
+        "shortId": "r120",
+        "type": "resource"
+      },
+      {
+        "guid": "55fc8323-fea2-b616-5d73-875bf2885912",
+        "shortId": "r121",
+        "type": "resource"
+      },
+      {
+        "guid": "840b9223-bb5a-da2f-8a16-e7d1c6948e73",
+        "shortId": "r122",
+        "type": "resource"
+      },
+      {
+        "guid": "8d9e8195-d7ed-e5f4-18c2-5bb606feb22a",
+        "shortId": "r123",
+        "type": "resource"
+      },
+      {
+        "guid": "f9c9c555-affd-4ca0-8edd-9460d42fe0f9",
+        "shortId": "r124",
+        "type": "resource"
+      },
+      {
+        "guid": "544a2212-214c-d2ad-db8f-dc457bf9be9d",
+        "shortId": "r125",
+        "type": "resource"
+      },
+      {
+        "guid": "14e07510-2e19-e20d-3fc7-23d6069d0fc9",
+        "shortId": "r126",
+        "type": "resource"
+      },
+      {
+        "guid": "8bb49274-fbdd-32b1-80fe-d4de1f931e3c",
+        "shortId": "r127",
+        "type": "resource"
+      },
+      {
+        "guid": "80e0ddf1-6fe6-6b5c-3cdf-def4e4035e31",
+        "shortId": "r128",
+        "type": "resource"
+      },
+      {
+        "guid": "d166cd9f-b670-59de-8aef-6b919f7642c0",
+        "shortId": "r129",
+        "type": "resource"
+      },
+      {
+        "guid": "e1d6d38e-4428-b665-4aac-fa3f1e1df3b5",
+        "shortId": "r130",
+        "type": "resource"
+      },
+      {
+        "guid": "0e9e6344-074e-9749-d5d4-a62ea0ab85bc",
+        "shortId": "r131",
+        "type": "resource"
+      },
+      {
+        "guid": "3d86e1c6-0b49-1241-b50e-79894f56707c",
+        "shortId": "r132",
+        "type": "resource"
+      },
+      {
+        "guid": "d62cfea2-c6ac-d2de-7863-18306feba277",
+        "shortId": "r133",
+        "type": "resource"
+      },
+      {
+        "guid": "438aae1b-50f7-2d97-7b7b-cf4dba65228a",
+        "shortId": "r134",
+        "type": "resource"
+      },
+      {
+        "guid": "f0e8a48d-ff55-9152-945b-7f51eb5f333b",
+        "shortId": "r135",
+        "type": "resource"
+      },
+      {
+        "guid": "b3985c27-b216-0e93-8b5f-b713a8a0f2e3",
+        "shortId": "r136",
+        "type": "resource"
+      },
+      {
+        "guid": "ac38f7fb-e319-ed77-e7f9-84c3dad40674",
+        "shortId": "r137",
+        "type": "resource"
+      },
+      {
+        "guid": "60e9cb10-0cee-23a9-713c-bac9dd809089",
+        "shortId": "r138",
+        "type": "resource"
+      },
+      {
+        "guid": "24be7083-e8d0-19ee-afa2-92cbb6a17dec",
+        "shortId": "s71",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ad400eb1-a423-ef09-76a5-d5f2661bb0e8",
+        "shortId": "c162",
+        "type": "component"
+      },
+      {
+        "guid": "d224d34f-83cb-3091-3e22-c87e2ca43b0b",
+        "shortId": "c163",
+        "type": "component"
+      },
+      {
+        "guid": "face3244-e777-0e62-2801-af913372a8c3",
+        "shortId": "s72",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "14e76c0c-b85a-9411-1f30-3e2db6245e71",
+        "shortId": "c164",
+        "type": "component"
+      },
+      {
+        "guid": "694ddb12-e605-6dd6-0b4c-0a10e28aceca",
+        "shortId": "c165",
+        "type": "component"
+      },
+      {
+        "guid": "0f7cb152-e388-c39e-6bbd-6c7ac1d5f24f",
+        "shortId": "s73",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "45b4192c-2f17-cc5e-b86f-16020cb2e858",
+        "shortId": "c166",
+        "type": "component"
+      },
+      {
+        "guid": "d4c7bfe0-54f1-acfa-a8f2-68cb90d11865",
+        "shortId": "c167",
+        "type": "component"
+      },
+      {
+        "guid": "ecf0e095-d8fe-8592-0127-76cc317a0be4",
+        "shortId": "s74",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "f7334f2a-17ac-1320-d62d-9b3f6fef5fea",
+        "shortId": "c168",
+        "type": "component"
+      },
+      {
+        "guid": "e0d8e419-075c-141d-b7c8-6da726c4f47f",
+        "shortId": "c169",
+        "type": "component"
+      },
+      {
+        "guid": "3e96745b-d0df-f2eb-48e2-2f75be71a169",
+        "shortId": "s75",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "c422b776-0dc9-ead2-048f-d6e970145691",
+        "shortId": "c170",
+        "type": "component"
+      },
+      {
+        "guid": "49d13a9b-2f6a-ad54-dd14-20cf87bf576c",
+        "shortId": "c171",
+        "type": "component"
+      },
+      {
+        "guid": "46acfc51-86e6-4a7e-188f-41e4459cec46",
+        "shortId": "r139",
+        "type": "resource"
+      },
+      {
+        "guid": "6e201b29-9a25-62c0-9b66-97d298ca61d0",
+        "shortId": "r140",
+        "type": "resource"
+      },
+      {
+        "guid": "49d75a9b-d8a3-c4a4-784a-bf3e9faa7960",
+        "shortId": "r141",
+        "type": "resource"
+      },
+      {
+        "guid": "cd46b7a4-ef2b-d8cd-d546-cd1db2ff44f5",
+        "shortId": "r142",
+        "type": "resource"
+      },
+      {
+        "guid": "d9c95ef8-dc4f-f07a-3172-7ebc3274d604",
+        "shortId": "r143",
+        "type": "resource"
+      },
+      {
+        "guid": "65daad74-a6aa-b177-92d3-5b9ac29ccde6",
+        "shortId": "r144",
+        "type": "resource"
+      },
+      {
+        "guid": "4ff15b8a-da54-ebb3-f974-43f6a5f8b532",
+        "shortId": "r145",
+        "type": "resource"
+      },
+      {
+        "guid": "7ade440d-36b1-fdc9-5a96-2486ef161c4d",
+        "shortId": "r146",
+        "type": "resource"
+      },
+      {
+        "guid": "4ed80ea1-86c0-cc96-3329-de894c379f56",
+        "shortId": "r147",
+        "type": "resource"
+      },
+      {
+        "guid": "19af68c7-7fe5-ba62-c195-aea0e2a28945",
+        "shortId": "r148",
+        "type": "resource"
+      },
+      {
+        "guid": "55838f2b-dbe9-e4d2-39c0-2e4cccf64a0e",
+        "shortId": "r149",
+        "type": "resource"
+      },
+      {
+        "guid": "c4f5b7d5-0476-2267-155a-c639b46ee068",
+        "shortId": "r150",
+        "type": "resource"
+      },
+      {
+        "guid": "f418c6a2-9160-99db-393c-b8354ec4806f",
+        "shortId": "r151",
+        "type": "resource"
+      },
+      {
+        "guid": "a30b4820-eccc-1f94-24b7-e31ab7d1789b",
+        "shortId": "r152",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000001543",
+        "shortId": "r153",
+        "type": "resource"
+      },
+      {
+        "guid": "2ac68fc9-8762-78c7-d9d4-40b7a5c6a945",
+        "shortId": "s76",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "7c056dd8-534e-53b5-d8df-697abd3ad3e2",
+        "shortId": "c172",
+        "type": "component"
+      },
+      {
+        "guid": "a06fe76b-b6ac-0b2e-7887-691a1754ad2f",
+        "shortId": "c173",
+        "type": "component"
+      },
+      {
+        "guid": "95255fa2-7d3c-e774-0348-70a4f32c5b91",
+        "shortId": "r154",
+        "type": "resource"
+      },
+      {
+        "guid": "5d921dff-7dad-1ce8-51e0-63066e2409f6",
+        "shortId": "r155",
+        "type": "resource"
+      },
+      {
+        "guid": "660127d9-d074-de49-83db-dad485a50727",
+        "shortId": "r156",
+        "type": "resource"
+      },
+      {
+        "guid": "61eb62a2-e02a-c5e3-7a34-4af8faa1e1c3",
+        "shortId": "r157",
+        "type": "resource"
+      },
+      {
+        "guid": "30b841dd-10f9-f5d9-dad0-5b18c0f08b8b",
+        "shortId": "r158",
+        "type": "resource"
+      },
+      {
+        "guid": "bd92078a-7b33-5f7f-8052-dd9036c163a8",
+        "shortId": "r159",
+        "type": "resource"
+      },
+      {
+        "guid": "38893bd3-37ad-2622-dd13-edcfcf967262",
+        "shortId": "r160",
+        "type": "resource"
+      },
+      {
+        "guid": "349d8c10-e30b-2843-42bb-37d5946c89d3",
+        "shortId": "s77",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "06e6354e-a3ee-7c43-86c3-309b7ebaea15",
+        "shortId": "c174",
+        "type": "component"
+      },
+      {
+        "guid": "2dd12364-50bf-0920-05c5-d2a106c06192",
+        "shortId": "c175",
+        "type": "component"
+      },
+      {
+        "guid": "639279b8-9387-ef6d-e5e5-44eddd475679",
+        "shortId": "s78",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "f2eb9e9f-9133-700c-5148-0a5c06a75f91",
+        "shortId": "c176",
+        "type": "component"
+      },
+      {
+        "guid": "001f0415-431e-253e-7b36-fe0021bfcbdc",
+        "shortId": "c177",
+        "type": "component"
+      },
+      {
+        "guid": "b741ed35-f0fd-010f-f14b-f10cf793f4a5",
+        "shortId": "s79",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "18e91d35-8a08-13dd-230d-1e00a53c90d0",
+        "shortId": "c178",
+        "type": "component"
+      },
+      {
+        "guid": "9b21630c-0a9d-0555-2d4b-9842b8e6917f",
+        "shortId": "s80",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d77337e7-dd6f-13da-8d00-71fb08da8314",
+        "shortId": "c179",
+        "type": "component"
+      },
+      {
+        "guid": "c25517a8-c731-99dd-6e80-aadc902c4787",
+        "shortId": "c180",
+        "type": "component"
+      },
+      {
+        "guid": "a0451dae-0133-f4cf-d5f8-b37d119fc2c9",
+        "shortId": "s81",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "3586fbcf-744a-3b47-3994-4e19750b2592",
+        "shortId": "c181",
+        "type": "component"
+      },
+      {
+        "guid": "791ddec6-e210-5dc6-39a6-09192d72795e",
+        "shortId": "c182",
+        "type": "component"
+      },
+      {
+        "guid": "92837b6f-28b3-2e14-541c-dabd53516eae",
+        "shortId": "s82",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "394a700e-37b1-0103-c53c-b9c6160c6be5",
+        "shortId": "c183",
+        "type": "component"
+      },
+      {
+        "guid": "69ee03a6-0c17-73bc-4045-d1816e9ec874",
+        "shortId": "c184",
+        "type": "component"
+      },
+      {
+        "guid": "454897d0-7c6c-9dcc-ac28-9e635f241bdc",
+        "shortId": "s83",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "dda3e7f9-d7a6-6c88-43f2-cff3180ef018",
+        "shortId": "c185",
+        "type": "component"
+      },
+      {
+        "guid": "48e8191a-2bd3-7075-6602-506f44a9952b",
+        "shortId": "c186",
+        "type": "component"
+      },
+      {
+        "guid": "2d9248fa-1b93-62c7-7b95-9e43aaf04936",
+        "shortId": "s84",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4ff15490-4992-dd2f-b1c1-be289fe73f9e",
+        "shortId": "c187",
+        "type": "component"
+      },
+      {
+        "guid": "9a1c368f-69a7-7030-5db5-84b9505f9a45",
+        "shortId": "c188",
+        "type": "component"
+      },
+      {
+        "guid": "54f03829-e440-3f2e-a95f-0a3ebbcf05ae",
+        "shortId": "s85",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a53f32bd-8d02-61e0-ae5f-4f656f6231d5",
+        "shortId": "c189",
+        "type": "component"
+      },
+      {
+        "guid": "71472e0a-bf88-6595-7295-cb1a74034126",
+        "shortId": "s86",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "c89fd259-169f-fa54-9352-7ac8a88562fc",
+        "shortId": "c190",
+        "type": "component"
+      },
+      {
+        "guid": "9daba109-08a1-ed78-7e97-ea2f0ba67921",
+        "shortId": "c191",
+        "type": "component"
+      },
+      {
+        "guid": "37793aef-0d81-a33d-f98b-5efede21db91",
+        "shortId": "s87",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "31753f8a-2b71-7f8a-e6a1-41f952653baa",
+        "shortId": "c192",
+        "type": "component"
+      },
+      {
+        "guid": "a5c55518-d234-379e-5ed9-d8091ba2a784",
+        "shortId": "c193",
+        "type": "component"
+      },
+      {
+        "guid": "2a0f9852-cf08-8e74-e876-eb28271881fe",
+        "shortId": "s88",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "8d973c9e-e877-7bfc-acd1-b39506d8d971",
+        "shortId": "c194",
+        "type": "component"
+      },
+      {
+        "guid": "0be9c6aa-cda7-2345-21c4-af710d765109",
+        "shortId": "c195",
+        "type": "component"
+      },
+      {
+        "guid": "068d8fe1-b4ce-f1fc-8cc6-f0d021203ca0",
+        "shortId": "s89",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e599687f-8ca1-f9a9-2e99-07843c107c96",
+        "shortId": "c196",
+        "type": "component"
+      },
+      {
+        "guid": "66687817-7999-ae67-0ad3-7314ca8b835d",
+        "shortId": "c197",
+        "type": "component"
+      },
+      {
+        "guid": "8375862a-6e5b-2814-20e5-61dd8c3a999a",
+        "shortId": "s90",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "3fe428e1-8004-2932-d27e-81ee9b3a13f2",
+        "shortId": "c198",
+        "type": "component"
+      },
+      {
+        "guid": "6cd1b666-ba9a-7c1b-5d03-9133f35ccc09",
+        "shortId": "c199",
+        "type": "component"
+      },
+      {
+        "guid": "417be6a1-de6a-77d9-82bf-f010d88ff5f4",
+        "shortId": "s91",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9314a7c9-4e76-1fed-d5c0-6ef61f1cba82",
+        "shortId": "c200",
+        "type": "component"
+      },
+      {
+        "guid": "734ea668-8984-03cb-6042-42cff63617a5",
+        "shortId": "s92",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d41292aa-f6a1-fd57-816a-0f275faabd62",
+        "shortId": "c201",
+        "type": "component"
+      },
+      {
+        "guid": "fcaa56b7-49c2-9934-c75c-b8dc83ff1e51",
+        "shortId": "c202",
+        "type": "component"
+      },
+      {
+        "guid": "33f6dbd2-3d3d-54d7-9883-c9b5337117b2",
+        "shortId": "s93",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b74a35e4-fdc2-58bd-5916-32fd2beef1aa",
+        "shortId": "c203",
+        "type": "component"
+      },
+      {
+        "guid": "0522e00e-b770-1d9d-199a-adcc318efeac",
+        "shortId": "c204",
+        "type": "component"
+      },
+      {
+        "guid": "b3e1fb9a-0f44-7136-cbf6-2372cab00f58",
+        "shortId": "s94",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a236ce7f-4156-d1b1-6335-bf16213a2bcc",
+        "shortId": "c205",
+        "type": "component"
+      },
+      {
+        "guid": "7260b343-83d3-32b5-3b3a-a2ebd71e397d",
+        "shortId": "c206",
+        "type": "component"
+      },
+      {
+        "guid": "7cfafe23-4430-f7b6-ee70-e468ddc3dc93",
+        "shortId": "s95",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e26bbb43-f9dc-d9e4-6153-f9426caee77c",
+        "shortId": "c207",
+        "type": "component"
+      },
+      {
+        "guid": "009eba29-4019-864e-1a29-a091cba0d14a",
+        "shortId": "c208",
+        "type": "component"
+      },
+      {
+        "guid": "a0c7e123-d6ad-cde3-baea-696c833ef16b",
+        "shortId": "s96",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9d81cbe8-06e2-6fca-4513-b425b55f48e9",
+        "shortId": "c209",
+        "type": "component"
+      },
+      {
+        "guid": "80a9032c-333c-1c22-4e2b-d05a1356d7fb",
+        "shortId": "s97",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e70eed20-03e4-9b77-507e-bb08fee74d2c",
+        "shortId": "c210",
+        "type": "component"
+      },
+      {
+        "guid": "967ed564-900f-b3fa-1758-a48f49be8996",
+        "shortId": "c211",
+        "type": "component"
+      },
+      {
+        "guid": "d3d1ef1e-b6ba-6f5c-4198-258c74c289af",
+        "shortId": "s98",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4d5026e1-80cb-9a6a-c49a-e99811c7eb04",
+        "shortId": "c212",
+        "type": "component"
+      },
+      {
+        "guid": "31761ea0-0259-a7e3-9415-61beb5c45530",
+        "shortId": "c213",
+        "type": "component"
+      },
+      {
+        "guid": "713bbea4-4702-bde0-8a77-1fa19ca7c985",
+        "shortId": "s99",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "862116ff-b534-a017-565e-42df90710805",
+        "shortId": "c214",
+        "type": "component"
+      },
+      {
+        "guid": "7f2a39f6-c914-2d7a-a20d-74a70ad3fdc4",
+        "shortId": "c215",
+        "type": "component"
+      },
+      {
+        "guid": "6bb1dd3c-aba7-c717-da91-3bcc6097fc47",
+        "shortId": "r161",
+        "type": "resource"
+      },
+      {
+        "guid": "2aca34ce-797b-1b3a-75df-67a82b6245d1",
+        "shortId": "r162",
+        "type": "resource"
+      },
+      {
+        "guid": "05f47e89-b3ac-c448-5874-5bcd46b25f2d",
+        "shortId": "r163",
+        "type": "resource"
+      },
+      {
+        "guid": "9e2dc565-59fc-31f6-5328-666284771c01",
+        "shortId": "r164",
+        "type": "resource"
+      },
+      {
+        "guid": "8440b0cd-3645-0f98-7e5a-0757fb18876c",
+        "shortId": "r165",
+        "type": "resource"
+      },
+      {
+        "guid": "ab2b3514-9050-d28f-05ab-79db932107e1",
+        "shortId": "r166",
+        "type": "resource"
+      },
+      {
+        "guid": "3b35be48-92e7-fded-fbef-c8aae779fa0d",
+        "shortId": "r167",
+        "type": "resource"
+      },
+      {
+        "guid": "b800f07e-b627-e274-1e15-3955b1dfa3b1",
+        "shortId": "r168",
+        "type": "resource"
+      },
+      {
+        "guid": "6769ff8b-5865-8706-4450-23ad78da8558",
+        "shortId": "s100",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "157dba0b-ae24-e26d-0a5a-3ec68abddcfe",
+        "shortId": "c216",
+        "type": "component"
+      },
+      {
+        "guid": "f503e244-68b5-f7b6-68ca-4c7691d803f4",
+        "shortId": "c217",
+        "type": "component"
+      },
+      {
+        "guid": "a6358af5-e679-6113-3943-ab21d7755488",
+        "shortId": "s101",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "0fa1c5ee-f7bc-554e-d725-7ddef53fcdd3",
+        "shortId": "c218",
+        "type": "component"
+      },
+      {
+        "guid": "3c4525c4-5edf-a267-ee5e-24d56f39ea3f",
+        "shortId": "c219",
+        "type": "component"
+      },
+      {
+        "guid": "4a48ee60-3e15-34ff-0bd2-bb4b24478498",
+        "shortId": "r169",
+        "type": "resource"
+      },
+      {
+        "guid": "1d025753-0960-3875-a771-1f2df113a7da",
+        "shortId": "r170",
+        "type": "resource"
+      },
+      {
+        "guid": "3bbd6d8e-29a5-2eff-d9d5-72c2039a29f2",
+        "shortId": "r171",
+        "type": "resource"
+      },
+      {
+        "guid": "9a48d6c0-aca4-92b3-d316-b35cd6affe09",
+        "shortId": "r172",
+        "type": "resource"
+      },
+      {
+        "guid": "59397a26-54f5-9362-bb7d-ab623116cdf8",
+        "shortId": "r173",
+        "type": "resource"
+      },
+      {
+        "guid": "865c9dfb-6292-d376-a2ee-769fd1ee1ff3",
+        "shortId": "r174",
+        "type": "resource"
+      },
+      {
+        "guid": "c71cbebd-f3be-9077-a07c-047fb59b3f64",
+        "shortId": "r175",
+        "type": "resource"
+      },
+      {
+        "guid": "55cbd094-8bbf-8599-1ae2-589092700510",
+        "shortId": "r176",
+        "type": "resource"
+      },
+      {
+        "guid": "e8fd20cb-d189-30a7-e174-54053a97df47",
+        "shortId": "r177",
+        "type": "resource"
+      },
+      {
+        "guid": "2c210d49-646a-1a7e-82c6-aef04d1c05d2",
+        "shortId": "r178",
+        "type": "resource"
+      },
+      {
+        "guid": "8deadbc5-249f-b36c-d902-ba76530348b1",
+        "shortId": "r179",
+        "type": "resource"
+      },
+      {
+        "guid": "5623d4ad-1ca5-62d7-54d4-b2a04dc72be4",
+        "shortId": "r180",
+        "type": "resource"
+      },
+      {
+        "guid": "4fd0394a-fb8e-a116-0399-66121f99137c",
+        "shortId": "r181",
+        "type": "resource"
+      },
+      {
+        "guid": "eed86130-b8ba-cd47-af27-b8d426e226a4",
+        "shortId": "s102",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1d3b2569-7ab6-5812-72b4-62452228c123",
+        "shortId": "c220",
+        "type": "component"
+      },
+      {
+        "guid": "758a6d81-4c93-9274-d42e-642d736b3b6a",
+        "shortId": "c221",
+        "type": "component"
+      },
+      {
+        "guid": "c8d17dea-760d-95c7-12e6-6ed1666d05ff",
+        "shortId": "r182",
+        "type": "resource"
+      },
+      {
+        "guid": "410c787b-c90a-e7cf-110c-f18c2c46a998",
+        "shortId": "r183",
+        "type": "resource"
+      },
+      {
+        "guid": "56a038ef-a280-d9f2-63b5-ab43e09a0881",
+        "shortId": "r184",
+        "type": "resource"
+      },
+      {
+        "guid": "06e1f67f-2c87-4493-a583-916a15e642f7",
+        "shortId": "r185",
+        "type": "resource"
+      },
+      {
+        "guid": "1bc87bbd-f091-7829-37aa-59d008c0baa9",
+        "shortId": "r186",
+        "type": "resource"
+      },
+      {
+        "guid": "9fc4aac4-a87b-01ea-cf48-b4277c824fd3",
+        "shortId": "r187",
+        "type": "resource"
+      },
+      {
+        "guid": "5b01a3bf-4e0a-7fb4-ee68-00fbb10c2b54",
+        "shortId": "r188",
+        "type": "resource"
+      },
+      {
+        "guid": "d5aafcf9-772a-22f7-5238-5bc6ac7f49df",
+        "shortId": "r189",
+        "type": "resource"
+      },
+      {
+        "guid": "e0c3e18a-ed34-5d33-badb-8414bc8cc732",
+        "shortId": "s103",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ed663ea6-569e-5570-9920-680730bada12",
+        "shortId": "c222",
+        "type": "component"
+      },
+      {
+        "guid": "29ada0a6-f1ed-5032-615e-e4281c49f883",
+        "shortId": "c223",
+        "type": "component"
+      }
+    ],
+    "counters": {
+      "sceneObject": 103,
+      "component": 223,
+      "resource": 189
+    }
+  },
+  "searchedAssets": {
+    "7412762363125825553": {
+      "title": "Pride Confetti",
+      "description": "An animated overlay of vibrant, rainbow-colored Pride confetti bursting upward from the bottom of the screen, creating a joyful, energetic, and festive atmosphere perfect for Pride celebrations and parties.",
+      "tags": [
+        "pride",
+        "confetti",
+        "prideconfetti",
+        "rainbow",
+        "multicolor",
+        "colorful",
+        "vibrant",
+        "celebration",
+        "party",
+        "festive",
+        "fun",
+        "joyful",
+        "energetic",
+        "lgbtq",
+        "parade",
+        "love",
+        "birthday",
+        "newyear",
+        "overlay",
+        "particle",
+        "burst",
+        "explosion",
+        "falling",
+        "floating",
+        "dynamic",
+        "animated",
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:25.392Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7405500785988993041": {
+      "title": "Confetti Party Burst",
+      "description": "An animated overlay of colorful confetti and streamers that burst upward and then gently float down. Featuring vibrant yellow, teal, and green particles, this effect creates a fun and energetic party atmosphere perfect for celebrations like birthdays or New Year's.",
+      "tags": [
+        "confetti",
+        "party",
+        "burst",
+        "confettiparty",
+        "partyburst",
+        "celebration",
+        "festive",
+        "overlay",
+        "particle",
+        "colorful",
+        "multicolor",
+        "yellow",
+        "teal",
+        "green",
+        "white",
+        "cyan",
+        "animated",
+        "explosion",
+        "dynamic",
+        "birthday",
+        "newyear",
+        "holiday",
+        "fun",
+        "energetic",
+        "falling",
+        "floating",
+        "streamers",
+        "bursting",
+        "upward"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:25.392Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7405500795006746640": {
+      "title": "Confetti Sports Burst",
+      "description": "An energetic particle overlay featuring a dynamic 'Confetti Sports Burst'. The animation shows colorful red, blue, and yellow confetti bursting and falling, creating a vibrant and celebratory atmosphere perfect for sports victories, team wins, or party events.",
+      "tags": [
+        "confetti",
+        "sports",
+        "burst",
+        "confettisports",
+        "sportsburst",
+        "celebration",
+        "festive",
+        "party",
+        "victory",
+        "win",
+        "winning",
+        "ticker",
+        "tape",
+        "game",
+        "team",
+        "championship",
+        "overlay",
+        "particle",
+        "animated",
+        "falling",
+        "bursting",
+        "explosion",
+        "dynamic",
+        "blue",
+        "red",
+        "yellow",
+        "gold",
+        "colorful",
+        "vibrant",
+        "energetic",
+        "fun",
+        "event",
+        "congratulations"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:25.392Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7405500778028204033": {
+      "title": "Confetti Glam Burst",
+      "description": "An animated particle overlay featuring a glamorous burst of confetti in elegant gold, silver, and black. The metallic particles fall and float down the screen, twinkling and sparkling to create a sophisticated and festive celebratory aesthetic, perfect for New Year's, parties, or galas.",
+      "tags": [
+        "confetti",
+        "glam",
+        "burst",
+        "confettiglam",
+        "glamburst",
+        "celebration",
+        "festive",
+        "party",
+        "overlay",
+        "particle",
+        "lighteffect",
+        "animated",
+        "falling",
+        "floating",
+        "explosion",
+        "gold",
+        "golden",
+        "silver",
+        "white",
+        "black",
+        "metallic",
+        "sparkle",
+        "sparkles",
+        "twinkle",
+        "shimmer",
+        "shine",
+        "glitter",
+        "glamorous",
+        "luxe",
+        "elegant",
+        "sophisticated",
+        "newyear",
+        "nye",
+        "birthday",
+        "gala",
+        "award"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:25.392Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7445154752373194768": {
+      "title": "Colorful Confetti Cake",
+      "description": "A static, photorealistic sticker of a delicious slice of colorful confetti cake. This classic funfetti cake slice features white frosting covered in bright, multicolored rainbow sprinkles, making it a perfect festive decoration for birthdays, parties, and celebrations.",
+      "tags": [
+        "colorful",
+        "confetti",
+        "cake",
+        "celebration",
+        "birthday",
+        "party",
+        "sliceofcake",
+        "dessert",
+        "food",
+        "sweet",
+        "treat",
+        "pastry",
+        "bakery",
+        "sprinkles",
+        "funfetti",
+        "rainbow",
+        "multicolor",
+        "white",
+        "red",
+        "yellow",
+        "blue",
+        "green",
+        "orange",
+        "photorealistic",
+        "realistic",
+        "photograph",
+        "cutout",
+        "festive",
+        "happy",
+        "yummy",
+        "delicious",
+        "static",
+        "still"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:27.718Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7540439414531653648": {
+      "title": "Confetti Clock Out",
+      "description": "A static embroidery-style patch in the shape of a shield, celebrating the moment of 'clocking out'. The design features a clock face on a colorful background of pink, yellow, and blue, with confetti scattered around, all rendered with detailed stitched thread texture.",
+      "tags": [
+        "confetti",
+        "clock",
+        "out",
+        "celebration",
+        "embroidery",
+        "stitched",
+        "patch",
+        "badge",
+        "shield",
+        "fabric",
+        "textile",
+        "craft",
+        "handmade",
+        "textured",
+        "time",
+        "timepiece",
+        "endofwork",
+        "quittingtime",
+        "tgif",
+        "weekend",
+        "freedom",
+        "party",
+        "festive",
+        "fun",
+        "pink",
+        "yellow",
+        "blue",
+        "white",
+        "red",
+        "colorful",
+        "vibrant",
+        "static",
+        "still"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:27.718Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7445155570077876240": {
+      "title": "Vector Pattern 267",
+      "description": "A static vector illustration of a green armchair. The grey seat and back are decorated with a pattern of yellow confetti, alluding to a party or celebration. The sticker features a minimalist, flat graphic style with a playful and festive mood.",
+      "tags": [
+        "vector",
+        "pattern",
+        "chair",
+        "armchair",
+        "seat",
+        "furniture",
+        "confetti",
+        "celebration",
+        "party",
+        "festive",
+        "event",
+        "birthday",
+        "green",
+        "grey",
+        "yellow",
+        "darkgreen",
+        "flat",
+        "illustrated",
+        "cartoon",
+        "simple",
+        "graphic",
+        "minimalist",
+        "playful",
+        "fun",
+        "static",
+        "still"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:27.718Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7450027895797547025": {
+      "title": "Cartoon Starburst Celebration",
+      "description": "A static cartoon-style sticker of a celebratory starburst. The design features a central yellow star with an explosive burst of pastel yellow, light blue, and mint green shapes, resembling a fun firework or confetti pop. It's perfect for birthdays, parties, and festive occasions.",
+      "tags": [
+        "cartoon",
+        "starburst",
+        "celebration",
+        "star",
+        "burst",
+        "explosion",
+        "firework",
+        "pop",
+        "confetti",
+        "festive",
+        "party",
+        "birthday",
+        "congratulations",
+        "fun",
+        "happy",
+        "cheerful",
+        "playful",
+        "yellow",
+        "lightblue",
+        "mint",
+        "green",
+        "orange",
+        "pastel",
+        "colorful",
+        "illustrated",
+        "handdrawn",
+        "doodle",
+        "flat",
+        "static",
+        "still"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:27.718Z",
+      "lastQuery": "Sparkly Confetti"
+    },
+    "7445155121354555409": {
+      "title": "juice26",
+      "description": "A static, minimalist sticker featuring two white, abstract crescent shapes that resemble pieces of confetti. Its simple, monochrome graphic style is perfect for adding a modern and festive touch to any celebration or party.",
+      "tags": [
+        "juice",
+        "celebration",
+        "party",
+        "festive",
+        "confetti",
+        "streamers",
+        "decoration",
+        "white",
+        "black",
+        "monochrome",
+        "simple",
+        "flat",
+        "graphic",
+        "minimalist",
+        "vector",
+        "abstract",
+        "shapes",
+        "crescent",
+        "curve",
+        "fun",
+        "playful",
+        "modern",
+        "newyear",
+        "birthday",
+        "congratulations",
+        "static",
+        "still"
+      ],
+      "subCategory": [
+        "celebration"
+      ],
+      "searchedAt": "2026-09-28T04:43:27.718Z",
+      "lastQuery": "Sparkly Confetti"
+    }
+  }
+}

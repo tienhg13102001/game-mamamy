@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "d5aafcf9-772a-22f7-5238-5bc6ac7f49df",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "hint_60s",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/1 - Filter - Mamamy Tower 19 Challenge/Build/guide/hint_60s.png",
+    "references": []
+  }
+]

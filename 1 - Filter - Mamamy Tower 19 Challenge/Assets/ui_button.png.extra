@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "1e0aa9a5-c1f3-58a3-da66-0e183f96feb5",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "ui_button",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/ui/ui_button.png",
+    "references": []
+  }
+]

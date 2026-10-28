@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "2a55c151-2e2b-c2bc-3d03-3f827bbad48b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "khan_kho_tropical",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/sprites/khan_kho_tropical.png",
+    "references": []
+  }
+]

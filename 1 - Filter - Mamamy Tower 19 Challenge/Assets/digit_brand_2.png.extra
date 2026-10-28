@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "664a018b-fc0f-a353-e279-9d066b1b570b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "digit_brand_2",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/text/digit_brand_2.png",
+    "references": []
+  }
+]

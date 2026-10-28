@@ -1,0 +1,1437 @@
+{
+  "version": 1,
+  "annotations": {
+    "bcf0ea65-914d-ce50-298f-6f4fa294d64f": {
+      "description": "Curly-haired baby girl in white onesie reclining on a cream pillow, calmly drinking from a milk bottle (idle, top-left)",
+      "userDescription": "Curly-haired baby girl in white onesie reclining on a cream pillow, calmly drinking from a milk bottle (idle, top-left)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.567Z"
+    },
+    "9de4b251-bf3a-3efb-d472-5ff87046219a": {
+      "description": "Same girl on the pillow crying loudly with tears, holding the bottle up (wrong state, top-left)",
+      "userDescription": "Same girl on the pillow crying loudly with tears, holding the bottle up (wrong state, top-left)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.568Z"
+    },
+    "b7ea98dd-3da5-8a4d-e169-34b513950f27": {
+      "description": "Same girl smiling on a pillow next to an open bottle sterilizer cabinet with clean bottles (correct state, top-left)",
+      "userDescription": "Same girl smiling on a pillow next to an open bottle sterilizer cabinet with clean bottles (correct state, top-left)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.571Z"
+    },
+    "415ba78b-7c4c-b9dd-f21a-11d95db66f0b": {
+      "description": "Chubby baby boy in a diaper covered in mud, crying softly with small tears (idle, top-right)",
+      "userDescription": "Chubby baby boy in a diaper covered in mud, crying softly with small tears (idle, top-right)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.573Z"
+    },
+    "0e6903d8-afb3-dba0-6e4b-2226ce694e34": {
+      "description": "Same muddy boy wailing with streams of tears and a frown (wrong state, top-right)",
+      "userDescription": "Same muddy boy wailing with streams of tears and a frown (wrong state, top-right)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.574Z"
+    },
+    "1ef4f7e4-880f-af2f-5c99-6e8f35a6e6e7": {
+      "description": "Same boy clean and laughing in a fluffy white bathrobe with a star, waving (correct state, top-right)",
+      "userDescription": "Same boy clean and laughing in a fluffy white bathrobe with a star, waving (correct state, top-right)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.575Z"
+    },
+    "3f22c6ed-558a-fe9e-0bef-6bea4fc37505": {
+      "description": "Baby boy crying in a dirty green-stained diaper with stink lines and tear drops (idle, bottom-left)",
+      "userDescription": "Baby boy crying in a dirty green-stained diaper with stink lines and tear drops (idle, bottom-left)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.576Z"
+    },
+    "1a576ac2-164f-c072-5b4f-d27088906005": {
+      "description": "Same dirty-diaper boy screaming red-faced with big tears and a green stink cloud (wrong state, bottom-left)",
+      "userDescription": "Same dirty-diaper boy screaming red-faced with big tears and a green stink cloud (wrong state, bottom-left)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.577Z"
+    },
+    "da05d56a-108a-39f3-4b21-42a5f8b7ebc1": {
+      "description": "Same boy happy and smiling in a clean white diaper (correct state, bottom-left)",
+      "userDescription": "Same boy happy and smiling in a clean white diaper (correct state, bottom-left)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.578Z"
+    },
+    "bab86691-6ab1-6a86-77e5-0d562cb902b1": {
+      "description": "Curly-haired girl laughing in a paint-splattered onesie with a knit bunny and stacking rings (idle, bottom-right)",
+      "userDescription": "Curly-haired girl laughing in a paint-splattered onesie with a knit bunny and stacking rings (idle, bottom-right)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.579Z"
+    },
+    "eac2526f-0118-42b1-52b3-844f90b77c91": {
+      "description": "Same paint-covered girl crying hard, paint on socks and hands (wrong state, bottom-right)",
+      "userDescription": "Same paint-covered girl crying hard, paint on socks and hands (wrong state, bottom-right)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.579Z"
+    },
+    "7aa3d3c4-a50d-52a5-bc27-b74880573ba1": {
+      "description": "Same girl smiling in a clean white onesie hugging a large knit bunny (correct state, bottom-right)",
+      "userDescription": "Same girl smiling in a clean white onesie hugging a large knit bunny (correct state, bottom-right)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.580Z"
+    },
+    "c46915c3-73a5-5556-a42e-c42f301605f9": {
+      "description": "Mamamy Tropical wet wipes pack, white with colourful Tropical lettering and toucan",
+      "userDescription": "Mamamy Tropical wet wipes pack, white with colourful Tropical lettering and toucan",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.581Z"
+    },
+    "5a41895c-8140-30f0-60b4-0a289148d83c": {
+      "description": "Mamamy bot tam goi (baby bath foam) pump bottle, white with magenta cap",
+      "userDescription": "Mamamy bot tam goi (baby bath foam) pump bottle, white with magenta cap",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.582Z"
+    },
+    "78812bae-ff56-39dd-f9b4-d51fa6f156b3": {
+      "description": "Mamamy nuoc rua binh sua (bottle washing liquid) pump bottle with two magenta bottle brushes",
+      "userDescription": "Mamamy nuoc rua binh sua (bottle washing liquid) pump bottle with two magenta bottle brushes",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.583Z"
+    },
+    "fa589881-89db-2310-feb5-02ed1a20734e": {
+      "description": "Mamamy NUOC GIAT XA 2-in-1 laundry liquid 2.3L spout pouch, white and lilac",
+      "userDescription": "Mamamy NUOC GIAT XA 2-in-1 laundry liquid 2.3L spout pouch, white and lilac",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.584Z"
+    },
+    "4c639e5d-4301-1cf4-5a45-8f9e0949b9ba": {
+      "description": "MEGA MAMAMY logo: plum MEGA above pink puffy MAMAMY with a plum shield showing cream 19",
+      "userDescription": "MEGA MAMAMY logo: plum MEGA above pink puffy MAMAMY with a plum shield showing cream 19",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.585Z"
+    },
+    "da9559e8-5f03-aa7d-a940-617e6490490f": {
+      "description": "Brand text 'Mon nay danh cho be nao?' in #CF0055 SVN-Gotham Black with white outline",
+      "userDescription": "Brand text 'Mon nay danh cho be nao?' in #CF0055 SVN-Gotham Black with white outline",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.585Z"
+    },
+    "f4385d62-f9a5-20ed-ed24-4e10747d066d": {
+      "description": "Brand text 'BE NAO CUNG VUI!' pink with white outline",
+      "userDescription": "Brand text 'BE NAO CUNG VUI!' pink with white outline",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.587Z"
+    },
+    "2bc889e3-683e-c42e-e6cd-b9f73325c085": {
+      "description": "White text RECORD TO PLAY",
+      "userDescription": "White text RECORD TO PLAY",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.590Z"
+    },
+    "f9ce23f7-f96b-7c2d-88b2-c33031d7d9e2": {
+      "description": "White text PLAY AGAIN",
+      "userDescription": "White text PLAY AGAIN",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.590Z"
+    },
+    "0545772e-9ea0-41e8-d022-6f1ff3d719e5": {
+      "description": "Glossy brand-pink pill button, blank, wide",
+      "userDescription": "Glossy brand-pink pill button, blank, wide",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.591Z"
+    },
+    "a4a0d690-3242-af36-5cce-8396a514b45a": {
+      "description": "Glossy brand-pink pill button, blank",
+      "userDescription": "Glossy brand-pink pill button, blank",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.592Z"
+    },
+    "86f8ed10-ec8c-e8fc-ffba-3806b77e3f8c": {
+      "description": "16x16 white pixel, tinted via Image.color",
+      "userDescription": "16x16 white pixel, tinted via Image.color",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.594Z"
+    },
+    "6c559fe5-6a00-22ba-fe22-36babcd21b75": {
+      "description": "Sparkly Confetti overlay: golden sparkle glow layer",
+      "userDescription": "Sparkly Confetti overlay: golden sparkle glow layer",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.602Z"
+    },
+    "d730c929-5de1-6ee9-3f61-445606263f6d": {
+      "description": "Sparkly Confetti sequence: golden confetti pieces falling",
+      "userDescription": "Sparkly Confetti sequence: golden confetti pieces falling",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.602Z"
+    },
+    "6ad418b7-56d5-da11-961e-3e2c4fc0c4ce": {
+      "description": "Animated texture driving the falling golden confetti",
+      "userDescription": "Animated texture driving the falling golden confetti",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:27:59.603Z"
+    },
+    "5ac87ef2-a72b-c8e9-b362-f6e6e8a80186": {
+      "description": "Brand text 'TIEC QUA!' pink #CF0055 with white outline (result title when a baby is still crying)",
+      "userDescription": "Brand text 'TIEC QUA!' pink #CF0055 with white outline (result title when a baby is still crying)",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-09-28T08:32:16.586Z"
+    },
+    "c145f9e9-c9e1-c8aa-507c-ecdc31cf8608": {
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-11T11:25:12.460Z"
+    }
+  },
+  "handoff": {
+    "plan": "starter_template:\n  mode: none\n  rationale: No catalog template matches a four-corner match-the-item picker with per-target\n    idle/wrong/correct sprite states; build from scratch reusing the Mamamy Tower brand kit,\n    record-start and result patterns.\ngame_type:\n  camera_feed: visible\n  ar_tracking: none\n  core_loop_seconds: 3\n  total_duration_seconds: 20\ncamera_feed_constraints:\n  tracking_type: none\n  tracking_range: not applicable - camera feed is only the backdrop\n  user_image_visible: true\n  composition: none\nmechanic:\n  class: other\n  description: \"Four babies sit in the four corners, each in need: top-left girl needs bottle washing\n    liquid, top-right muddy boy needs bath foam, bottom-left dirty-diaper boy needs wet wipes,\n    bottom-right paint-stained girl needs laundry liquid. The four products appear one at a time\n    (shuffled) in the centre. The player taps the baby (or drags the product onto the baby). Right\n    baby: the product flies to it and the baby switches to its happy 'correct' sprite for good.\n    Wrong baby: that baby switches to its crying 'wrong' sprite and shakes for ~1s, then returns to\n    idle, and the product stays for another try. Babies not yet served stay 'idle'. After all four:\n    MEGA MAMAMY 19 logo + confetti + completion time + PLAY AGAIN.\"\n  parameters:\n    products: 4\n    babies: 4\n    baby_states:\n      - idle\n      - wrong\n      - correct\n    wrong_state_sec: 1\nscreens:\n  - name: Intro\n    role: intro\n    initial_visible: true\n    layout:\n      - id: intro_logo\n        element: MEGA MAMAMY 19 logo\n        position: center, y=+80\n        size: 500x154\n        kind: decoration\n      - id: intro_hint\n        element: brand text image\n        position: center, y=-20\n        content: Món này dành cho bé nào?\n        kind: hud\n      - id: intro_button\n        element: brand pink pill with RECORD TO PLAY\n        position: center, y=-110\n        size: 330x58\n        kind: button\n        interactive: true\n  - name: Gameplay\n    role: gameplay\n    initial_visible: true\n    layout:\n      - id: baby_tl\n        element: girl with bottle (idle/wrong/correct sprites)\n        position: top-left (-160,+438)\n        size: 285x315\n        kind: playable\n        interactive: true\n      - id: baby_tr\n        element: muddy boy (idle/wrong/correct sprites)\n        position: top-right (+206,+430)\n        size: 242x309\n        kind: playable\n        interactive: true\n      - id: baby_bl\n        element: dirty-diaper boy (idle/wrong/correct sprites)\n        position: bottom-left (-187,-263)\n        size: 262x279\n        kind: playable\n        interactive: true\n      - id: baby_br\n        element: paint-stained girl (idle/wrong/correct sprites)\n        position: bottom-right (+211,-252)\n        size: 299x324\n        kind: playable\n        interactive: true\n      - id: product\n        element: current Mamamy product\n        position: center (0,+70), fit 300x280\n        kind: playable\n        interactive: true\n      - id: popup\n        element: ĐÚNG RỒI! / CHƯA ĐÚNG! text image\n        position: near the chosen baby\n        kind: hud\n  - name: Result\n    role: result\n    initial_visible: false\n    layout:\n      - id: result_dim\n        element: black dim\n        position: full screen\n        kind: result\n        translucent: true\n        opacity: 0.35\n      - id: result_logo\n        element: MEGA MAMAMY 19 logo\n        position: center, y=+250\n        kind: result\n      - id: result_title\n        element: BÉ NÀO CŨNG VUI!\n        position: center, y=+130\n        kind: result\n      - id: result_card\n        element: \"white card: Bạn hoàn thành trong / N / giây\"\n        position: center, y=-20\n        size: 300x200\n        kind: result\n      - id: retry_button\n        element: pink pill PLAY AGAIN\n        position: center, y=-190\n        size: 266x60\n        kind: button\n        interactive: true\n      - id: confetti\n        element: Sparkly Confetti library effect\n        position: full screen\n        kind: decoration\ninteractions:\n  - kind: record_start_reset\n    trigger: APJS.EventType.RecordStart\n    response: Reset every baby to idle, shuffle products, show the first product, start the clock\n    state_change: any -> PLAYING\n    target:\n      scope: none\n      rationale: global lifecycle event\n  - kind: screen_transition\n    trigger: tap the RECORD TO PLAY button in INTRO\n    response: Same as record start (lets the effect be tried without recording)\n    state_change: INTRO -> PLAYING\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - intro_button\n    feedback:\n      visual: intro hides, first product pops in\n  - kind: gameplay_action\n    trigger: tap a baby, or drag the product and release on a baby\n    response: \"Right baby: product flies in, baby -> correct sprite. Wrong baby: baby -> wrong sprite +\n      shake 1s, product returns\"\n    state_change: PLAYING -> PLAYING, or RESULT after the 4th right answer\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - baby_tl\n        - baby_tr\n        - baby_bl\n        - baby_br\n        - product\n    feedback:\n      visual: ĐÚNG RỒI! or CHƯA ĐÚNG! popup, baby sprite swap with pop/shake\n  - kind: retry\n    trigger: tap anywhere on RESULT after 1.3s\n    response: Restart a new round\n    state_change: RESULT -> PLAYING\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - retry_button\n    feedback:\n      visual: result hides, babies back to idle\nassets:\n  - id: asset.babies\n    role: targets\n    description: Four babies x three states (idle, wrong = crying harder, correct = happy/clean) cropped\n      from MMM SBD Effect 1 PNGs with a shared box per baby\n    is_background: false\n    count: 12\n    animated: false\n    coverage: partial\n    interactive_role: addressable_part\n    kind: visual\n  - id: asset.products\n    role: items\n    description: \"Four Mamamy products: Tropical wet wipes, bath foam, bottle washing liquid with\n      brushes, 2-in-1 laundry pouch\"\n    is_background: false\n    count: 4\n    animated: false\n    coverage: partial\n    interactive_role: spawnable_pool\n    kind: visual\n  - id: asset.logo\n    role: title\n    description: MEGA MAMAMY 19 logo with shield, used on intro and result\n    is_background: false\n    count: 1\n    animated: false\n    coverage: partial\n    interactive_role: decoration\n    kind: visual\n  - id: asset.text\n    role: brand text\n    description: SVN-Gotham brand-pink text images, CTA texts, digit images and pill buttons reused from\n      the Mamamy Tower kit\n    is_background: false\n    count: 20\n    animated: false\n    coverage: partial\n    interactive_role: decoration\n    kind: visual\nrandom_behaviors:\n  - what: product order\n    range: shuffle of the 4 products each round\n    verify_strategy: log the order via get_script_logs\ncriteria:\n  - category: layout\n    check: Babies sit where the mockup puts them; product centred between them\n  - category: state\n    check: Tapping the right baby swaps it to its correct sprite and shows the next product\n  - category: state\n    check: Tapping a wrong baby shows its crying sprite then returns to idle; product stays\n  - category: state\n    check: After 4 right answers the result shows the logo, confetti and time\n  - category: camera_feed\n    check: Live camera feed visible behind the game\n  - category: state\n    check: Tapping the product itself or empty space does nothing; an already-happy baby never changes\n      back\n  - category: value\n    check: Result time equals the seconds from first product to last right answer\nscene_representation:\n  planning_mode: explicit\n  decision_summary: \"Flat 2D screen-space game over the camera feed: Screen Images for\n    babies/product/UI driven by one APJS script on a GameManager.\"\n  space:\n    kind: screen\n    description: 720x1280 ScreenTransform space, origin at center\n  content_form:\n    kind: flat_2d\n    description: PNG sprites on Screen Images\n  requirements:\n    - id: req.pick\n      description: Tap/drag gives the product to a baby; right/wrong feedback via baby sprite states\n      must: true\n      layer_refs:\n        - layer.game\n      verification_refs:\n        - ver.play\n    - id: req.result\n      description: Result after all 4 products with logo, confetti, time, PLAY AGAIN\n      must: true\n      layer_refs:\n        - layer.ui\n      verification_refs:\n        - ver.play\n    - id: req.camera\n      description: Camera feed visible\n      must: true\n      layer_refs:\n        - layer.camera\n      verification_refs:\n        - ver.play\n  layers:\n    - id: layer.game\n      role: gameplay\n      description: Babies and product\n      space:\n        kind: screen\n        description: screen\n      content_form:\n        kind: flat_2d\n        description: flat_2d\n      requirement_refs:\n        - req.pick\n    - id: layer.ui\n      role: overlays\n      description: Intro, popup, result, confetti\n      space:\n        kind: screen\n        description: screen\n      content_form:\n        kind: flat_2d\n        description: flat_2d\n      requirement_refs:\n        - req.result\n    - id: layer.camera\n      role: backdrop\n      description: Camera feed\n      space:\n        kind: screen\n        description: screen\n      content_form:\n        kind: camera_feed\n        description: camera_feed\n      requirement_refs:\n        - req.camera\n  verification:\n    - id: ver.play\n      description: \"interact_by_dsl: record, tap wrong then right babies, screenshot each state\"\n      requirement_refs:\n        - req.pick\n        - req.result\n        - req.camera\n      views_or_states:\n        - intro\n        - wrong\n        - correct\n        - result\n      success_criteria: |-\n        sprite states swap\n        result shows\n        camera feed visible behind babies\n  fallbacks:\n    unknown_requirement: adapt_and_verify\n    unmet_must: stop_and_explain\nmechanic_rationale: \"The client mockups (MMM SBD Effect 1 1-7 + KHONG DUNG) already pin down the\n  full loop: four fixed baby targets with idle/wrong/correct art, one product at a time in the\n  centre, and a MEGA MAMAMY 19 finale, so no catalog mechanic is borrowed.\"\nplan_type: game\n",
+    "template": {
+      "status": "none",
+      "rationale": "No catalog template matches a four-corner match-the-item picker with per-target idle/wrong/correct sprite states; build from scratch reusing the Mamamy Tower brand kit, record-start and result patterns.",
+      "updatedAt": "2026-09-28T08:24:18.637Z"
+    },
+    "updatedAt": "2026-09-28T08:24:18.637Z",
+    "autoBrief": {
+      "summary": "Auto-baseline at save: 27 object(s) in 2 render group(s); scripts: MamamyBabyGame; resources: 93 (90 Texture2D, 1 AnimatedTexture, 1 TextureSequence, 1 Prefab).",
+      "updatedAt": "2026-10-11T12:17:24.165Z"
+    }
+  },
+  "uiOwnership": {},
+  "uiOwnershipBaseline": {
+    "takenAt": "2026-09-28T08:24:24.045Z",
+    "count": 0
+  },
+  "shortIdMap": {
+    "mappings": [
+      {
+        "guid": "602a125f-adef-400a-1092-0fec2f5a3f83",
+        "shortId": "r1",
+        "type": "resource"
+      },
+      {
+        "guid": "9baa39a1-99dd-68c7-f365-ef9fb4e1cf1c",
+        "shortId": "s1",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "131eee15-64bf-4bea-a12e-b1016d0e5d2a",
+        "shortId": "c1",
+        "type": "component"
+      },
+      {
+        "guid": "8f8f8437-a9a9-74f5-a884-8d54dcd4d0d9",
+        "shortId": "c2",
+        "type": "component"
+      },
+      {
+        "guid": "da05d56a-108a-39f3-4b21-42a5f8b7ebc1",
+        "shortId": "r2",
+        "type": "resource"
+      },
+      {
+        "guid": "3f22c6ed-558a-fe9e-0bef-6bea4fc37505",
+        "shortId": "r3",
+        "type": "resource"
+      },
+      {
+        "guid": "1a576ac2-164f-c072-5b4f-d27088906005",
+        "shortId": "r4",
+        "type": "resource"
+      },
+      {
+        "guid": "7aa3d3c4-a50d-52a5-bc27-b74880573ba1",
+        "shortId": "r5",
+        "type": "resource"
+      },
+      {
+        "guid": "bab86691-6ab1-6a86-77e5-0d562cb902b1",
+        "shortId": "r6",
+        "type": "resource"
+      },
+      {
+        "guid": "eac2526f-0118-42b1-52b3-844f90b77c91",
+        "shortId": "r7",
+        "type": "resource"
+      },
+      {
+        "guid": "b7ea98dd-3da5-8a4d-e169-34b513950f27",
+        "shortId": "r8",
+        "type": "resource"
+      },
+      {
+        "guid": "bcf0ea65-914d-ce50-298f-6f4fa294d64f",
+        "shortId": "r9",
+        "type": "resource"
+      },
+      {
+        "guid": "9de4b251-bf3a-3efb-d472-5ff87046219a",
+        "shortId": "r10",
+        "type": "resource"
+      },
+      {
+        "guid": "1ef4f7e4-880f-af2f-5c99-6e8f35a6e6e7",
+        "shortId": "r11",
+        "type": "resource"
+      },
+      {
+        "guid": "415ba78b-7c4c-b9dd-f21a-11d95db66f0b",
+        "shortId": "r12",
+        "type": "resource"
+      },
+      {
+        "guid": "0e6903d8-afb3-dba0-6e4b-2226ce694e34",
+        "shortId": "r13",
+        "type": "resource"
+      },
+      {
+        "guid": "4c639e5d-4301-1cf4-5a45-8f9e0949b9ba",
+        "shortId": "r14",
+        "type": "resource"
+      },
+      {
+        "guid": "5a41895c-8140-30f0-60b4-0a289148d83c",
+        "shortId": "r15",
+        "type": "resource"
+      },
+      {
+        "guid": "78812bae-ff56-39dd-f9b4-d51fa6f156b3",
+        "shortId": "r16",
+        "type": "resource"
+      },
+      {
+        "guid": "fa589881-89db-2310-feb5-02ed1a20734e",
+        "shortId": "r17",
+        "type": "resource"
+      },
+      {
+        "guid": "c46915c3-73a5-5556-a42e-c42f301605f9",
+        "shortId": "r18",
+        "type": "resource"
+      },
+      {
+        "guid": "f9ce23f7-f96b-7c2d-88b2-c33031d7d9e2",
+        "shortId": "r19",
+        "type": "resource"
+      },
+      {
+        "guid": "2bc889e3-683e-c42e-e6cd-b9f73325c085",
+        "shortId": "r20",
+        "type": "resource"
+      },
+      {
+        "guid": "2354be30-f346-4241-ad1f-c3678a60c9d3",
+        "shortId": "r21",
+        "type": "resource"
+      },
+      {
+        "guid": "4678d8ba-8471-9a84-e836-0298b0275f00",
+        "shortId": "r22",
+        "type": "resource"
+      },
+      {
+        "guid": "f3d70c66-957a-2088-4c73-311d47bdc628",
+        "shortId": "r23",
+        "type": "resource"
+      },
+      {
+        "guid": "7c3ac8c5-1b72-34c5-d50a-d6c9521ed48b",
+        "shortId": "r24",
+        "type": "resource"
+      },
+      {
+        "guid": "f27a42fa-7db6-754e-4e05-bc9378f6fcd5",
+        "shortId": "r25",
+        "type": "resource"
+      },
+      {
+        "guid": "027a02e6-bf23-3aa0-95d9-e237d03b38f0",
+        "shortId": "r26",
+        "type": "resource"
+      },
+      {
+        "guid": "184b8da0-b746-7735-84cd-bc1cce660132",
+        "shortId": "r27",
+        "type": "resource"
+      },
+      {
+        "guid": "0e1a1ce8-d07e-6a2b-88e2-58e3f70924cb",
+        "shortId": "r28",
+        "type": "resource"
+      },
+      {
+        "guid": "5da13c09-ef38-1cf1-695c-5783a9604d15",
+        "shortId": "r29",
+        "type": "resource"
+      },
+      {
+        "guid": "5d794b52-66ec-00fd-dbd0-6cde50100a74",
+        "shortId": "r30",
+        "type": "resource"
+      },
+      {
+        "guid": "da9559e8-5f03-aa7d-a940-617e6490490f",
+        "shortId": "r31",
+        "type": "resource"
+      },
+      {
+        "guid": "f115984c-7240-5bb7-5ba2-dfc87300539c",
+        "shortId": "r32",
+        "type": "resource"
+      },
+      {
+        "guid": "1f0a0cb9-4168-ee11-1bad-465e1f2e50ba",
+        "shortId": "r33",
+        "type": "resource"
+      },
+      {
+        "guid": "31f70dbf-e9d6-ca42-5f9d-a855f91d2dc6",
+        "shortId": "r34",
+        "type": "resource"
+      },
+      {
+        "guid": "e5473c11-9be5-4d2e-2f42-cbc426acf3a7",
+        "shortId": "r35",
+        "type": "resource"
+      },
+      {
+        "guid": "f4385d62-f9a5-20ed-ed24-4e10747d066d",
+        "shortId": "r36",
+        "type": "resource"
+      },
+      {
+        "guid": "a4a0d690-3242-af36-5cce-8396a514b45a",
+        "shortId": "r37",
+        "type": "resource"
+      },
+      {
+        "guid": "0545772e-9ea0-41e8-d022-6f1ff3d719e5",
+        "shortId": "r38",
+        "type": "resource"
+      },
+      {
+        "guid": "f20d951b-dfa0-4082-4439-3e6c9615ed67",
+        "shortId": "r39",
+        "type": "resource"
+      },
+      {
+        "guid": "86f8ed10-ec8c-e8fc-ffba-3806b77e3f8c",
+        "shortId": "r40",
+        "type": "resource"
+      },
+      {
+        "guid": "ebb76177-e4c4-1b5a-5a95-9e6112200e96",
+        "shortId": "s2",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9f9563c9-5550-3be4-0d37-f6dd5a4809ac",
+        "shortId": "c3",
+        "type": "component"
+      },
+      {
+        "guid": "f1e98ecd-0f84-b979-694d-96a10da324c0",
+        "shortId": "c4",
+        "type": "component"
+      },
+      {
+        "guid": "f77d36ca-1c20-3697-fb8a-4a3d53a6cc96",
+        "shortId": "r41",
+        "type": "resource"
+      },
+      {
+        "guid": "dc8df321-ef8c-e7e2-c8e1-696c33af0c1a",
+        "shortId": "s3",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d2ebe3c0-a227-8ca3-f2f1-35d389748d32",
+        "shortId": "c5",
+        "type": "component"
+      },
+      {
+        "guid": "5899be6e-bf84-c097-abc5-b775265eaca3",
+        "shortId": "c6",
+        "type": "component"
+      },
+      {
+        "guid": "3adb403f-bc66-ccfb-5d31-f21aa7b349cb",
+        "shortId": "s4",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e47a8f2c-5fbc-ba95-d8b2-5dbca94731a3",
+        "shortId": "c7",
+        "type": "component"
+      },
+      {
+        "guid": "4bd9a6f3-348b-5eca-144f-5460fe026df2",
+        "shortId": "s5",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "14208ce9-7720-cda1-4ea9-71203277b452",
+        "shortId": "c8",
+        "type": "component"
+      },
+      {
+        "guid": "bf69c0d2-f5c7-9f5c-936a-9aaf921763b3",
+        "shortId": "c9",
+        "type": "component"
+      },
+      {
+        "guid": "0c257498-68c6-a455-da65-7e2b108c8bbe",
+        "shortId": "s6",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "21f394fc-6ec4-fbc2-cb1d-ae73d2bd55f9",
+        "shortId": "c10",
+        "type": "component"
+      },
+      {
+        "guid": "695c9ac0-91fe-8698-499f-9d82388e5f69",
+        "shortId": "c11",
+        "type": "component"
+      },
+      {
+        "guid": "996df272-9ee3-e4bb-5ae7-ac8eb554ea41",
+        "shortId": "s7",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b099f242-ed09-5e1f-48c2-a14509f3d3db",
+        "shortId": "c12",
+        "type": "component"
+      },
+      {
+        "guid": "bc4be889-9aad-b22a-6f38-0be1ea3a1d29",
+        "shortId": "c13",
+        "type": "component"
+      },
+      {
+        "guid": "6bfa116d-4f2d-03e5-15b3-4acf079400c5",
+        "shortId": "s8",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "7173a0e9-d33b-d640-7346-22d839ba5b5c",
+        "shortId": "c14",
+        "type": "component"
+      },
+      {
+        "guid": "216549ac-378c-3b3a-0fe6-18880b067b98",
+        "shortId": "c15",
+        "type": "component"
+      },
+      {
+        "guid": "87d0e28e-c1f9-a970-3c6f-49fc7c42a5ba",
+        "shortId": "s9",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a89911db-eb5b-02c0-e306-3e82be3a5e6d",
+        "shortId": "c16",
+        "type": "component"
+      },
+      {
+        "guid": "8b1699dc-f765-74af-0fef-5849560436a7",
+        "shortId": "c17",
+        "type": "component"
+      },
+      {
+        "guid": "871d0f81-1569-91e3-d955-9dcef299d8b4",
+        "shortId": "s10",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9941db45-7c9b-eaad-e2a0-792989663bff",
+        "shortId": "c18",
+        "type": "component"
+      },
+      {
+        "guid": "1b461654-c2df-ee08-cd1c-0418aaa80560",
+        "shortId": "c19",
+        "type": "component"
+      },
+      {
+        "guid": "26a7649f-2c74-2495-3f06-75a3e4a2aeda",
+        "shortId": "s11",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "02240569-fb98-2af8-d0db-f0977db9b92e",
+        "shortId": "c20",
+        "type": "component"
+      },
+      {
+        "guid": "a0ffd03d-c5eb-6322-38a2-8b27327833f8",
+        "shortId": "c21",
+        "type": "component"
+      },
+      {
+        "guid": "a92e3edd-1922-f05c-e728-1558d2faa7dc",
+        "shortId": "s12",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "af1097a9-2107-aef9-3430-acca7c1fca68",
+        "shortId": "c22",
+        "type": "component"
+      },
+      {
+        "guid": "a305883c-b64f-cffe-338b-4958bf9fb4da",
+        "shortId": "c23",
+        "type": "component"
+      },
+      {
+        "guid": "600b6139-c1dc-0fdd-b881-176853d34b4a",
+        "shortId": "s13",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d40fadea-d902-a91d-6c63-67149ba0f051",
+        "shortId": "c24",
+        "type": "component"
+      },
+      {
+        "guid": "17148706-c604-b9a5-aa3b-7e5d4468d85e",
+        "shortId": "c25",
+        "type": "component"
+      },
+      {
+        "guid": "bf8c75b6-2b89-327e-ed4b-20af74e181d8",
+        "shortId": "s14",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "805c47f1-cc63-5909-08aa-12b36700eb78",
+        "shortId": "c26",
+        "type": "component"
+      },
+      {
+        "guid": "482ad602-653f-6ee0-90c2-d35dc7dc4377",
+        "shortId": "c27",
+        "type": "component"
+      },
+      {
+        "guid": "73e1206d-19fb-ba77-7490-6d6919b82802",
+        "shortId": "s15",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "02d51dd9-a015-39d2-4c3b-1348b234f4aa",
+        "shortId": "c28",
+        "type": "component"
+      },
+      {
+        "guid": "dd5a1e07-7ff7-d9bf-0c1c-6ee884f6c3cf",
+        "shortId": "c29",
+        "type": "component"
+      },
+      {
+        "guid": "08ca37f7-66e9-349e-4804-98323de0edc7",
+        "shortId": "s16",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b2b691e9-92fb-7e56-7e6e-c0ef2ed20bb0",
+        "shortId": "c30",
+        "type": "component"
+      },
+      {
+        "guid": "8b3f9123-e27b-5171-f859-f470a7fe1047",
+        "shortId": "c31",
+        "type": "component"
+      },
+      {
+        "guid": "dd882d4d-eec7-2835-16aa-bb28db0b8342",
+        "shortId": "s17",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "3670cd0f-7bf4-2fda-4de3-33104b86c02d",
+        "shortId": "c32",
+        "type": "component"
+      },
+      {
+        "guid": "5f265168-2847-7c75-8293-203716d4aab4",
+        "shortId": "c33",
+        "type": "component"
+      },
+      {
+        "guid": "8c6bf5ae-e5a8-c68a-6de1-24dcefedf742",
+        "shortId": "s18",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "37cf54bf-323a-dfa0-603b-c03c80651d75",
+        "shortId": "c34",
+        "type": "component"
+      },
+      {
+        "guid": "500d020f-670f-268c-f9df-854c42535eff",
+        "shortId": "c35",
+        "type": "component"
+      },
+      {
+        "guid": "fcc9995b-3af0-7c14-7773-8dc516f1f323",
+        "shortId": "s19",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "abd8d8e6-932f-0724-5ed5-dc389e4a114c",
+        "shortId": "c36",
+        "type": "component"
+      },
+      {
+        "guid": "39b85638-7514-4348-6488-d2f6a9dd96fb",
+        "shortId": "c37",
+        "type": "component"
+      },
+      {
+        "guid": "60964976-3c7a-4f8c-54cf-9fcb4beb06bc",
+        "shortId": "s20",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b2998648-deac-c0f6-15d7-666610f49907",
+        "shortId": "c38",
+        "type": "component"
+      },
+      {
+        "guid": "3209ea90-a764-3f7f-d355-e62ee47d2c1f",
+        "shortId": "c39",
+        "type": "component"
+      },
+      {
+        "guid": "79f29a79-6278-fa2b-6107-5970d5368dd7",
+        "shortId": "s21",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "10bd3bde-a54f-2dcb-c07b-fa4c1519d07a",
+        "shortId": "c40",
+        "type": "component"
+      },
+      {
+        "guid": "15308e50-5760-70e2-dad3-2acb5f60d0a6",
+        "shortId": "c41",
+        "type": "component"
+      },
+      {
+        "guid": "1dafb756-49e0-168b-4593-2685a003716c",
+        "shortId": "s22",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9596e474-b9e5-9b86-abba-87fc35fccc00",
+        "shortId": "c42",
+        "type": "component"
+      },
+      {
+        "guid": "0c251923-79d0-374d-f0c3-c0b38374fd00",
+        "shortId": "c43",
+        "type": "component"
+      },
+      {
+        "guid": "8aeec554-184f-3395-9f58-8890793031e9",
+        "shortId": "s23",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "2fd0d52a-1fa5-e673-e233-7c576fa80db9",
+        "shortId": "c44",
+        "type": "component"
+      },
+      {
+        "guid": "3ff5078b-24c3-e4eb-4308-f40337ba95d2",
+        "shortId": "c45",
+        "type": "component"
+      },
+      {
+        "guid": "506836f2-cea8-c325-3731-847611fcf1b3",
+        "shortId": "s24",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4395f62f-8a06-7808-4347-d7d120f1541a",
+        "shortId": "c46",
+        "type": "component"
+      },
+      {
+        "guid": "861ca247-81e0-667e-c85a-1c230a102b52",
+        "shortId": "c47",
+        "type": "component"
+      },
+      {
+        "guid": "8a623fd9-9859-5cad-eae6-e2bcfc47287d",
+        "shortId": "s25",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "88d8db69-15b6-9d2f-8f73-e062f8258428",
+        "shortId": "c48",
+        "type": "component"
+      },
+      {
+        "guid": "31df4eba-6635-86b8-b825-17a08efee998",
+        "shortId": "c49",
+        "type": "component"
+      },
+      {
+        "guid": "ba47b5ed-4561-eed1-af0d-0bee255a72a6",
+        "shortId": "s26",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a7221795-2e6e-010a-80bc-5d7df677f89d",
+        "shortId": "c50",
+        "type": "component"
+      },
+      {
+        "guid": "08508703-28c3-e157-0c4e-4813f08dd61e",
+        "shortId": "c51",
+        "type": "component"
+      },
+      {
+        "guid": "c50d1f47-c0f8-a30e-1176-cf7683a907a1",
+        "shortId": "s27",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9f3d1cda-7e12-59d2-c4f0-26dc4f4e3e82",
+        "shortId": "c52",
+        "type": "component"
+      },
+      {
+        "guid": "42d24d49-4111-6c31-f612-8315ce29cd5b",
+        "shortId": "c53",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-0000000000c0",
+        "shortId": "r42",
+        "type": "resource"
+      },
+      {
+        "guid": "8f05b877-e3a2-2a0d-462d-427ab462c4f1",
+        "shortId": "s28",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1a31b2fa-f9de-9cf2-551a-bb5a355064bc",
+        "shortId": "c54",
+        "type": "component"
+      },
+      {
+        "guid": "3c5d2a28-3748-5c07-41bd-8c9ef3bd474f",
+        "shortId": "s29",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "9d2e0a57-4d1c-ea88-0894-90b3dd7460c9",
+        "shortId": "c55",
+        "type": "component"
+      },
+      {
+        "guid": "3695b106-e296-da07-750e-013b38871a56",
+        "shortId": "c56",
+        "type": "component"
+      },
+      {
+        "guid": "8d3471e4-31d1-5d78-9219-73398b4149a3",
+        "shortId": "s30",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a510c60b-3bcb-c8fd-750a-fbe155b357f4",
+        "shortId": "c57",
+        "type": "component"
+      },
+      {
+        "guid": "f13a214a-4555-1dd7-55f2-bc6a7854eacb",
+        "shortId": "c58",
+        "type": "component"
+      },
+      {
+        "guid": "6c559fe5-6a00-22ba-fe22-36babcd21b75",
+        "shortId": "r43",
+        "type": "resource"
+      },
+      {
+        "guid": "d730c929-5de1-6ee9-3f61-445606263f6d",
+        "shortId": "r44",
+        "type": "resource"
+      },
+      {
+        "guid": "6ad418b7-56d5-da11-961e-3e2c4fc0c4ce",
+        "shortId": "r45",
+        "type": "resource"
+      },
+      {
+        "guid": "ab310b24-1208-d7b1-c549-5727b873ee21",
+        "shortId": "r46",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000009",
+        "shortId": "r47",
+        "type": "resource"
+      },
+      {
+        "guid": "7c272df8-b6a5-e7df-d54f-cb630a00885c",
+        "shortId": "r48",
+        "type": "resource"
+      },
+      {
+        "guid": "5ac87ef2-a72b-c8e9-b362-f6e6e8a80186",
+        "shortId": "r49",
+        "type": "resource"
+      },
+      {
+        "guid": "b5eda11e-f5b3-9eb9-a375-67b17c9d0d28",
+        "shortId": "r50",
+        "type": "resource"
+      },
+      {
+        "guid": "ccf7a66f-8f18-407f-b841-12d543517cb2",
+        "shortId": "r51",
+        "type": "resource"
+      },
+      {
+        "guid": "1b63bd65-934f-5bb9-e05f-7914110a152f",
+        "shortId": "r52",
+        "type": "resource"
+      },
+      {
+        "guid": "fceb70b4-ef26-1c6f-a5b4-4a97116c93dd",
+        "shortId": "r53",
+        "type": "resource"
+      },
+      {
+        "guid": "53047abb-0359-a02e-0572-3c69a5da8244",
+        "shortId": "r54",
+        "type": "resource"
+      },
+      {
+        "guid": "652c0e30-2c61-eef4-37a9-da4ae416901d",
+        "shortId": "r55",
+        "type": "resource"
+      },
+      {
+        "guid": "dd4c7ea9-afa5-1b25-ad59-26c52b903d0a",
+        "shortId": "r56",
+        "type": "resource"
+      },
+      {
+        "guid": "7396e319-ba38-7652-2591-3d8551e72783",
+        "shortId": "r57",
+        "type": "resource"
+      },
+      {
+        "guid": "9604ea47-8d26-060e-4bbd-8547947ae32c",
+        "shortId": "r58",
+        "type": "resource"
+      },
+      {
+        "guid": "87bddb68-c306-439d-4111-7263357dccd4",
+        "shortId": "r59",
+        "type": "resource"
+      },
+      {
+        "guid": "47832019-4f85-19eb-ada3-b3ccebb3aca7",
+        "shortId": "r60",
+        "type": "resource"
+      },
+      {
+        "guid": "75501823-8312-476a-ef5b-cc0968899c9a",
+        "shortId": "r61",
+        "type": "resource"
+      },
+      {
+        "guid": "c21611e9-c6dc-d54e-6b00-b4992aae3934",
+        "shortId": "r62",
+        "type": "resource"
+      },
+      {
+        "guid": "b096f813-b4eb-3e54-b3cf-00a1d2c557ae",
+        "shortId": "r63",
+        "type": "resource"
+      },
+      {
+        "guid": "19bd530a-c39e-9996-a53f-ea112cce8243",
+        "shortId": "r64",
+        "type": "resource"
+      },
+      {
+        "guid": "835916ea-add4-3e6e-901f-f5b391ba8af2",
+        "shortId": "r65",
+        "type": "resource"
+      },
+      {
+        "guid": "e46edc29-2a22-1f80-858e-d8f0334e1a39",
+        "shortId": "r66",
+        "type": "resource"
+      },
+      {
+        "guid": "9e5dabdd-65dc-1af8-d241-f4d3ff52a3c5",
+        "shortId": "r67",
+        "type": "resource"
+      },
+      {
+        "guid": "4daabc0c-06b2-a874-0a85-a0ed7d052c7c",
+        "shortId": "r68",
+        "type": "resource"
+      },
+      {
+        "guid": "ff3f5b56-bbcb-1997-e6b9-a7038866179e",
+        "shortId": "r69",
+        "type": "resource"
+      },
+      {
+        "guid": "8c5588a1-05f1-08e6-a18f-4c409b8a0d32",
+        "shortId": "r70",
+        "type": "resource"
+      },
+      {
+        "guid": "73b4337c-8f6e-f432-6f93-ffd7d4a893d0",
+        "shortId": "r71",
+        "type": "resource"
+      },
+      {
+        "guid": "4fc1c432-2197-f8bc-0280-c90efd2947c1",
+        "shortId": "r72",
+        "type": "resource"
+      },
+      {
+        "guid": "0b5ef8d6-46ae-4707-55bc-7d3e81e6c653",
+        "shortId": "r73",
+        "type": "resource"
+      },
+      {
+        "guid": "58f440e0-e7bb-8361-c793-b689307dfe0f",
+        "shortId": "r74",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000132",
+        "shortId": "r75",
+        "type": "resource"
+      },
+      {
+        "guid": "55fc965d-27a4-1529-0261-ccb59ee6e461",
+        "shortId": "r76",
+        "type": "resource"
+      },
+      {
+        "guid": "0fc4ab34-f7b1-5a6c-cd36-545821e89e57",
+        "shortId": "r77",
+        "type": "resource"
+      },
+      {
+        "guid": "51cc635f-9cc0-7ce5-f9b3-d72b435b9b3d",
+        "shortId": "r78",
+        "type": "resource"
+      },
+      {
+        "guid": "ecfacc94-8cf9-a675-7a47-d9b75ad4cbcd",
+        "shortId": "r79",
+        "type": "resource"
+      },
+      {
+        "guid": "756e5619-5372-595f-da30-13ee560ebbc5",
+        "shortId": "r80",
+        "type": "resource"
+      },
+      {
+        "guid": "d6fb159c-0aa6-41d6-fa53-2f51b89b7399",
+        "shortId": "r81",
+        "type": "resource"
+      },
+      {
+        "guid": "e9fa5edb-b2e2-a2df-efb8-af306225ed07",
+        "shortId": "r82",
+        "type": "resource"
+      },
+      {
+        "guid": "df3ccccf-b4d6-6d89-b928-5aad09267159",
+        "shortId": "r83",
+        "type": "resource"
+      },
+      {
+        "guid": "93644ca9-59a8-b581-d837-5077dcb79f40",
+        "shortId": "r84",
+        "type": "resource"
+      },
+      {
+        "guid": "d9a4cc26-1cdd-4775-32f7-2b08187c4f34",
+        "shortId": "r85",
+        "type": "resource"
+      },
+      {
+        "guid": "d50faeff-7337-bf80-0345-a8345652991c",
+        "shortId": "r86",
+        "type": "resource"
+      },
+      {
+        "guid": "feb5163a-8a8f-721a-3d67-e35cd2cff7db",
+        "shortId": "r87",
+        "type": "resource"
+      },
+      {
+        "guid": "492ca78e-ebdb-7ff8-2fec-2ca237299ecc",
+        "shortId": "r88",
+        "type": "resource"
+      },
+      {
+        "guid": "50f2c26f-9916-9ab7-61d3-8bba04489f3a",
+        "shortId": "r89",
+        "type": "resource"
+      },
+      {
+        "guid": "41069399-b736-ea7b-aa3c-277d781a0dbc",
+        "shortId": "r90",
+        "type": "resource"
+      },
+      {
+        "guid": "e0a8614e-44b8-2035-b9fe-5d3be68baa49",
+        "shortId": "r91",
+        "type": "resource"
+      },
+      {
+        "guid": "9e6b81eb-8d66-7ac5-59f3-b1cc819213e2",
+        "shortId": "r92",
+        "type": "resource"
+      },
+      {
+        "guid": "9c7ef734-1a78-7703-0a2c-4d3dc901a3aa",
+        "shortId": "r93",
+        "type": "resource"
+      },
+      {
+        "guid": "0c85d55b-177b-e30b-f18a-cc25e84df4cb",
+        "shortId": "r94",
+        "type": "resource"
+      },
+      {
+        "guid": "5f12daf4-1b4b-8e1a-c74e-4c99d0cbdebc",
+        "shortId": "r95",
+        "type": "resource"
+      },
+      {
+        "guid": "a4ca93ae-ee96-2923-6e6f-585f0a46d13d",
+        "shortId": "r96",
+        "type": "resource"
+      },
+      {
+        "guid": "6d5adf9f-f6a9-62fd-c7ea-2c0b4070f55f",
+        "shortId": "r97",
+        "type": "resource"
+      },
+      {
+        "guid": "978586a9-2483-b99d-86e9-804e36cbb1c4",
+        "shortId": "r98",
+        "type": "resource"
+      },
+      {
+        "guid": "f0c5bc38-7e64-a66c-1b55-85c2f11a29a4",
+        "shortId": "r99",
+        "type": "resource"
+      },
+      {
+        "guid": "b8dcd202-addc-e172-74fa-39e9ea78253e",
+        "shortId": "r100",
+        "type": "resource"
+      },
+      {
+        "guid": "de6fbdef-6d67-2d75-f69a-9258ee3a504a",
+        "shortId": "r101",
+        "type": "resource"
+      },
+      {
+        "guid": "17ed6a88-050c-cd11-df3b-e115b306e55e",
+        "shortId": "r102",
+        "type": "resource"
+      },
+      {
+        "guid": "0302e308-5da6-a567-da58-eb17215b830b",
+        "shortId": "r103",
+        "type": "resource"
+      },
+      {
+        "guid": "77f82024-8dfc-6cf6-4917-b13859ede673",
+        "shortId": "r104",
+        "type": "resource"
+      },
+      {
+        "guid": "f0c9cdcf-e906-363c-c007-3644370eca3d",
+        "shortId": "r105",
+        "type": "resource"
+      },
+      {
+        "guid": "a125e773-f3b3-78a1-de4f-8dbb920901ce",
+        "shortId": "r106",
+        "type": "resource"
+      },
+      {
+        "guid": "2121acab-f590-d94d-e828-5c1c44fcf11c",
+        "shortId": "r107",
+        "type": "resource"
+      },
+      {
+        "guid": "cbcd5ef5-10d8-66e3-542d-85d91d3a7ff0",
+        "shortId": "r108",
+        "type": "resource"
+      },
+      {
+        "guid": "b4cca441-47af-42dc-fbc5-9d4c9ade7ffe",
+        "shortId": "r109",
+        "type": "resource"
+      },
+      {
+        "guid": "a22c3f0a-cf66-dfe4-cedb-7f1ae77df2e4",
+        "shortId": "s31",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "94428590-8b42-7cc4-6877-7117532b4f22",
+        "shortId": "c59",
+        "type": "component"
+      },
+      {
+        "guid": "ace6cdd5-8268-e2f8-49a4-c677cf8772aa",
+        "shortId": "c60",
+        "type": "component"
+      },
+      {
+        "guid": "4ced672c-805c-6cfa-9f66-90ae3a79c12f",
+        "shortId": "s32",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "97f184e2-f6bf-e31a-febb-1a67311118bd",
+        "shortId": "c61",
+        "type": "component"
+      },
+      {
+        "guid": "b42640a3-efac-f6e8-2e22-d4f591741a5e",
+        "shortId": "c62",
+        "type": "component"
+      },
+      {
+        "guid": "1b9237ff-b406-670e-d317-276084abe70f",
+        "shortId": "s33",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4c8f9ba7-ffe4-590d-5063-a22a45fa3ca8",
+        "shortId": "c63",
+        "type": "component"
+      },
+      {
+        "guid": "f68550fa-0688-a365-ead7-7418496cba7f",
+        "shortId": "c64",
+        "type": "component"
+      },
+      {
+        "guid": "a9bb14a0-e75a-e342-faf6-f0c0818c06ee",
+        "shortId": "s34",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "c016dd91-ea80-18df-7a42-9fe2ead6df68",
+        "shortId": "c65",
+        "type": "component"
+      },
+      {
+        "guid": "698e242a-fbad-0f5c-16bc-c99f18bb42d1",
+        "shortId": "c66",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000006b",
+        "shortId": "r110",
+        "type": "resource"
+      },
+      {
+        "guid": "a4300dd8-0ea7-48ae-38dd-ed24df6a569b",
+        "shortId": "r111",
+        "type": "resource"
+      },
+      {
+        "guid": "cd9e95fe-1f70-bb27-9df9-46888244472a",
+        "shortId": "s35",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d12ba6ba-bcbd-86f0-9a2d-1b49d10bfa61",
+        "shortId": "c67",
+        "type": "component"
+      },
+      {
+        "guid": "819c17c9-6859-8bae-7d7c-c51e99f304ae",
+        "shortId": "c68",
+        "type": "component"
+      },
+      {
+        "guid": "5b4c92cf-bf44-0244-5718-5b74414b045e",
+        "shortId": "r112",
+        "type": "resource"
+      },
+      {
+        "guid": "7124c6d7-bff4-ded0-4a26-5487adf4e48a",
+        "shortId": "r113",
+        "type": "resource"
+      },
+      {
+        "guid": "38612fcd-2bbc-98eb-720f-fd486ddda7c1",
+        "shortId": "s36",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d4c6849f-b6d0-b431-84e2-5e624bceeb21",
+        "shortId": "c69",
+        "type": "component"
+      },
+      {
+        "guid": "173202ac-ad4a-c2e5-e7e7-a0d1fbf0d5e2",
+        "shortId": "c70",
+        "type": "component"
+      },
+      {
+        "guid": "9ed0aaf3-e885-8b9c-e4aa-9d94a4e3d7ef",
+        "shortId": "r114",
+        "type": "resource"
+      },
+      {
+        "guid": "8ec624ac-8b87-8382-e36e-828ae17c1c06",
+        "shortId": "s37",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "02b8082b-eb75-e717-49a5-d16b5362fb9c",
+        "shortId": "c71",
+        "type": "component"
+      },
+      {
+        "guid": "9eb0f4ec-31f5-1e2b-94ef-41a3f01056a1",
+        "shortId": "c72",
+        "type": "component"
+      },
+      {
+        "guid": "8f31548b-d7a8-fbdf-4335-6a7518a48295",
+        "shortId": "r115",
+        "type": "resource"
+      },
+      {
+        "guid": "25558c0c-8a57-2830-e026-e7aa9764ab20",
+        "shortId": "s38",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "97e76147-4683-31f2-5d80-8c6ee386c17e",
+        "shortId": "c73",
+        "type": "component"
+      },
+      {
+        "guid": "f8112e8b-4d33-5c92-2e0f-7107e7e426dd",
+        "shortId": "c74",
+        "type": "component"
+      },
+      {
+        "guid": "da58f98c-e4ef-9d6a-4d5c-4d0e9f11a368",
+        "shortId": "s39",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "94ba152b-4c40-fc5e-7be7-2cac4d1ac336",
+        "shortId": "c75",
+        "type": "component"
+      },
+      {
+        "guid": "6505bd41-0a74-c190-d189-e7ec1bf0e129",
+        "shortId": "c76",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000001543",
+        "shortId": "r116",
+        "type": "resource"
+      },
+      {
+        "guid": "04d05b7a-941d-4acc-d258-276ae91e128b",
+        "shortId": "s40",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e4928e58-3756-a6bb-7a9d-039e695b1c71",
+        "shortId": "c77",
+        "type": "component"
+      },
+      {
+        "guid": "4707cf7e-811e-aa86-adc1-e870586053ab",
+        "shortId": "c78",
+        "type": "component"
+      },
+      {
+        "guid": "c145f9e9-c9e1-c8aa-507c-ecdc31cf8608",
+        "shortId": "r117",
+        "type": "resource"
+      }
+    ],
+    "counters": {
+      "sceneObject": 40,
+      "component": 78,
+      "resource": 117
+    }
+  }
+}

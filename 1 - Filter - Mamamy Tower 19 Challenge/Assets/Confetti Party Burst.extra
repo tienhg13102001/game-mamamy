@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "4a86acc8-6978-edd1-121c-1078789b9bd7",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Confetti Party Burst",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

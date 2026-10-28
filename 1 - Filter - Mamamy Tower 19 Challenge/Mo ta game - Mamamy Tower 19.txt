@@ -1,0 +1,75 @@
+MAMAMY TOWER 19 CHALLENGE - MÔ TẢ GAME
+(Effect 2 - Game xếp sản phẩm)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Xếp chồng sản phẩm Mamamy càng cao càng tốt, chơi liên tục cho tới khi
+tháp đổ. Cố vượt điểm cao nhất (BEST).
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn đầu chỉ có nút RECORD TO PLAY. Bấm quay (Record) để bắt đầu.
+- Gắp màu trắng ở phía trên chạy qua chạy lại, giữ một sản phẩm.
+- Chạm vào màn hình để thả. Sản phẩm rơi thẳng xuống và chồng lên tháp.
+- Góc trên bên trái: ô FLOOR (số tầng đang xếp) và ô BEST (điểm cao nhất).
+- Ô hồng góc trên bên phải cho biết sản phẩm tiếp theo.
+- Thứ tự sản phẩm:
+    1. Khăn ướt Tropical
+    2. Khăn khô Tropical
+    3. Các sản phẩm còn lại, mỗi món 1 lần, thứ tự ngẫu nhiên
+       (món hẹp và món rộng xen kẽ nhau)
+    4. Khiên 19 (món thứ 12)
+    5. Sau đó các sản phẩm tiếp tục ra ngẫu nhiên, không giới hạn.
+- Càng lên cao gắp chạy càng nhanh nên càng khó canh.
+- Tháp cao lên thì đung đưa qua lại. Đây chỉ là hiệu ứng, KHÔNG làm tháp đổ.
+- Tháp tự trượt xuống khi cao lên để luôn thấy chỗ thả.
+
+==================================================
+3. KHIÊN 19
+==================================================
+- Khiên 19 ra 1 lần mỗi lượt chơi: là món thứ 12, HOẶC ra ngay khi số tầng
+  vượt BEST của lượt trước (cái nào tới trước).
+- Đặt được khiên lên tháp: logo MEGA MAMAMY 19 bật lên giữa màn hình, lắc nhẹ
+  khoảng 3 giây kèm pháo giấy, rồi thu nhỏ biến mất.
+- Sau đó người chơi tiếp tục thả sản phẩm cho tới khi tháp đổ.
+
+==================================================
+4. KHI NÀO THÁP ĐỔ
+==================================================
+(1) THẢ LỆCH QUÁ: sản phẩm mới phải đè lên sản phẩm bên dưới ít nhất 25%
+    bề ngang. Món to đặt lên món nhỏ thì tâm món to phải nằm trên món nhỏ.
+    Không đạt -> sản phẩm lật ra và kéo cả tháp đổ theo.
+(2) THÁP MẤT CÂN BẰNG: thả lệch cùng một phía liên tục làm trọng tâm dồn
+    về một bên -> tháp nghiêng và đổ. Lệch trái rồi lệch phải bù lại thì
+    tháp vẫn đứng vững.
+(3) THẢ TRƯỢT: sản phẩm rơi ra ngoài, không trúng tháp.
+
+Khi đổ: cả tòa tháp sập từ trên xuống như domino.
+
+==================================================
+5. MÀN KẾT QUẢ
+==================================================
+(Giống màn cuối của Effect 1)
+- Toàn khung hình phủ lớp đen mờ (~25%).
+- Logo MEGA MAMAMY 19 (có dòng thời gian khuyến mãi) nằm thấp ngang ngực,
+  có quầng sáng trắng mềm xung quanh.
+- Ngay dưới logo là một dải điểm 1 hàng: FLOOR (số tầng của lượt này, đếm
+  lên) và BEST (điểm cao nhất). Dải này nằm trên vùng nút quay của TikTok
+  nên không bị che.
+- PHÁ BEST (vượt điểm cao nhất của các lượt trước): logo bung ra rồi lắc nhẹ,
+  có pháo giấy.
+- THUA (không phá BEST): logo rơi xuống, không có pháo giấy.
+  (Lượt chơi đầu tiên chưa có BEST để phá nên tính là thua thường.)
+- Khoảng 4 giây sau tự động chơi lại từ đầu (không cần quay lại video).
+  Chạm màn hình thì chơi lại sớm hơn.
+- BEST giữ nguyên qua các lượt trong cùng một lần mở effect.
+
+==================================================
+6. MẸO CHƠI
+==================================================
+- Canh sản phẩm nằm ngay giữa tầng bên dưới rồi mới chạm.
+- Nếu lỡ thả lệch về một bên, lần sau nên thả hơi lệch về bên kia để
+  kéo trọng tâm về lại giữa.
+- Món rộng (khăn, gói nước giặt) đặt lên món hẹp (chai) dễ đổ hơn.

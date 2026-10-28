@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "e6999e8b-0c43-9949-0096-6340f5442c35",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "label_floor",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/text/label_floor.png",
+    "references": []
+  }
+]

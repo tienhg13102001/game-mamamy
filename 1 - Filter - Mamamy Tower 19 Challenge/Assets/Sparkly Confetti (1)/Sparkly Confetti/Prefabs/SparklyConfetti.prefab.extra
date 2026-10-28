@@ -1,0 +1,249 @@
+[
+  {
+    "guid": {
+      "a": "c4f5b7d5-0476-2267-155a-c639b46ee068",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "SparklyConfetti",
+    "version": "1.0.3",
+    "rttiType": "Prefab",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "relatedResourceGuids": [
+      "00000000-0000-0000-0000-000000000009",
+      "d6a8fb34-5c99-b9b2-292c-e75cc72af892",
+      "ef9359bc-eacc-8830-2177-65c361f0ca7f",
+      "3bf6fe6f-0962-6b0f-6612-8a7a1b70b9dd"
+    ],
+    "relatedPrefabResourceGuids": [],
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Library/Application Support/EffectHouse/Instances/Instance1/EHpackage/7571627997313269776/Sparkly Confetti/Prefabs/SparklyConfetti.prefab",
+    "references": [
+      {
+        "guid": "00000000-0000-0000-0000-000000000009",
+        "propertyName": "0"
+      },
+      {
+        "guid": "d6a8fb34-5c99-b9b2-292c-e75cc72af892",
+        "propertyName": "1"
+      },
+      {
+        "guid": "ef9359bc-eacc-8830-2177-65c361f0ca7f",
+        "propertyName": "2"
+      },
+      {
+        "guid": "3bf6fe6f-0962-6b0f-6612-8a7a1b70b9dd",
+        "propertyName": "3"
+      }
+    ],
+    "data": [
+      {
+        "guid": {
+          "a": "71b5bd24-f6f1-e886-612f-bd02a870226c",
+          "b": ""
+        },
+        "objGuid": "Guid(13998171735851438048, 13548571778407613832)",
+        "extraType": "Entity",
+        "name": "SparklyConfetti",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "SceneObject",
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "disableSelection": false,
+        "hiddenInHierarchy": false
+      },
+      {
+        "guid": {
+          "a": "99327592-4aa6-1283-6948-8085c842893e",
+          "b": ""
+        },
+        "objGuid": "Guid(9677290611334876677, 17906369080029926050)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "Transform",
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ],
+        "linkage": 0,
+        "expanded": true,
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0"
+      },
+      {
+        "guid": {
+          "a": "59d5b7d7-0d99-7230-6eef-76b9b048957a",
+          "b": ""
+        },
+        "objGuid": "Guid(11693579271844912287, 321983624737802144)",
+        "extraType": "ScreenTransform",
+        "name": "Screen Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "ScreenTransform",
+        "horizontalConstraint": 2,
+        "verticalConstraint": 2,
+        "linkageScale": 0,
+        "linkageSize": 0,
+        "expanded": true,
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0"
+      },
+      {
+        "guid": {
+          "a": "926e01cd-b8f5-01b9-2324-deb122996737",
+          "b": ""
+        },
+        "objGuid": "Guid(17817416616408507167, 11192719550796100487)",
+        "extraType": "ScreenTransform",
+        "name": "Screen Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "ScreenTransform",
+        "horizontalConstraint": 2,
+        "verticalConstraint": 2,
+        "linkageScale": 0,
+        "linkageSize": 0,
+        "expanded": true,
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0"
+      },
+      {
+        "guid": {
+          "a": "b778962b-0c2b-266f-edb0-ab7836ea7110",
+          "b": ""
+        },
+        "objGuid": "Guid(2471965249554221221, 15234018640377242265)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "version": "0.4.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "Camera",
+        "expanded": true,
+        "editable": true,
+        "_lazyUpgrateVersion": "0.4.0",
+        "enableMask": false,
+        "maskTexture": "00000000-0000-0000-0000-000000000802",
+        "physicalFovy": false,
+        "fov": 60,
+        "cachedInputTexture": "00000000-0000-0000-0000-00000000004b",
+        "isAnimatorBound": false
+      },
+      {
+        "guid": {
+          "a": "15e9f34b-f15e-6291-72ae-c5ed3a399e87",
+          "b": ""
+        },
+        "objGuid": "Guid(5350822139080952118, 8843155695473028756)",
+        "extraType": "Entity",
+        "name": "SparklyConfetti_Confetti",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "SceneObject",
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "disableSelection": false,
+        "hiddenInHierarchy": false
+      },
+      {
+        "guid": {
+          "a": "b9944947-b9aa-55c5-d656-e1a45391bd1f",
+          "b": ""
+        },
+        "objGuid": "Guid(3479254987035671145, 3124563991624198822)",
+        "extraType": "Image",
+        "name": "Image",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "Image",
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "segBlendMode": "Normal_v2",
+        "segRadius": 0.5,
+        "segSoftness": 0.5,
+        "blendMode": "Normal",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1,
+        "alphaNOPM": true,
+        "expanded": true,
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0"
+      },
+      {
+        "guid": {
+          "a": "cbcf27ec-04d4-7584-7891-d15c3e3f8106",
+          "b": ""
+        },
+        "objGuid": "Guid(15730513154093416266, 3088174892330814106)",
+        "extraType": "Entity",
+        "name": "SparklyConfetti_Overlay",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "SceneObject",
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "disableSelection": false,
+        "hiddenInHierarchy": false
+      },
+      {
+        "guid": {
+          "a": "d58ae659-6319-a05e-e744-e00216142a8e",
+          "b": ""
+        },
+        "objGuid": "Guid(13565203490513716131, 14766462042905886081)",
+        "extraType": "Image",
+        "name": "Image",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "rttiType": "Image",
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "segBlendMode": "Normal_v2",
+        "segRadius": 0.5,
+        "segSoftness": 0.5,
+        "blendMode": "Multiply",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1,
+        "alphaNOPM": true,
+        "expanded": true,
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

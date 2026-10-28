@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "6ad418b7-56d5-da11-961e-3e2c4fc0c4ce",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "SparklyConfetti_Confetti",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "assetPackageID": "7571627997313269776",
+    "resourceFilePath": "/Users/tiennguyen/Library/Application Support/EffectHouse/Instances/Instance1/EHpackage/7571627997313269776/Sparkly Confetti/Animated Textures/SparklyConfetti_Confetti.animTex",
+    "references": [
+      {
+        "guid": "d730c929-5de1-6ee9-3f61-445606263f6d",
+        "propertyName": "textureSequence"
+      }
+    ]
+  }
+]

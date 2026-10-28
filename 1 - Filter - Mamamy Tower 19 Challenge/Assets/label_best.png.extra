@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "40a6bf0d-82d6-d6b9-8323-2bc20b63d1fa",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "label_best",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/text/label_best.png",
+    "references": []
+  }
+]

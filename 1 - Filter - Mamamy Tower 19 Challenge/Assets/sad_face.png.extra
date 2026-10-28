@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "3163c125-d4b5-18c3-ddf7-10275d16e40e",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "sad_face",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/ui/sad_face.png",
+    "references": []
+  }
+]

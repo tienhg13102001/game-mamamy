@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "0b1c6e72-8043-ef53-18c3-9f8293c3ce02",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "khan_uot_do",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/sprites/khan_uot_do.png",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "ee835844-7d8f-a455-cfb4-4a577123d144",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "ui_badge_brand",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/ui/ui_badge_brand.png",
+    "references": []
+  }
+]

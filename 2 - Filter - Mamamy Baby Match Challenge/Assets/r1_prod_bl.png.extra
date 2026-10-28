@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "41069399-b736-ea7b-aa3c-277d781a0dbc",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "r1_prod_bl",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/2 - Filter - Mamamy Baby Match Challenge/Build/sbd1/r1_prod_bl.png",
+    "references": []
+  }
+]

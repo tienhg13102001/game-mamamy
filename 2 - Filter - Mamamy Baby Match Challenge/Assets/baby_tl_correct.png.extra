@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "b7ea98dd-3da5-8a4d-e169-34b513950f27",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "baby_tl_correct",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 1/Build/sprites/baby_tl_correct.png",
+    "references": []
+  }
+]

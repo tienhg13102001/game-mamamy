@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "0d662435-8196-e551-4680-3c8c9d24f492",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "PlayAgainButton",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/var/folders/qc/08x7mtd91x392rw1c1kzzgnc0000gp/T/tteh-aigc/73cc08f5/PlayAgainButton.png",
+    "references": []
+  }
+]

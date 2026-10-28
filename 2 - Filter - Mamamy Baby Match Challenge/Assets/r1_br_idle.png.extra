@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "d9a4cc26-1cdd-4775-32f7-2b08187c4f34",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "r1_br_idle",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/2 - Filter - Mamamy Baby Match Challenge/Build/sbd1/r1_br_idle.png",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "bcf0ea65-914d-ce50-298f-6f4fa294d64f",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "baby_tl_idle",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 1/Build/sprites/baby_tl_idle.png",
+    "references": []
+  }
+]

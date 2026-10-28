@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "46acfc51-86e6-4a7e-188f-41e4459cec46",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "khan_kho_baby_mom",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/1 - Filter - Mamamy Tower 19 Challenge/Tools/khan_kho_baby_mom.png",
+    "references": []
+  }
+]

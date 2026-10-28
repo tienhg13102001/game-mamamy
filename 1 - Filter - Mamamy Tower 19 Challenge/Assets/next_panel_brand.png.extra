@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "1329cc36-e20e-48de-300b-f5fde2a29ced",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "next_panel_brand",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/ui/next_panel_brand.png",
+    "references": []
+  }
+]

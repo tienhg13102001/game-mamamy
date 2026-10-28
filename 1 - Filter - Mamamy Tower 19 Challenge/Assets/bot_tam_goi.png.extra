@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "12290a27-f5c7-d1e0-be21-eef3390c8c95",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "bot_tam_goi",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/sprites/bot_tam_goi.png",
+    "references": []
+  }
+]

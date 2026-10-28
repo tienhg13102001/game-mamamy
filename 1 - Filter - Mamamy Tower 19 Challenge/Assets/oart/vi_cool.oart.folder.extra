@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "1d4a4721-d91a-9f3c-b3eb-d1fe6207677e",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "vi_cool.oart",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

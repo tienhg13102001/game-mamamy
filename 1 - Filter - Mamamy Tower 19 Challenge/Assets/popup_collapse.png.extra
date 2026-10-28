@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "52d06924-73f6-31d5-a13d-7f2c9fa4f2c0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "popup_collapse",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/text/popup_collapse.png",
+    "references": []
+  }
+]

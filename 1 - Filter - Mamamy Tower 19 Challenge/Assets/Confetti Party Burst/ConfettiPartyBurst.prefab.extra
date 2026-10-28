@@ -1,0 +1,141 @@
+[
+  {
+    "guid": {
+      "a": "55838f2b-dbe9-e4d2-39c0-2e4cccf64a0e",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "ConfettiPartyBurst",
+    "version": "1.0.3",
+    "rttiType": "Prefab",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "relatedResourceGuids": [
+      "907dc125-6f3a-0aad-66f1-f5da784562d2"
+    ],
+    "relatedPrefabResourceGuids": [],
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Library/Application Support/EffectHouse/Instances/Instance1/EHpackage/7405500785988993041/ConfettiPartyBurst.prefab",
+    "references": [
+      {
+        "guid": "907dc125-6f3a-0aad-66f1-f5da784562d2",
+        "propertyName": "0"
+      }
+    ],
+    "data": [
+      {
+        "guid": {
+          "a": "bed9636e-e14b-8d82-d7c0-4ac5f237dc91",
+          "b": ""
+        },
+        "objGuid": "Guid(10324242875636842132, 10648595201116165561)",
+        "extraType": "Entity",
+        "name": "2D Camera",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "5386f369-37a1-c83d-3d6d-4d985a6b6e59",
+          "b": ""
+        },
+        "objGuid": "Guid(10036608016736598160, 16473883975068076988)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "881be16e-6081-e058-03da-b2f717c5caf3",
+          "b": ""
+        },
+        "objGuid": "Guid(4777397323860508286, 14855333785653157002)",
+        "extraType": "ScreenTransform",
+        "name": "Screen Transform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "ba5521a9-11b1-c484-6267-492710105095",
+          "b": ""
+        },
+        "objGuid": "Guid(16017411242637390646, 3320693244770633916)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "usage": "2D",
+        "maskTexture": {
+          "_copiedToProj": false,
+          "_guid": "00000000-0000-0000-0000-000000000802",
+          "_isVector": false,
+          "_isResItem": false
+        }
+      },
+      {
+        "guid": {
+          "a": "92428c76-3152-d447-6ed0-312faa51040c",
+          "b": ""
+        },
+        "objGuid": "Guid(8088875905508690757, 4414432100217101994)",
+        "extraType": "Entity",
+        "name": "ConfettiPartyBurst",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "e83edfee-b95b-760e-473e-2b9898381746",
+          "b": ""
+        },
+        "objGuid": "Guid(2397249712863808377, 5953350727001931450)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "blendMode": "Normal",
+        "alphaNOPM": true,
+        "texture": "907dc125-6f3a-0aad-66f1-f5da784562d2"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

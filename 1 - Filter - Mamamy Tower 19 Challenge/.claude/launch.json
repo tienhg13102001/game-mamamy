@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mamamy-tower",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "Prototype", "--bind", "0.0.0.0"],
+      "port": 8765
+    }
+  ]
+}

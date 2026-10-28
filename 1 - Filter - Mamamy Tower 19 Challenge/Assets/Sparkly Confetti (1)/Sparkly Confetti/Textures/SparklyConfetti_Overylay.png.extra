@@ -1,0 +1,33 @@
+[
+  {
+    "guid": {
+      "a": "3bf6fe6f-0962-6b0f-6612-8a7a1b70b9dd",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "SparklyConfetti_Overylay",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "assetPackageID": "7571627997313269776",
+    "resourceFilePath": "/Users/tiennguyen/Library/Application Support/EffectHouse/Instances/Instance1/EHpackage/7571627997313269776/Sparkly Confetti/Textures/SparklyConfetti_Overylay.png",
+    "references": []
+  }
+]

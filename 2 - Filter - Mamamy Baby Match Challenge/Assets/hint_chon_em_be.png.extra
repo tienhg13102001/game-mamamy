@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "8f31548b-d7a8-fbdf-4335-6a7518a48295",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "hint_chon_em_be",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/2 - Filter - Mamamy Baby Match Challenge/Build/guide/hint_chon_em_be.png",
+    "references": []
+  }
+]

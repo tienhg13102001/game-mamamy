@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "907dc125-6f3a-0aad-66f1-f5da784562d2",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "ConfettiPartyBurst_AnimationTex",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "assetPackageID": "7405500785988993041",
+    "resourceFilePath": "/Users/tiennguyen/Library/Application Support/EffectHouse/Instances/Instance1/EHpackage/7405500785988993041/Animated Textures/ConfettiPartyBurst_AnimationTex.OseqJSA",
+    "references": [
+      {
+        "guid": "9cf64af3-b3fb-e88b-6986-22086a87902d",
+        "propertyName": "textureSequence"
+      }
+    ]
+  }
+]

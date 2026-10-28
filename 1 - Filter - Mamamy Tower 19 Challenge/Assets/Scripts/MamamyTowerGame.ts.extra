@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "3b897d01-5fde-657d-4d0c-0ea2bed809c2",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "MamamyTowerGame",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

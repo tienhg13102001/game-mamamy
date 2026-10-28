@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "90a1be50-a014-6de4-77b4-13935545f346",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "popup_perfect",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game 3/Prototype/text/popup_perfect.png",
+    "references": []
+  }
+]

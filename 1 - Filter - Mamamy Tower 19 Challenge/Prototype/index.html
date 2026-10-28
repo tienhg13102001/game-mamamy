@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Mamamy Tower – bản test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; height: 100%; background: #1d1520; overflow: hidden; }
+  body { touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+  #stage { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+  canvas { display: block; background: #f3eef3; box-shadow: 0 0 40px rgba(0,0,0,.4); }
+  #tools { position: fixed; top: 8px; left: 8px; display: flex; gap: 6px; z-index: 2; font: 600 12px/1 system-ui, sans-serif; }
+  #tools button { font: inherit; padding: 7px 10px; border: 0; border-radius: 999px; background: rgba(0,0,0,.55); color: #fff; cursor: pointer; }
+  #tools button[aria-pressed="true"] { background: #e8336d; }
+  #toast { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); padding: 8px 14px; border-radius: 8px;
+           background: rgba(0,0,0,.75); color: #fff; font: 13px/1.4 system-ui, sans-serif; display: none; z-index: 3; max-width: 90vw; }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="game" width="1080" height="1920"></canvas></div>
+<div id="tools">
+  <button id="btnCam" aria-pressed="false">Camera</button>
+  <button id="btnLevel" aria-pressed="true">Độ khó</button>
+  <button id="btnPhys" aria-pressed="true">Vật lý</button>
+  <button id="btnSafe" aria-pressed="false">Vùng UI TikTok</button>
+  <button id="btnDebug" aria-pressed="false">Collider</button>
+</div>
+<div id="toast"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+<script src="items.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
