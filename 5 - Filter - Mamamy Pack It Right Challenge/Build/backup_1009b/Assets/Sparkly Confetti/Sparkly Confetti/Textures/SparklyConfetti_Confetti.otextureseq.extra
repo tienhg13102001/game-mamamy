@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "50f53466-cabc-136b-a268-2e8197d951ee",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "SparklyConfetti_Confetti",
+    "version": "0.2.0",
+    "rttiType": "TextureSequence",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "assetPackageID": "7571627997313269776",
+    "resourceFilePath": "/Users/tiennguyen/Library/Application Support/EffectHouse/Instances/Instance1/EHpackage/7571627997313269776/Sparkly Confetti/Textures/SparklyConfetti_Confetti.otextureseq",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "1979d513-b8c5-30c7-473b-f8b1cdf5abc0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "MEGA_flood_pink",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/5 - Filter - Mamamy Pack It Right Challenge/Build/sbd5/MEGA_flood_pink.png",
+    "references": []
+  }
+]

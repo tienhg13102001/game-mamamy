@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "64c9f145-d02e-a392-36b5-7ab1f03a3ebe",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "MEGA_frame",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/5 - Filter - Mamamy Pack It Right Challenge/Build/sbd5/MEGA_frame.png",
+    "references": []
+  }
+]

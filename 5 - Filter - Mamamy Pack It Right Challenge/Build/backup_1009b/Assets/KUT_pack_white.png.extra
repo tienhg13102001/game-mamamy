@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "8ad884e9-f9dc-f088-ab37-2e42ffcfc8e0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "KUT_pack_white",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/5 - Filter - Mamamy Pack It Right Challenge/Build/sbd5/KUT_pack_white.png",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "6f8cdfa7-41d0-9c92-ff16-00ae185184e9",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "KK_pack_print",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/5 - Filter - Mamamy Pack It Right Challenge/Build/sbd5/KK_pack_print.png",
+    "references": []
+  }
+]

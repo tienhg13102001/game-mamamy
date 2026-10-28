@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "8b77f42b-4aaf-33d3-9f8a-305c9dd36feb",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "BTG_flood_pattern",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/5 - Filter - Mamamy Pack It Right Challenge/Build/sbd5/BTG_flood_pattern.png",
+    "references": []
+  }
+]

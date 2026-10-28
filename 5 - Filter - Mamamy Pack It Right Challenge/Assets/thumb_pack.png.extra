@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "fb0a2e04-7280-d2b4-b179-8da14f48e56a",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "thumb_pack",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 5/Build/sprites/thumb_pack.png",
+    "references": []
+  }
+]

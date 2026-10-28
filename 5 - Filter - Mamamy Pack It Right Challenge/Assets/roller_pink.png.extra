@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "f5dcbdca-8c8c-e42d-0972-bac2a3617e39",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "roller_pink",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 5/Build/sprites/roller_pink.png",
+    "references": []
+  }
+]

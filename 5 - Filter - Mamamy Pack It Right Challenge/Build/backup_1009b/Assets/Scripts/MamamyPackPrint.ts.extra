@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "c2b1694d-1216-fb62-ecf1-1e860c43a9bc",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "MamamyPackPrint",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

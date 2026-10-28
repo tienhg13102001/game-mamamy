@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "cbdc4408-501f-06a7-fc95-9021984954f2",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Scripts",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

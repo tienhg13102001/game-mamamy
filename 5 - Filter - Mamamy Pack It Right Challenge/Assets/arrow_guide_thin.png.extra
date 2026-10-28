@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "9df526f3-45cb-bda5-c2f9-ca782e6834a4",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "arrow_guide_thin",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/5 - Filter - Mamamy Pack It Right Challenge/Build/guide/arrow_guide_thin.png",
+    "references": []
+  }
+]

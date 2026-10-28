@@ -1,0 +1,71 @@
+MAMAMY PACK IT RIGHT CHALLENGE - MÔ TẢ GAME
+(Effect 5 - In bao bì đúng thứ tự)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Dùng 3 con lăn in để in hoàn chỉnh lần lượt 7 món. Món cuối cùng là
+logo MEGA MAMAMY 19; in xong logo là chiến thắng.
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn đầu chỉ có nút RECORD TO PLAY. Bấm quay (Record) để bắt đầu.
+- Giữa màn hình là khung bao bì trống, xung quanh có 3 con lăn:
+  trái, dưới, trên.
+- Góc trên bên trái là hình món hoàn chỉnh cần in (mẫu để so).
+- Chạm vào một con lăn -> nó lăn qua bao bì và in lớp của nó lên.
+- Mỗi con lăn chỉ dùng 1 lần; mỗi món luôn được lăn đủ 3 lần, sau lần
+  thứ 3 mới chấm đúng/sai.
+
+Thứ tự đúng:
+    - Các bao bì sản phẩm: TRẮNG (trái) -> HOA VĂN / MÀU SẢN PHẨM
+      (dưới) -> HỒNG có logo (trên)
+    - Logo MEGA MAMAMY 19: TÍM (trái) -> HỒNG (trên) -> VÀNG GOLD (dưới)
+
+Con lăn in gì tùy vào lớp đang có trên bao bì:
+    - Trắng luôn phủ một lớp nền trắng mới.
+    - Hoa văn chỉ in đẹp trên nền trắng; sai nền -> lem màu ra cả bao.
+    - Hồng chỉ in logo lên bao đã in hoa văn; sai -> lem hồng cả bao.
+  Lem màu thì bao rung nhẹ, vẫn lăn tiếp cho đủ 3 lần.
+
+7 món mỗi lượt:
+    1. Khăn ướt Tropical
+    2. Khăn khô Tropical
+    3-6. Nước rửa bình sữa, nước giặt xả, bọt tắm gội, khăn ướt
+         (thứ tự ngẫu nhiên)
+    7. Logo MEGA MAMAMY 19
+
+- In đúng một món -> bao hoàn chỉnh bật lên, món tiếp theo trượt vào.
+- Không giới hạn thời gian.
+
+==================================================
+3. KHI NÀO THUA
+==================================================
+- Sau 3 lần lăn mà bao chưa hoàn chỉnh (lăn sai thứ tự) -> bao rung
+  -> THUA ngay, ở bất kỳ món nào.
+
+==================================================
+4. THẮNG
+==================================================
+In xong logo MEGA MAMAMY 19 (món thứ 7):
+- Banner MEGA MAMAMY 19 (có dòng thời gian khuyến mãi) bung ra từ khiên
+  19 trên logo vừa in.
+- Có pháo giấy.
+- Màn thắng chỉ có logo + pháo giấy, không có nút PLAY AGAIN.
+
+==================================================
+5. MÀN CUỐI KHI THUA
+==================================================
+- Bao bì mờ đi, hiện icon mặt bé buồn (lấy từ game Baby Face) + logo MEGA MAMAMY 19 (có dòng
+  thời gian) + nút PLAY AGAIN. Không bắn pháo.
+- Chạm màn hình (hoặc bấm quay lại) để chơi lại (thắng hay thua đều được).
+- Logo MEGA MAMAMY 19 chỉ hiện ở frame cuối (ngoài món thứ 7 người chơi
+  tự in). Không có chữ chèn thêm (không OOPS!...).
+
+==================================================
+6. MẸO CHƠI
+==================================================
+- Bao bì: nhớ "trắng - hoa văn - hồng" (trái - dưới - trên).
+- Riêng logo cuối thứ tự khác: "tím - hồng - vàng" (trái - trên - dưới).
+- So với hình mẫu góc trên bên trái trước khi chạm.
