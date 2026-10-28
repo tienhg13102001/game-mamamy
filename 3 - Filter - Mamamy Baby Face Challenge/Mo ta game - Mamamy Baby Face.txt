@@ -1,0 +1,78 @@
+MAMAMY BABY FACE CHALLENGE - MÔ TẢ GAME
+(Effect 4 - Làm mặt giống bé: vòng emoji xoay quanh mặt + chụp ảnh)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Làm theo biểu cảm em bé mà vòng emoji xoay quanh mặt chọn ra. Sau 3 giây
+game tự chụp lại một tấm ảnh polaroid. Chụp đủ 7 tấm (tấm cuối là khiên 19) là
+chiến thắng.
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn chờ: vòng emoji đã hiện sẵn quanh mặt (đứng yên, chưa xoay) và nút
+  RECORD TO PLAY nằm thấp ở ngang ngực, không chạm vào mặt. Bấm quay
+  (Record) để bắt đầu: vòng emoji bắt đầu xoay.
+- Điều khiển bằng KHUÔN MẶT (camera trước), không cần chạm.
+- 10 emoji (9 mặt em bé + khiên 19) xếp thành VÒNG TRÒN quanh mặt
+  người chơi và đi theo mặt (tracking). Kích thước vòng và emoji tỉ lệ
+  theo khuôn mặt: mặt gần camera thì to, mặt ở xa thì nhỏ.
+  Các emoji nhỏ vừa phải, xếp thưa, có khoảng trống giữa các emoji.
+- Vòng emoji xoay tròn, chậm dần rồi dừng ngẫu nhiên: emoji nằm ở đỉnh
+  vòng (trên đầu) là emoji được chọn. Các emoji khác thu nhỏ biến mất,
+  khung polaroid trắng hiện ra quanh mặt, emoji được chọn gắn ở mép trên
+  của khung. Khung và emoji đã được làm TO hơn: khung gần full chiều
+  ngang màn hình và CAO hơn (khung ảnh cao gần hết màn hình), để người
+  cầm máy gần vẫn lọt cả mặt vào khung. Vòng emoji quay nhanh hơn (2 giây),
+  cả ván 7 ảnh khoảng 55 giây, vừa trong 1 video quay 60 giây.
+- Ảnh ĐẦU TIÊN của ván: ngay trên emoji có chữ "LÀM MẶT THEO BIỂU CẢM" (chữ trắng đổ bóng, nhấp nhô lên xuống)
+  để hướng dẫn; từ ảnh thứ 2 trở đi không hiện chữ.
+- Người chơi làm giống biểu cảm đó. Thanh hồng ở đáy khung chạy đầy
+  trong 3 giây -> màn hình chớp sáng, game TỰ CHỤP ảnh trong khung
+  (không kiểm tra đúng/sai biểu cảm). Tấm ảnh bay lên ghim thành hàng
+  ở trên cùng màn hình; ảnh ghim giống hệt khung lúc chụp (emoji ở mép
+  trên, ảnh phủ kín khung).
+- Sau đó vòng emoji hiện lại quanh mặt và xoay tiếp.
+
+Mỗi lượt có 7 tấm ảnh:
+    - 6 biểu cảm, thứ tự xáo ngẫu nhiên mỗi lượt:
+      + 3 emoji BẮT BUỘC (máy nào cũng có): MẶT TỨC (emoji giận dữ),
+        CHU MỎ (emoji hôn tim), CƯỜI NHE RĂNG.
+      + 3 emoji ngẫu nhiên tuỳ máy, lấy từ 6 mặt còn lại: lè lưỡi,
+        ngạc nhiên (há miệng), nháy mắt, buồn, cười tươi bé gái,
+        cười tít mắt
+      (đã bỏ emoji cười nheo mắt vì trùng với emoji trên khiên tím,
+      và bỏ emoji bé gái nơ hồng cười mỉm)
+      (đổi theo feedback: mặt bình thường -> mặt tức, khóc -> chu mỏ)
+    - Tấm cuối luôn là KHIÊN 19 có emoji cười nheo mắt (thiết kế mới):
+      người chơi cười tít / nheo mắt.
+
+==================================================
+3. THẮNG
+==================================================
+- Không có thua.
+- Chụp xong tấm khiên 19:
+    + Vòng emoji, khung và hàng ảnh ghim biến mất. Lần lượt từng tấm
+      ảnh vừa chụp (7 tấm) hiện TO giữa màn hình (trong khung polaroid,
+      có emoji ở mép trên). Mỗi lần CHỚP SÁNG toàn khung hình là đổi
+      sang ảnh tiếp theo (khoảng 0,8 giây/tấm); mỗi ảnh nghiêng một góc
+      khác nhau và hiện ra kiểu GIẬT GIẬT (không chuyển mượt).
+    + Hiện xong cả 7 tấm: các ảnh nhảy vào lưới ở nửa trên màn hình
+      (4 tấm hàng trên, 3 tấm hàng dưới); khiên 19 lật, bay lên và
+      bung ra thành logo
+      MEGA MAMAMY 19 (cùng vị trí với các game khác, có quầng sáng
+      trắng phía sau).
+    + Nền phủ đen 25%. Frame cuối = lưới 7 ảnh + logo + pháo giấy.
+    + Có pháo giấy. Không có nút PLAY AGAIN.
+- Chạm màn hình (hoặc bấm quay lại) để chơi lại.
+- Logo MEGA MAMAMY 19 chỉ xuất hiện ở frame cuối. Không có chữ chèn
+  thêm.
+
+==================================================
+4. MẸO CHƠI
+==================================================
+- Để mặt ở giữa màn hình (trong khung polaroid), đủ sáng, nhìn thẳng camera.
+- Làm biểu cảm thật rõ để ảnh chụp vui hơn.
+- Nhìn thanh hồng ở đáy khung: thanh chạy đầy là chụp, giữ biểu cảm
+  tới lúc đó.

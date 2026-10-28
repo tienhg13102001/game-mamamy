@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "9e6c3dcd-6616-0390-259d-64c076963c5b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "face_tongue",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 4/Build/sprites/face_tongue.png",
+    "references": []
+  }
+]

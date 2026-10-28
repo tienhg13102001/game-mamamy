@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "c436581b-cf1b-2ac4-1ed5-554dc96af586",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Sparkly Confetti",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

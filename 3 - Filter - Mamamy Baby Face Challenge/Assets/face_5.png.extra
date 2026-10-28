@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "b02eb9f0-0c2e-c063-7f2d-8c767c4c5217",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "face_5",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/3 - Filter - Mamamy Baby Face Challenge/Build/sbd4/face_5.png",
+    "references": []
+  }
+]

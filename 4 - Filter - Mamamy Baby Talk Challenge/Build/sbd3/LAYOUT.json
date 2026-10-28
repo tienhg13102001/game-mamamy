@@ -1,0 +1,92 @@
+{
+ "gates": [
+  {
+   "key": "eat",
+   "babyX": 157.0,
+   "babyY": -466.3,
+   "band": 0.0778,
+   "accepted": "eat"
+  },
+  {
+   "key": "chew",
+   "babyX": 195.7,
+   "babyY": -447.7,
+   "band": 0.0273,
+   "accepted": "chew"
+  },
+  {
+   "key": "poo",
+   "babyX": 160.0,
+   "babyY": -464.3,
+   "band": 0.0722,
+   "accepted": "poo"
+  },
+  {
+   "key": "clap",
+   "babyX": 178.7,
+   "babyY": -454.0,
+   "band": 0.008,
+   "accepted": "clap"
+  },
+  {
+   "key": "sleep",
+   "babyX": 160.3,
+   "babyY": -464.3,
+   "band": 0.0349,
+   "accepted": "sleep,pee"
+  },
+  {
+   "key": "laugh",
+   "babyX": 152.3,
+   "babyY": -467.3,
+   "band": 0.008,
+   "accepted": "laugh,laughing"
+  },
+  {
+   "key": "cry",
+   "babyX": 166.3,
+   "babyY": -464.3,
+   "band": 0.0079,
+   "accepted": "cry"
+  },
+  {
+   "key": "hug",
+   "babyX": 166.3,
+   "babyY": -442.0,
+   "band": 0.0743,
+   "accepted": "hug"
+  },
+  {
+   "key": "pee",
+   "babyX": 167.7,
+   "babyY": -481.0,
+   "band": 0.0119,
+   "accepted": "pee"
+  },
+  {
+   "key": "nineteen",
+   "babyX": 143.0,
+   "babyY": -470.3,
+   "band": 0.0079,
+   "accepted": "nineteen"
+  }
+ ],
+ "road": {
+  "x": 0.0,
+  "y": -361.0,
+  "w": 720.0,
+  "h": 558.0
+ },
+ "logo_mega19": {
+  "x": 5.0,
+  "y": -39.3,
+  "w": 506.0,
+  "h": 213.3
+ },
+ "baby_first": {
+  "x": 192.3,
+  "y": -465.0,
+  "w": 256.7,
+  "h": 338.0
+ }
+}

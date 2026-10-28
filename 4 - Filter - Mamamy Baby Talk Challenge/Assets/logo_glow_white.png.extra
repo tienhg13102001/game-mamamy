@@ -1,0 +1,31 @@
+[
+  {
+    "guid": {
+      "a": "60144724-5f86-4537-3afa-e300bb257662",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "logo_glow_white",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "references": []
+  }
+]

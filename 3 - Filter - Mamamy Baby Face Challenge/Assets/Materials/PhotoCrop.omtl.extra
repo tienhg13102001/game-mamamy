@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "161ef922-3dd7-022c-5e6d-47442cd54f12",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "PhotoCrop",
+    "version": "0.6.0",
+    "rttiType": "Material",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      }
+    ],
+    "skinObjGuid": "Guid(7152477400570613680, 2746488329570412723)",
+    "currAuslVersion": "1.0.0"
+  }
+]

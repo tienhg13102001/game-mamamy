@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "5ce22815-e238-5c35-e524-795cb51bedad",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cardface_smile",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/3 - Filter - Mamamy Baby Face Challenge/Build/sbd4/cardface_smile.png",
+    "references": []
+  }
+]

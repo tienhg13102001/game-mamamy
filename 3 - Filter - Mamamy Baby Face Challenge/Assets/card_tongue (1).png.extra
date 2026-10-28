@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "6aa8be90-c41e-4e5f-8d86-3084cec46df6",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "card_tongue (1)",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/3 - Filter - Mamamy Baby Face Challenge/Build/sbd4/card_tongue.png",
+    "references": []
+  }
+]

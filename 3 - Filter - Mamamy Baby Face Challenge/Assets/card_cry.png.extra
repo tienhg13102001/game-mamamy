@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "438b8800-af06-cf60-5113-81eb20453bde",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "card_cry",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 4/Build/sprites/card_cry.png",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "baf49f40-3b74-6414-46ee-bd87a00a7eb0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "baby_poo",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 3/Build/sprites/baby_poo.png",
+    "references": []
+  }
+]

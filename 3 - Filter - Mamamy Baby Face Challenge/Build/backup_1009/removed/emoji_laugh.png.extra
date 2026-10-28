@@ -1,0 +1,31 @@
+[
+  {
+    "guid": {
+      "a": "fe8bff50-e48e-e5b0-f286-c48ac5053bbc",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "emoji_laugh",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "references": []
+  }
+]

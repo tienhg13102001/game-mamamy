@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "3aa43333-8715-aa74-dad8-541cf2c482d1",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "tdigit_8",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/4 - Filter - Mamamy Baby Talk Challenge/Build/hud/tdigit_8.png",
+    "references": []
+  }
+]

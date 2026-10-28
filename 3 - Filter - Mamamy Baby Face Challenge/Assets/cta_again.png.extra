@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "278d2ea5-e203-29a0-de5c-925130ea7e85",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cta_again",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 4/Build/text/cta_again.png",
+    "references": []
+  }
+]

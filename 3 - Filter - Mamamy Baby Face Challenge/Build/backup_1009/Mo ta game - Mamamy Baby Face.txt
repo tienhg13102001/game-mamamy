@@ -1,0 +1,52 @@
+MAMAMY BABY FACE CHALLENGE - MÔ TẢ GAME
+(Effect 4 - Làm mặt giống bé)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Làm biểu cảm khuôn mặt giống em bé trên từng thẻ để "chạy xuyên qua"
+thẻ. Qua hết các thẻ và thẻ khiên 19 cuối cùng là chiến thắng.
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn đầu chỉ có nút RECORD TO PLAY. Bấm quay (Record) để bắt đầu.
+- Điều khiển bằng KHUÔN MẶT (camera trước), không cần chạm.
+- Một con đường trắng chạy chéo ở nửa dưới màn hình, các thẻ biểu cảm
+  xếp hàng trên đường. Thẻ đứng đầu (gần nhất) là thẻ cần làm theo.
+- Mặt em bé to trên đường là "gương": nó luôn hiện biểu cảm mà game
+  đang đọc được từ mặt người chơi.
+- Làm đúng biểu cảm của thẻ đầu và giữ khoảng 0.5 giây -> thẻ trượt
+  qua em bé, đi ra khỏi màn hình, hàng thẻ phía sau tiến lên.
+- Làm sai biểu cảm -> thẻ cứ trượt tới đâm vào em bé rồi lùi lại,
+  cho tới khi người chơi làm đúng.
+- Toàn bộ khung chơi nằm ở nửa dưới màn hình để luôn thấy rõ mặt
+  người chơi.
+
+Mỗi lượt có 7 thẻ:
+    - 6 thẻ biểu cảm ngẫu nhiên, lấy từ các biểu cảm:
+      lè lưỡi / há miệng, khóc, nháy mắt, buồn, mặt bình thường,
+      cười, cười tít mắt
+    - Thẻ cuối luôn là THẺ KHIÊN 19 (biểu cảm cười tít mắt).
+
+==================================================
+3. THẮNG / THUA
+==================================================
+- Không có thua và không giới hạn thời gian: thẻ đứng chờ cho tới khi
+  người chơi làm đúng.
+- Qua được thẻ khiên 19:
+    + Thẻ khiên trở thành khiên 19, bay lên và bung ra thành logo
+      MEGA MAMAMY 19 (có dòng thời gian khuyến mãi).
+    + Có pháo giấy.
+    + Màn thắng chỉ có logo + pháo giấy, không có nút PLAY AGAIN.
+- Chạm màn hình (hoặc bấm quay lại) để chơi lại.
+- Logo MEGA MAMAMY 19 chỉ xuất hiện ở frame cuối. Không có chữ chèn
+  thêm.
+
+==================================================
+4. MẸO CHƠI
+==================================================
+- Để mặt trong khung hình, đủ sáng, nhìn thẳng camera.
+- Làm biểu cảm thật rõ (há miệng to, nhắm hẳn một mắt khi nháy...).
+- Nhìn mặt em bé "gương": khi nó đổi đúng biểu cảm của thẻ thì giữ yên
+  một chút là qua.

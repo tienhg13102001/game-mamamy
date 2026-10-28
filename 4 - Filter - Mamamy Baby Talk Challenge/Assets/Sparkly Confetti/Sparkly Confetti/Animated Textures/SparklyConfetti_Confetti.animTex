@@ -1,0 +1,51 @@
+%YAML 1.1
+--- !TextureDelegate &1
+name: !<str> SparklyConfetti_Confetti
+guid: {a: 2470236911562057610, b: 379975936094720177}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 10757768588498038719, b: 2138863048080883866}
+  properties:
+    __class: Map
+    JSClassName: !<str> AnimatedTextureProvider
+    duration: 2.833333333333333
+    fps: 12
+    loopCount: -1
+    playMode: 0
+    reverse: false
+    textureSequence: {localId: 1, path: 4872d7d1-5e3e-e786-4cfd-ff0392818595--4872d7d1-5e3e-e786-4cfd-ff0392818595.seq}
+width: 0
+height: 0
+depth: 0
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: true
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1
+delegateData:
+  __class: Map

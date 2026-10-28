@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "b2a956fb-a76c-4e5e-853d-56d4982407b8",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "roulette",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

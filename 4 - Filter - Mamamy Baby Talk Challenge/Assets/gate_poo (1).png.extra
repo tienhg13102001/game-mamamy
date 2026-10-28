@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "6ee4c963-0095-6e4a-1e2d-e78a43191bbc",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "gate_poo (1)",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/4 - Filter - Mamamy Baby Talk Challenge/Build/sbd3/gate_poo.png",
+    "references": []
+  }
+]

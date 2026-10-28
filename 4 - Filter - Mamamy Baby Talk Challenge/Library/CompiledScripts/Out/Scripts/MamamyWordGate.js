@@ -1,0 +1,1095 @@
+const {BasicScriptNode} = require('../BasicScriptNode');
+const {
+  customNode,
+  component,
+  input,
+  output,
+  serializeSceneObjectFlag,
+  serializeProperty,
+  label, readOnly, slider, spinBox, dropDown,
+  textArea, header, showIf, tooltip, separator,
+  space, groupBegin, groupEnd, disablePin,
+} = require('../OrionDecorators');
+
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MamamyWordGate = void 0;
+/**
+ * MamamyWordGate — "Say the word": read the word on the near gate aloud to pass it.
+ *
+ * A winding road fills the lower screen. The near gate (large, left) carries the word to say,
+ * the far gate (small, right) previews the next one. The big baby in the bottom-right is the baby
+ * of the last gate we went through (the first baby before any gate) — it only turns into a gate's
+ * baby once we are through that gate (client feedback 2026-10-06). The player is running down the road toward the gates (the gates jog
+ * gently on the spot while waiting). A KeywordDetector listens to the microphone for every gate's
+ * words (the list is set once — changing it mid-round stopped detection in tests):
+ *   - a hit on the near gate's accepted words = we go THROUGH the gate: it slides along the near
+ *     stretch of the road to the big baby and frames it (drawn behind the baby, so the baby stands
+ *     inside the arch), then jumps in front of the baby and slides on down the road off the
+ *     bottom-right of the screen (no zoom to full screen). The big baby switches to the next gate's
+ *     baby at that moment, the far gate glides forward and a new far gate fades in;
+ *   - a hit on any other gate's word = we CRASH into the near gate: it slides along the road up to
+ *     the big baby, bumps into it (the baby jolts in place) and backs off to its spot; the say-it
+ *     hint shows. The gate stays, so the player reads again (no losing).
+ * The last gate is NINETEEN and its "baby" is the 19 shield. Once we are through it the shield stays,
+ * flies to the shield's spot in the MEGA MAMAMY 19 logo and the logo bursts out of it (FINALE).
+ * No time limit and no touch input for gates: the round waits until the word is heard.
+ * HUD (client 2026-10-09): a mic button at the top left pulses with the voice volume (a
+ * VolumeDetector on the microphone, with rings spreading out while the player talks), and a pill
+ * at the top right counts the play time up (mm:ss) from Record; it stops at the last gate and the
+ * finish time stays on the result. The HUD is hidden on the intro.
+ *
+ * Flow: INTRO (the first baby waits) → press TikTok Record (the only way to start)
+ *       → LISTEN ⇄ PASSING → FINALE → RESULT (only the logo + confetti, client: no PLAY AGAIN on a
+ *         win) → tap while recording (or Record again).
+ * Gate poses are in 720x1280 screen space (centre origin, y up); a pose's y is the gate's FEET
+ * (bottom), so a gate always stands on the road. The path follows the S-shaped road: a new gate
+ * enters on the far stretch at the right edge, walks left to the far spot, bends down along the
+ * road to the near spot, and when passed follows the near stretch through the big baby and away.
+ */
+class Pose {
+    constructor(x, bottom, s, a) {
+        this.x = x;
+        this.bottom = bottom;
+        this.s = s;
+        this.a = a;
+    }
+}
+class GateView {
+    constructor(obj) {
+        this.w = 0;
+        this.h = 0;
+        this.from = new Pose(0, 0, 1, 1);
+        this.to = new Pose(0, 0, 1, 1);
+        this.ctrl = null; // optional bezier control points for a curved move (cubic when ctrl2 is set)
+        this.ctrl2 = null;
+        this.band = 0; // transparent strip under the gate's legs (px at scale 1)
+        this.run = false; // being run through: accelerates, and only fades once off screen
+        this.sec = 0;
+        this.t = 0;
+        this.active = false;
+        this.obj = obj;
+        this.st = obj.getComponent("ScreenTransform");
+        this.img = obj.getComponent("Image");
+    }
+}
+class AnimPart {
+    constructor() {
+        this.baseX = 0;
+        this.baseY = 0;
+    }
+}
+class ConfettiLayer {
+    constructor() {
+        this.baseY = 0;
+        this.slide = true;
+    }
+}
+function clamp(v, lo, hi) {
+    return Math.max(lo, Math.min(hi, v));
+}
+function seg(t, a, b) {
+    return clamp((t - a) / (b - a), 0, 1);
+}
+function easeOutBack(k) {
+    const c = 1.70158;
+    return 1 + (c + 1) * Math.pow(k - 1, 3) + c * Math.pow(k - 1, 2);
+}
+function cub(a, c1, c2, b, t) {
+    const u = 1 - t;
+    return u * u * u * a + 3 * u * u * t * c1 + 3 * u * t * t * c2 + t * t * t * b;
+}
+function bez(a, c, b, t) {
+    return (1 - t) * (1 - t) * a + 2 * (1 - t) * t * c + t * t * b;
+}
+function easeInOut(k) {
+    return k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+}
+let MamamyWordGate = class MamamyWordGate extends APJS.BasicScriptComponent {
+    constructor() {
+        super(...arguments);
+        this.gateTextures = [];
+        this.babyTextures = [];
+        this.babyX = [];
+        this.babyY = [];
+        this.accepted = [];
+        this.feetBand = [];
+        this.introBabyX = 192;
+        this.introBabyY = -465;
+        this.logoW = 540;
+        this.logoShieldX = 0.3674;
+        this.logoShieldY = 0.1429;
+        this.logoShieldH = 0.6851;
+        this.hintAfterSec = 4;
+        this.passSec = 0.6;
+        this.cooldownSec = 0.5;
+        this.demoMode = 0;
+        this.showHeard = false;
+        this.timerDigits = [];
+        this.SCALE = 720 / 1080; // source px -> screen px
+        // Poses are the gate's VISIBLE feet (the leg tips), checked against the road layer so both legs
+        // always stand on the road, also all along the far → near move.
+        this.SPAWN = new Pose(407, -134, 0.26, 0); // far stretch, at the right edge
+        // far gate, fully on the far stretch; 0.48 (was 0.6) since the client asked for a smaller back gate
+        // so its word does not crowd the near gate and the "Đọc lên nhé" hint (2026-10-10)
+        this.FAR = new Pose(195, -190, 0.48, 1);
+        this.BEND1 = new Pose(-120, -230, 0.66, 1); // far → near follows the road's left bend
+        this.BEND2 = new Pose(-120, -230, 0.88, 1);
+        this.NEAR = new Pose(-81, -394, 1, 1); // mockup near gate
+        // Going through: the gate frames the big baby at this scale, then carries on along the near
+        // stretch (NEAR → baby direction) for EXIT_RUN times that distance, off the bottom-right.
+        this.CROSS_SCALE = 1.2;
+        this.EXIT_RUN = 1.7;
+        this.EXIT_SCALE = 1.5;
+        this.exitT = -1; // passed-gate clock, -1 = none
+        this.exitCross = new Pose(0, 0, 1, 1);
+        this.exitEnd = new Pose(0, 0, 1, 1);
+        this.nextBaby = -1; // passed gate whose baby shows once we are through it (-1 none)
+        this.bumpT = -1; // crash animation clock, -1 = none
+        this.babyHitT = -1; // baby jolt when a gate bumps into it
+        this.bumpF = 0; // how far the near gate is into its bump (0 = at its spot)
+        // Crash: slide BUMP_REACH of the way to the baby (0.35s), hold the hit (0.1s), back off (0.45s).
+        this.BUMP_REACH = 0.62;
+        this.BUMP_SEC = 0.9;
+        this.demoBumped = false;
+        this.retryDelay = 1.3;
+        this.burstSec = 0.55;
+        this.logoH = 230;
+        this.finFromX = 0;
+        this.finFromY = 0;
+        this.finFromH = 1;
+        this.inited = false;
+        this.startOnInit = false;
+        this.recording = false; // the game is only playable while TikTok Record is on
+        this.detector = null;
+        this.volume = null;
+        this.voiceLvl = 0; // smoothed 0..1 voice loudness for the mic
+        this.micX = 0; // mic button home position (it shakes around it with the voice)
+        this.micY = 0;
+        this.micHome = false;
+        this.guideHome = false;
+        this.guideY = 0;
+        this.playT = 0; // play time shown by the timer (s)
+        this.timerSlots = [];
+        this.timerShown = -1;
+        this.state = "INTRO";
+        this.gate = 0; // index of the near gate
+        this.t = 0;
+        this.stateT = 0;
+        this.silenceT = 0;
+        this.coolT = 0;
+        this.heardCount = 0;
+        this.babyPopT = -1;
+        this.anim = [];
+        this.confetti = [];
+    }
+    // Detector builders only work in onInit.
+    onInit() {
+        const builder = APJS.AudioDetectionModule.getOrCreateAudioDetectionBuilder(APJS.AudioDetectionType.Keyword);
+        if (!builder)
+            return;
+        if (this.testAudio)
+            builder.setDetectorSource(APJS.AudioSourceType.ExternalFile, this.testAudio);
+        else
+            builder.setDetectorSource(APJS.AudioSourceType.Microphone, null);
+        this.detector = builder.build();
+        const vb = APJS.AudioDetectionModule.getOrCreateAudioDetectionBuilder(APJS.AudioDetectionType.Volume);
+        if (vb) {
+            vb.setDetectorSource(APJS.AudioSourceType.Microphone, null);
+            this.volume = vb.build();
+        }
+        console.log("MamamyWordGate detector " + (this.detector ? "ready" : "unavailable") + ", source " + (this.testAudio ? "test clip" : "microphone"));
+        if (!this.detector)
+            return;
+        this.detector.eventEmitter.on(APJS.KeywordEventType.KeywordHit, this.onKeywordHit, this);
+        this.detector.eventEmitter.on(APJS.KeywordEventType.KeywordMiss, this.onKeywordMiss, this);
+    }
+    onStart() {
+        APJS.EventManager.getGlobalEmitter().on(APJS.EventType.Touch, this.onTouch, this);
+        APJS.EventManager.getGlobalEmitter().on(APJS.EventType.RecordStart, this.onRecordStart, this);
+        APJS.EventManager.getGlobalEmitter().on(APJS.EventType.RecordEnd, this.onRecordEnd, this);
+    }
+    onDestroy() {
+        APJS.EventManager.getGlobalEmitter().off(APJS.EventType.Touch, this.onTouch, this);
+        APJS.EventManager.getGlobalEmitter().off(APJS.EventType.RecordStart, this.onRecordStart, this);
+        APJS.EventManager.getGlobalEmitter().off(APJS.EventType.RecordEnd, this.onRecordEnd, this);
+        if (this.detector) {
+            this.detector.eventEmitter.off(APJS.KeywordEventType.KeywordHit, this.onKeywordHit, this);
+            this.detector.eventEmitter.off(APJS.KeywordEventType.KeywordMiss, this.onKeywordMiss, this);
+        }
+    }
+    // Serialized refs are only populated after onStart, so wire everything lazily.
+    initOnce() {
+        if (this.inited)
+            return true;
+        if (!this.gateFar || !this.gateNear || !this.gateExit || !this.bigBaby ||
+            this.gateTextures.length === 0 || this.babyTextures.length < this.gateTextures.length)
+            return false;
+        this.far = new GateView(this.gateFar);
+        this.near = new GateView(this.gateNear);
+        this.exit = new GateView(this.gateExit);
+        if (this.gateExitFront)
+            this.exitFront = new GateView(this.gateExitFront);
+        this.babySt = this.bigBaby.getComponent("ScreenTransform");
+        this.babyImg = this.bigBaby.getComponent("Image");
+        if (this.sayHint)
+            this.hintSt = this.sayHint.getComponent("ScreenTransform");
+        for (const obj of [this.resultLogo, this.introButton]) {
+            const part = new AnimPart();
+            if (obj) {
+                part.st = obj.getComponent("ScreenTransform");
+                part.baseX = part.st.anchoredPosition.x;
+                part.baseY = part.st.anchoredPosition.y;
+            }
+            this.anim.push(part);
+        }
+        const logoImg = this.resultLogo ? this.resultLogo.getComponent("Image") : undefined;
+        if (logoImg && logoImg.texture && this.anim[0].st) {
+            this.logoH = this.logoW * logoImg.texture.getHeight() / Math.max(logoImg.texture.getWidth(), 1);
+            this.anim[0].st.sizeDelta = new APJS.Vector2f(this.logoW, this.logoH);
+        }
+        // Confetti layers (children of winEffect): falling pieces slide in, the glow overlay fades in.
+        if (this.winEffect) {
+            for (const child of this.winEffect.getChildren()) {
+                const layer = new ConfettiLayer();
+                layer.st = child.getComponent("ScreenTransform");
+                layer.img = child.getComponent("Image");
+                if (!layer.st || !layer.img)
+                    continue;
+                layer.baseY = layer.st.anchoredPosition.y;
+                layer.slide = child.name.indexOf("Overlay") < 0;
+                this.confetti.push(layer);
+            }
+        }
+        this.inited = true;
+        this.resetGame();
+        if (this.startOnInit) {
+            this.startOnInit = false;
+            this.startGame();
+        }
+        return true;
+    }
+    onUpdate(dt) {
+        this.updateFrame(dt);
+        this.syncGlow();
+    }
+    // The soft white glow under the result logo copies the logo's place, size, scale, turn and fade.
+    syncGlow() {
+        if (!this.logoGlow || !this.resultLogo)
+            return;
+        const ls = this.resultLogo.getComponent("ScreenTransform");
+        const gs = this.logoGlow.getComponent("ScreenTransform");
+        const li = this.resultLogo.getComponent("Image");
+        const gi = this.logoGlow.getComponent("Image");
+        if (!ls || !gs || !li || !gi || !li.texture || !gi.texture)
+            return;
+        const k = ls.sizeDelta.x / Math.max(li.texture.getWidth(), 1);
+        gs.sizeDelta = new APJS.Vector2f(gi.texture.getWidth() * k, gi.texture.getHeight() * k);
+        gs.anchoredPosition = ls.anchoredPosition;
+        gs.scale = ls.scale;
+        gs.rotation = ls.rotation;
+        gi.opacity = li.opacity;
+    }
+    updateFrame(dt) {
+        if (!this.initOnce() || this.paused())
+            return;
+        this.t += dt;
+        this.stateT += dt;
+        this.coolT = Math.max(0, this.coolT - dt);
+        for (const g of [this.far, this.near])
+            this.updateGate(g, dt);
+        this.updateExit(dt);
+        this.updateIdle(dt);
+        this.updateBaby(dt);
+        if (this.state === "INTRO") {
+            this.setPart(this.anim[1], 0, 0, 1 + 0.05 * Math.sin(this.t * 5));
+            if (this.demoMode > 0 && this.stateT >= 4.0)
+                this.startGame();
+        }
+        else if (this.state === "LISTEN") {
+            this.silenceT += dt;
+            this.updateHint();
+            if (this.demoMode === 1 && this.stateT >= 1.4 + this.demoLead())
+                this.pass();
+            if (this.demoMode === 2) {
+                if (!this.demoBumped && this.stateT >= 0.9) {
+                    this.demoBumped = true;
+                    this.bump();
+                }
+                if (this.stateT >= 2.3)
+                    this.pass();
+            }
+        }
+        else if (this.state === "PASSING") {
+            if (this.stateT >= this.passSec) {
+                if (this.gate >= this.gateTextures.length)
+                    this.startFinale();
+                else
+                    this.listen();
+            }
+        }
+        else if (this.state === "FINALE") {
+            this.updateFinale();
+        }
+        else if (this.state === "RESULT") {
+            this.updateResultAnim(this.stateT);
+        }
+        this.updateHud(dt);
+    }
+    // ---------- HUD: mic + play time ----------
+    updateHud(dt) {
+        const playing = this.state === "LISTEN" || this.state === "PASSING";
+        if (playing)
+            this.playT += dt;
+        const showMic = playing || this.state === "FINALE";
+        if (this.micButton)
+            this.micButton.setEnabledInHierarchy(showMic);
+        if (this.timerBox)
+            this.timerBox.setEnabledInHierarchy(this.state !== "INTRO");
+        if (showMic) {
+            const v = this.volume ? this.volume.getResult() : -1;
+            let target = v < 0 ? 0 : clamp((v - 0.02) / 0.1, 0, 1);
+            if (this.demoMode > 0)
+                target = this.demoVoice(); // the editor has no voice: fake it for demo videos
+            this.voiceLvl += (target - this.voiceLvl) * Math.min(1, dt * (target > this.voiceLvl ? 14 : 5));
+            // The louder the voice, the bigger the mic swells and the harder it shakes (internal players
+            // 2026-10-10: the mic must clearly move with the reader's voice).
+            const ms = this.micButton ? this.micButton.getComponent("ScreenTransform") : undefined;
+            const lv = this.voiceLvl;
+            const k = 1 + 0.04 * Math.sin(this.t * 3) + 0.5 * lv;
+            if (ms) {
+                if (!this.micHome) {
+                    this.micHome = true;
+                    this.micX = ms.anchoredPosition.x;
+                    this.micY = ms.anchoredPosition.y;
+                }
+                ms.scale = new APJS.Vector2f(k, k);
+                ms.rotation = 14 * lv * Math.sin(this.t * 31);
+                ms.anchoredPosition = new APJS.Vector2f(this.micX + 7 * lv * Math.sin(this.t * 37), this.micY + 5 * lv * Math.sin(this.t * 29 + 1));
+            }
+            const waves = [this.micWaveA, this.micWaveB];
+            for (let i = 0; i < waves.length; i++) {
+                if (!waves[i])
+                    continue;
+                const w = (this.t * (1.2 + 1.6 * lv) + i * 0.5) % 1;
+                const st = waves[i].getComponent("ScreenTransform");
+                const img = waves[i].getComponent("Image");
+                const grow = 1 + (0.5 + 1.1 * lv) * w;
+                if (st) {
+                    st.scale = new APJS.Vector2f(grow, grow);
+                    st.rotation = -(ms ? ms.rotation : 0);
+                }
+                if (img)
+                    img.opacity = (1 - w) * Math.min(1, lv * 1.4);
+            }
+        }
+        this.showTime(Math.floor(this.playT));
+        if (this.guideText) {
+            // "Đọc lên nhé" beside the mic until the first gate is passed (internal players 2026-10-10)
+            const on = this.state === "LISTEN" && this.gate === 0;
+            this.guideText.setEnabledInHierarchy(on);
+            if (on) {
+                // bobs up and down between the face and the gates (client 2026-10-10: "nhấp nhô lên xuống")
+                const st = this.guideText.getComponent("ScreenTransform");
+                if (st) {
+                    if (!this.guideHome) {
+                        this.guideHome = true;
+                        this.guideY = st.anchoredPosition.y;
+                    }
+                    st.anchoredPosition = new APJS.Vector2f(st.anchoredPosition.x, this.guideY + 12 * Math.sin(this.t * 4));
+                }
+            }
+        }
+    }
+    // Demo videos: "speak" for half a second before each scripted crash / pass.
+    demoVoice() {
+        if (this.state !== "LISTEN")
+            return 0;
+        const t = this.stateT - (this.demoMode === 1 ? this.demoLead() : 0);
+        const a = this.demoMode === 1 ? 0.8 : t < 1.4 ? 0.4 : 1.8;
+        const talk = this.demoMode === 1 ? t > 0.8 && t < 1.4 : (t > 0.4 && t < 0.9) || (t > 1.8 && t < 2.3);
+        // a word: loudness rises and falls, so the mic swells and shakes with it
+        return talk ? (0.3 + 0.7 * Math.sin(Math.PI * clamp((t - a) / 0.55, 0, 1))) * (0.85 + 0.15 * Math.sin(this.t * 23)) : 0;
+    }
+    // Demo 1: the first gate waits a bit longer so the video shows the "Đọc lên nhé" hint.
+    demoLead() {
+        return this.gate === 0 ? 1.6 : 0;
+    }
+    showTime(sec) {
+        if (sec === this.timerShown || !this.timerBox || this.timerDigits.length < 10)
+            return;
+        if (this.timerSlots.length === 0) {
+            for (const c of this.timerBox.getChildren()) {
+                const img = c.name.charAt(0) === "D" ? c.getComponent("Image") : undefined;
+                if (img)
+                    this.timerSlots.push(img);
+            }
+        }
+        if (this.timerSlots.length < 4)
+            return;
+        this.timerShown = sec;
+        const m = Math.min(99, Math.floor(sec / 60)), s = sec % 60;
+        const d = [Math.floor(m / 10), m % 10, Math.floor(s / 10), s % 10];
+        for (let i = 0; i < 4; i++)
+            this.timerSlots[i].texture = this.timerDigits[d[i]];
+    }
+    // ---------- Input / lifecycle ----------
+    onTouch(event) {
+        if (!this.inited || this.paused())
+            return;
+        const touch = event.args[0];
+        if (touch.phase !== APJS.TouchPhase.Began)
+            return;
+        // Only Record starts the game; PLAY AGAIN works while recording.
+        if (this.state === "RESULT" && this.recording && this.stateT > this.retryDelay) {
+            this.resetGame();
+            this.startGame();
+        }
+    }
+    // Pressing Record is the only way to start a round (client 2026-10-09: no play before Record).
+    onRecordStart() {
+        this.recording = true;
+        if (!this.inited) {
+            this.startOnInit = true;
+            return;
+        }
+        if (this.state !== "INTRO" && this.state !== "RESULT")
+            return; // Record on again mid-round: carry on
+        this.resetGame();
+        this.startGame();
+    }
+    // Record stopped mid-round: the game freezes (no motion, touch or voice) until Record goes on again
+    // (client 2026-10-09: "ấn dừng quay rồi vẫn chơi được"). The intro and result screens stay live.
+    paused() {
+        return this.demoMode === 0 && !this.recording && this.state !== "INTRO" && this.state !== "RESULT";
+    }
+    onRecordEnd() {
+        this.recording = false;
+    }
+    // Every gate's words are targets; only the near gate's accepted words pass it.
+    onKeywordHit(event) {
+        const words = event.args[0];
+        if (!this.inited || this.paused())
+            return;
+        if (this.state !== "LISTEN" || this.coolT > 0) {
+            this.setHeard("heard (ignored): " + words.join(", "));
+            return;
+        }
+        const ok = this.acceptedFor(this.gate);
+        console.log("MamamyWordGate heard " + words.join(",") + " at gate " + this.gate);
+        this.heardCount++;
+        this.setHeard("#" + this.heardCount + " heard: " + words.join(", ") + "  (gate " + (this.gate + 1) + ")");
+        for (const w of words) {
+            if (ok.indexOf(w.toLowerCase().trim()) >= 0) {
+                this.pass();
+                return;
+            }
+        }
+        this.bump(); // a word of another gate: we run into this one
+    }
+    resetGame() {
+        this.gate = 0;
+        this.showGate(this.near, 0, this.NEAR, this.NEAR, 0);
+        this.showGate(this.far, 1, this.FAR, this.FAR, 0);
+        this.exit.obj.setEnabledInHierarchy(false);
+        this.exit.active = false;
+        if (this.exitFront) {
+            this.exitFront.obj.setEnabledInHierarchy(false);
+            this.exitFront.active = false;
+        }
+        this.exitT = -1;
+        this.nextBaby = -1;
+        this.babyHitT = -1;
+        this.setIntroBaby();
+        this.listenFor(-1);
+        if (this.testAudio)
+            this.testAudio.stop();
+        if (this.sayHint)
+            this.sayHint.setEnabledInHierarchy(false);
+        if (this.resultOverlay)
+            this.resultOverlay.setEnabledInHierarchy(false);
+        if (this.winEffect)
+            this.winEffect.setEnabledInHierarchy(false);
+        this.resetAnimParts();
+        if (this.introOverlay)
+            this.introOverlay.setEnabledInHierarchy(true);
+        this.setHeard(this.detector ? "listening... say a word" : "keyword detection unavailable");
+        this.playT = 0;
+        this.voiceLvl = 0;
+        this.setState("INTRO");
+    }
+    startGame() {
+        if (this.introOverlay)
+            this.introOverlay.setEnabledInHierarchy(false);
+        if (this.testAudio)
+            this.testAudio.play();
+        this.listen();
+    }
+    listen() {
+        this.silenceT = 0;
+        this.demoBumped = false;
+        this.bumpT = -1;
+        this.listenFor(this.gate);
+        this.setState("LISTEN");
+    }
+    // ---------- Gates ----------
+    // We run through the near gate (it swells past the camera), the far gate moves to the front
+    // and a new far gate fades in.
+    pass() {
+        this.listenFor(-1);
+        this.coolT = this.cooldownSec;
+        if (this.sayHint)
+            this.sayHint.setEnabledInHierarchy(false);
+        const n = this.gate;
+        this.startExit(n);
+        this.bumpT = -1;
+        this.gate = n + 1;
+        // Once we are through, the big baby becomes the passed gate's baby (the last one is the shield).
+        this.nextBaby = n;
+        if (this.gate < this.gateTextures.length) {
+            // Same time window as the passed gate sliding up to the baby.
+            this.showGate(this.near, this.gate, this.FAR, this.NEAR, this.passSec * 0.5, this.BEND1, false, this.BEND2);
+        }
+        else {
+            this.near.obj.setEnabledInHierarchy(false);
+            this.near.active = false;
+        }
+        if (this.gate + 1 < this.gateTextures.length)
+            this.showGate(this.far, this.gate + 1, this.SPAWN, this.FAR, this.passSec * 0.5);
+        else {
+            this.far.obj.setEnabledInHierarchy(false);
+            this.far.active = false;
+        }
+        this.setState("PASSING");
+    }
+    // The passed gate heads for the big baby: its feet land on the baby's feet, framing it.
+    startExit(n) {
+        this.showGate(this.exit, n, this.NEAR, this.NEAR, 0);
+        if (this.exitFront)
+            this.showGate(this.exitFront, n, this.NEAR, this.NEAR, 0);
+        if (this.exitFront) {
+            this.exitFront.obj.setEnabledInHierarchy(false);
+            this.exitFront.active = false;
+        }
+        this.exitCross = this.crossPose();
+        const bx = this.exitCross.x, feet = this.exitCross.bottom;
+        const dx = bx - this.NEAR.x, dy = feet - this.NEAR.bottom;
+        this.exitEnd = new Pose(bx + dx * this.EXIT_RUN, feet + dy * this.EXIT_RUN - 260, this.EXIT_SCALE, 1);
+        this.exitT = 0;
+    }
+    // Where a gate stands when it frames the big baby: its feet on the baby's feet.
+    crossPose() {
+        const bx = this.babySt.anchoredPosition.x;
+        const feet = this.babySt.anchoredPosition.y - this.babySt.sizeDelta.y / 2;
+        return new Pose(bx, feet, this.CROSS_SCALE, 1);
+    }
+    updateExit(dt) {
+        if (this.exitT < 0)
+            return;
+        this.exitT += dt;
+        const k = seg(this.exitT, 0, this.passSec), k1 = 0.5;
+        const mix = (a, b, e, al) => new Pose(a.x + (b.x - a.x) * e, a.bottom + (b.bottom - a.bottom) * e, a.s + (b.s - a.s) * e, al);
+        if (k < k1) {
+            this.placeAt(this.exit, mix(this.NEAR, this.exitCross, Math.pow(k / k1, 1.5), 1));
+            return;
+        }
+        const front = this.exitFront ? this.exitFront : this.exit;
+        if (front !== this.exit && this.exit.active) {
+            this.exit.obj.setEnabledInHierarchy(false);
+            this.exit.active = false;
+            front.obj.setEnabledInHierarchy(true);
+            front.active = true;
+        }
+        if (this.nextBaby >= 0) {
+            this.setBaby(this.nextBaby, true);
+            this.nextBaby = -1;
+        } // we are through
+        const u = (k - k1) / (1 - k1);
+        this.placeAt(front, mix(this.exitCross, this.exitEnd, Math.pow(u, 0.9), 1 - seg(u, 0.85, 1)));
+        if (k >= 1) {
+            front.obj.setEnabledInHierarchy(false);
+            front.active = false;
+            this.exit.obj.setEnabledInHierarchy(false);
+            this.exit.active = false;
+            this.exitT = -1;
+        }
+    }
+    placeAt(g, p) {
+        g.st.anchoredPosition = new APJS.Vector2f(p.x, this.centreY(g, p.bottom, p.s));
+        g.st.scale = new APJS.Vector2f(Math.max(0.001, p.s), Math.max(0.001, p.s));
+        g.img.opacity = p.a;
+    }
+    // Centre y of a gate whose leg tips stand at feetY.
+    centreY(g, feetY, s) {
+        return feetY + (g.h / 2 - g.band) * s;
+    }
+    showGate(g, index, from, to, sec, ctrl = null, run = false, ctrl2 = null) {
+        if (index >= this.gateTextures.length) {
+            g.obj.setEnabledInHierarchy(false);
+            g.active = false;
+            return;
+        }
+        const tex = this.gateTextures[index];
+        g.img.texture = tex;
+        g.w = tex.getWidth() * this.SCALE;
+        g.h = tex.getHeight() * this.SCALE;
+        g.st.sizeDelta = new APJS.Vector2f(g.w, g.h);
+        g.band = (index < this.feetBand.length ? this.feetBand[index] : 0) * g.h;
+        g.from = from;
+        g.to = to;
+        g.ctrl = ctrl;
+        g.ctrl2 = ctrl2;
+        g.run = run;
+        g.sec = sec;
+        g.t = 0;
+        g.active = true;
+        g.obj.setEnabledInHierarchy(true);
+        this.placeGate(g, sec > 0 ? 0 : 1);
+    }
+    updateGate(g, dt) {
+        if (!g || !g.active || g.sec <= 0)
+            return;
+        g.t += dt;
+        const k = seg(g.t, 0, g.sec);
+        this.placeGate(g, k);
+        if (k >= 1) {
+            g.sec = 0;
+            if (g.to.a <= 0) {
+                g.obj.setEnabledInHierarchy(false);
+                g.active = false;
+            }
+        }
+    }
+    placeGate(g, k) {
+        const e = g.run ? Math.pow(k, 1.8) : easeInOut(k); // running through: speeds up into the arch
+        const a = g.from, b = g.to, c = g.ctrl ? g.ctrl : null, d = g.ctrl2;
+        const lerp = (p, q) => p + (q - p) * e;
+        const s = c && d ? cub(a.s, c.s, d.s, b.s, e) : c ? bez(a.s, c.s, b.s, e) : lerp(a.s, b.s);
+        const x = c && d ? cub(a.x, c.x, d.x, b.x, e) : c ? bez(a.x, c.x, b.x, e) : lerp(a.x, b.x);
+        const bottom = c && d ? cub(a.bottom, c.bottom, d.bottom, b.bottom, e) : c ? bez(a.bottom, c.bottom, b.bottom, e) : lerp(a.bottom, b.bottom);
+        g.st.anchoredPosition = new APJS.Vector2f(x, this.centreY(g, bottom, s));
+        g.st.scale = new APJS.Vector2f(Math.max(0.001, s), Math.max(0.001, s));
+        g.img.opacity = g.run ? 1 - seg(k, 0.8, 1) : g.from.a + (g.to.a - g.from.a) * e;
+    }
+    // ---------- Running on the spot / crashing ----------
+    // Waiting gates jog a little (we are running toward them). A wrong word makes the near gate
+    // lunge at us, shake and rebound.
+    bump() {
+        if (this.state !== "LISTEN" || this.bumpT >= 0)
+            return;
+        this.bumpT = 0;
+        this.coolT = Math.max(this.coolT, this.BUMP_SEC);
+        this.silenceT = Math.max(this.silenceT, this.hintAfterSec); // show "say it" right away
+        console.log("MamamyWordGate bump at gate " + this.gate + " t=" + this.t.toFixed(2));
+    }
+    updateIdle(dt) {
+        const jog = this.state === "LISTEN" || this.state === "INTRO";
+        this.bumpF = 0;
+        for (const [g, pose, phase] of [[this.near, this.NEAR, 0], [this.far, this.FAR, 0]]) {
+            if (!g || !g.active || g.sec > 0)
+                continue;
+            let s = 1, dx = 0, dy = 0;
+            if (jog) {
+                const w = this.t * 5.5 + phase;
+                dy = 3 * Math.abs(Math.sin(w));
+                s = 1 + 0.008 * Math.sin(w);
+            }
+            if (g === this.near && this.bumpT >= 0) {
+                // Slide along the road toward the baby, bump into it, back off to the gate's spot.
+                const before = this.bumpT;
+                this.bumpT += dt;
+                const t = this.bumpT;
+                let f;
+                if (t < 0.35)
+                    f = this.BUMP_REACH * Math.pow(t / 0.35, 2);
+                else if (t < 0.45)
+                    f = this.BUMP_REACH;
+                else
+                    f = this.BUMP_REACH * (1 - (1 - Math.pow(1 - seg(t, 0.45, this.BUMP_SEC), 2)));
+                if (before < 0.35 && t >= 0.35)
+                    this.babyHitT = 0;
+                this.bumpF = f;
+                const c = this.crossPose();
+                const p = new Pose(pose.x + (c.x - pose.x) * f, pose.bottom + (c.bottom - pose.bottom) * f, pose.s + (c.s - pose.s) * f, 1);
+                if (t >= 0.35 && t < 0.45)
+                    s *= 1 - 0.04 * Math.sin(Math.PI * (t - 0.35) / 0.1); // the knock
+                if (t >= this.BUMP_SEC)
+                    this.bumpT = -1;
+                g.st.anchoredPosition = new APJS.Vector2f(p.x, this.centreY(g, p.bottom + dy, p.s * s));
+                g.st.scale = new APJS.Vector2f(p.s * s, p.s * s);
+                continue;
+            }
+            if (g === this.far && this.bumpF > 0) {
+                // The far gate moves with the near one: the same share of its way along the road bend.
+                const f = this.bumpF, a = this.FAR, c = this.BEND1, d = this.BEND2, b = this.NEAR;
+                const q = new Pose(cub(a.x, c.x, d.x, b.x, f), cub(a.bottom, c.bottom, d.bottom, b.bottom, f), cub(a.s, c.s, d.s, b.s, f), 1);
+                g.st.anchoredPosition = new APJS.Vector2f(q.x + dx, this.centreY(g, q.bottom + dy, q.s * s));
+                g.st.scale = new APJS.Vector2f(q.s * s, q.s * s);
+                continue;
+            }
+            g.st.anchoredPosition = new APJS.Vector2f(pose.x + dx, this.centreY(g, pose.bottom + dy, pose.s * s));
+            g.st.scale = new APJS.Vector2f(pose.s * s, pose.s * s);
+        }
+    }
+    // ---------- Big baby ----------
+    setBaby(index, pop) {
+        const tex = this.babyTextures[index];
+        this.babyImg.texture = tex;
+        this.babySt.sizeDelta = new APJS.Vector2f(tex.getWidth() * this.SCALE, tex.getHeight() * this.SCALE);
+        const x = index < this.babyX.length ? this.babyX[index] : 160;
+        const y = index < this.babyY.length ? this.babyY[index] : -464;
+        this.babySt.anchoredPosition = new APJS.Vector2f(x, y);
+        this.bigBaby.setEnabledInHierarchy(true);
+        this.babyPopT = pop ? 0 : -1;
+        if (!pop)
+            this.babySt.scale = new APJS.Vector2f(1, 1);
+    }
+    // The intro shows its own first baby; the round swaps in gate 1's baby.
+    setIntroBaby() {
+        if (!this.introBabyTex) {
+            this.setBaby(0, false);
+            return;
+        }
+        const tex = this.introBabyTex;
+        this.babyImg.texture = tex;
+        this.babySt.sizeDelta = new APJS.Vector2f(tex.getWidth() * this.SCALE, tex.getHeight() * this.SCALE);
+        this.babySt.anchoredPosition = new APJS.Vector2f(this.introBabyX, this.introBabyY);
+        this.babySt.rotation = 0;
+        this.bigBaby.setEnabledInHierarchy(true);
+        this.babyPopT = -1;
+        this.babySt.scale = new APJS.Vector2f(1, 1);
+    }
+    updateBaby(dt) {
+        if (!this.babySt || this.state === "FINALE" || this.state === "RESULT")
+            return;
+        let s = 1 + 0.015 * Math.sin(this.t * 2.2);
+        if (this.babyPopT >= 0) {
+            this.babyPopT += dt;
+            // The next baby pops in the moment we are through the gate.
+            s *= easeOutBack(seg(this.babyPopT, 0, 0.35));
+            if (this.babyPopT >= 0.35)
+                this.babyPopT = -1;
+        }
+        let sx = 1, sy = 1;
+        if (this.babyHitT >= 0) { // knocked by the gate: a quick squash, it stays in place
+            this.babyHitT += dt;
+            const k = seg(this.babyHitT, 0, 0.3), j = Math.sin(k * Math.PI) * (1 - k);
+            sx = 1 + 0.12 * j;
+            sy = 1 - 0.1 * j;
+            if (k >= 1)
+                this.babyHitT = -1;
+        }
+        this.babySt.scale = new APJS.Vector2f(Math.max(0.001, s * sx), Math.max(0.001, s * sy));
+    }
+    onKeywordMiss() {
+        // Needed: in tests the detector only reported hits while a Miss listener was attached too.
+    }
+    // ---------- Listening ----------
+    acceptedFor(index) {
+        if (index < 0 || index >= this.accepted.length)
+            return [];
+        return this.accepted[index].split(",").map((w) => w.toLowerCase().trim()).filter((w) => w.length > 0);
+    }
+    // Set the target list once: the union of every gate's accepted words.
+    listenFor(index) {
+        if (!this.detector || index < 0 || this.detector.targetKeywords.length > 0)
+            return;
+        const all = [];
+        for (let i = 0; i < this.accepted.length; i++) {
+            for (const w of this.acceptedFor(i))
+                if (all.indexOf(w) < 0)
+                    all.push(w);
+        }
+        this.detector.targetKeywords = all;
+        console.log("MamamyWordGate listening for " + all.join("|"));
+    }
+    updateHint() {
+        if (!this.sayHint)
+            return;
+        const show = this.silenceT >= this.hintAfterSec;
+        this.sayHint.setEnabledInHierarchy(show);
+        if (show && this.hintSt) {
+            const s = 1 + 0.06 * Math.sin(this.t * 6);
+            this.hintSt.scale = new APJS.Vector2f(s, s);
+        }
+    }
+    setHeard(msg) {
+        if (!this.heardText)
+            return;
+        this.heardText.setEnabledInHierarchy(this.showHeard);
+        if (!this.showHeard)
+            return;
+        const txt = this.heardText.getComponent("Text");
+        if (txt)
+            txt.text = msg;
+    }
+    hitImage(pos, obj) {
+        const img = obj ? obj.getComponent("Image") : undefined;
+        return img ? APJS.TouchUtils.isScreenPointOnImage(pos, img) : false;
+    }
+    setState(s) {
+        this.state = s;
+        this.stateT = 0;
+    }
+    // ---------- Result ----------
+    // ---------- Finale: the 19 shield turns into MEGA MAMAMY 19 ----------
+    // The big baby is the shield now. It pulses, then flies (with a spin) to the shield's spot in the
+    // logo, growing to the logo's shield size; the logo then bursts out around it.
+    startFinale() {
+        this.listenFor(-1);
+        if (this.sayHint)
+            this.sayHint.setEnabledInHierarchy(false);
+        this.finFromX = this.babySt.anchoredPosition.x;
+        this.finFromY = this.babySt.anchoredPosition.y;
+        this.finFromH = Math.max(this.babySt.sizeDelta.y, 1);
+        this.setState("FINALE");
+    }
+    shieldScaleInLogo() {
+        return this.logoShieldH * this.logoH / this.finFromH;
+    }
+    updateFinale() {
+        const t = this.stateT;
+        const lp = this.anim[0];
+        const tx = lp.baseX + this.logoShieldX * this.logoW, ty = lp.baseY + this.logoShieldY * this.logoH;
+        if (t < 0.7) {
+            const p = 1 + 0.08 * Math.sin(seg(t, 0, 0.7) * Math.PI * 2);
+            this.babySt.scale = new APJS.Vector2f(p, p);
+            return;
+        }
+        const k = easeInOut(seg(t, 0.7, 1.4));
+        const s = 1 + (this.shieldScaleInLogo() - 1) * k;
+        this.babySt.anchoredPosition = new APJS.Vector2f(this.finFromX + (tx - this.finFromX) * k, this.finFromY + (ty - this.finFromY) * k + Math.sin(k * Math.PI) * 120);
+        this.babySt.scale = new APJS.Vector2f(Math.max(0.001, s), Math.max(0.001, s));
+        this.babySt.rotation = 360 * k;
+        if (t >= 1.4)
+            this.showResult();
+    }
+    showResult() {
+        this.setState("RESULT");
+        this.babySt.rotation = 0;
+        if (this.testAudio)
+            this.testAudio.stop();
+        if (this.resultOverlay)
+            this.resultOverlay.setEnabledInHierarchy(true);
+        if (this.winEffect)
+            this.winEffect.setEnabledInHierarchy(true);
+        this.updateResultAnim(0);
+    }
+    // Confetti slides down and the logo drops in.
+    updateResultAnim(t) {
+        const slideK = 1 - Math.pow(1 - seg(t, 0, 1.2), 3);
+        for (const layer of this.confetti) {
+            if (layer.slide) {
+                layer.st.anchoredPosition = new APJS.Vector2f(layer.st.anchoredPosition.x, layer.baseY + (1 - slideK) * 1280);
+                layer.img.opacity = seg(t, 0, 0.4);
+            }
+            else {
+                layer.img.opacity = seg(t, 0, 1.0);
+            }
+        }
+        const logo = this.anim[0];
+        // The logo grows out of the shield: the shield's spot in the logo stays put while it scales.
+        const ax = this.logoShieldX * this.logoW, ay = this.logoShieldY * this.logoH;
+        let sl = Math.max(0.001, easeOutBack(seg(t, 0, this.burstSec)));
+        if (t > this.burstSec + 0.3)
+            sl = 1 + 0.03 * Math.sin((t - this.burstSec - 0.3) * 3);
+        this.setPart(logo, ax - ax * sl, ay - ay * sl, sl);
+        const pop = this.shieldScaleInLogo() * (1 + 0.15 * Math.sin(seg(t, 0, this.burstSec * 0.8) * Math.PI));
+        this.babySt.scale = new APJS.Vector2f(pop, pop);
+        this.bigBaby.setEnabledInHierarchy(t < this.burstSec * 0.8);
+    }
+    setPart(part, dx, dy, scale) {
+        if (!part || !part.st)
+            return;
+        const s = Math.max(0.001, scale);
+        part.st.anchoredPosition = new APJS.Vector2f(part.baseX + dx, part.baseY + dy);
+        part.st.scale = new APJS.Vector2f(s, s);
+    }
+    resetAnimParts() {
+        for (const part of this.anim)
+            this.setPart(part, 0, 0, 1);
+        for (const layer of this.confetti) {
+            layer.st.anchoredPosition = new APJS.Vector2f(layer.st.anchoredPosition.x, layer.baseY);
+            layer.img.opacity = 1;
+        }
+    }
+};
+__decorate([
+    header("Theme & Assets"),
+    serializeProperty,
+    tooltip('Gates in play order')
+], MamamyWordGate.prototype, "gateTextures", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Big baby for each gate, same order')
+], MamamyWordGate.prototype, "babyTextures", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Big baby centre X for each gate (px)')
+], MamamyWordGate.prototype, "babyX", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Big baby centre Y for each gate (px)')
+], MamamyWordGate.prototype, "babyY", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Accepted spoken words per gate, comma-separated, same order')
+], MamamyWordGate.prototype, "accepted", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Transparent strip under each gate image\'s legs (share of its height), same order')
+], MamamyWordGate.prototype, "feetBand", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Big baby shown on the intro screen')
+], MamamyWordGate.prototype, "introBabyTex", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Intro baby centre (px)')
+], MamamyWordGate.prototype, "introBabyX", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Intro baby centre (px)')
+], MamamyWordGate.prototype, "introBabyY", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Result logo width (px)'),
+    slider(300, 700, 5)
+], MamamyWordGate.prototype, "logoW", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Shield centre inside the logo, x as a share of the logo width from its centre')
+], MamamyWordGate.prototype, "logoShieldX", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Shield centre inside the logo, y (up) as a share of the logo height from its centre')
+], MamamyWordGate.prototype, "logoShieldY", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Shield height as a share of the logo height')
+], MamamyWordGate.prototype, "logoShieldH", void 0);
+__decorate([
+    header("Gameplay Tuning"),
+    serializeProperty,
+    tooltip('Silence before the say-it hint shows (s)'),
+    slider(1, 10, 0.5)
+], MamamyWordGate.prototype, "hintAfterSec", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Running through a gate (s)'),
+    slider(0.2, 1.5, 0.05)
+], MamamyWordGate.prototype, "passSec", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Ignore hits this soon after a pass, so one word never passes two gates (s)'),
+    slider(0, 1.5, 0.05)
+], MamamyWordGate.prototype, "cooldownSec", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Demo video autoplay (starts itself): 0 off, 1 passes a gate every 1.4s, 2 crashes into each gate once, then passes'),
+    spinBox(0, 2, 1)
+], MamamyWordGate.prototype, "demoMode", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Phone test only: show every word the detector hears at the top of the screen')
+], MamamyWordGate.prototype, "showHeard", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    header("Advanced — Scene Wiring"),
+    serializeProperty,
+    tooltip('Far gate, drawn behind the near gate')
+], MamamyWordGate.prototype, "gateFar", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "gateNear", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('Passed gate while still ahead of the big baby (drawn under the baby)')
+], MamamyWordGate.prototype, "gateExit", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('Passed gate once the baby has gone through it (drawn over the baby)')
+], MamamyWordGate.prototype, "gateExitFront", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "bigBaby", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "sayHint", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "introOverlay", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "introButton", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "resultOverlay", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "winEffect", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "resultLogo", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('Soft white glow drawn under the result logo; follows it')
+], MamamyWordGate.prototype, "logoGlow", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('2D Text used by showHeard')
+], MamamyWordGate.prototype, "heardText", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('HUD: top-left mic button (pulses with the voice)')
+], MamamyWordGate.prototype, "micButton", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('HUD: rings that spread out from the mic while talking')
+], MamamyWordGate.prototype, "micWaveA", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty
+], MamamyWordGate.prototype, "micWaveB", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('"Đọc lên nhé" hint next to the mic, shown until the first gate is passed')
+], MamamyWordGate.prototype, "guideText", void 0);
+__decorate([
+    serializeSceneObjectFlag,
+    serializeProperty,
+    tooltip('HUD: top-right time pill; its children named D… are the 4 digit slots, left to right')
+], MamamyWordGate.prototype, "timerBox", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('HUD: timer digits 0-9 in order')
+], MamamyWordGate.prototype, "timerDigits", void 0);
+__decorate([
+    serializeProperty,
+    tooltip('Editor test only: plays this clip at game start and listens to it instead of the microphone. Leave empty to publish.')
+], MamamyWordGate.prototype, "testAudio", void 0);
+MamamyWordGate = __decorate([
+    component()
+], MamamyWordGate);
+exports.MamamyWordGate = MamamyWordGate;

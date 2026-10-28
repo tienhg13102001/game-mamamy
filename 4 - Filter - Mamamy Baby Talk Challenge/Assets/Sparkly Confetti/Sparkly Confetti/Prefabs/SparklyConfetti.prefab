@@ -1,0 +1,184 @@
+%YAML 1.1
+--- !Prefab &1
+name: !<str> ""
+guid: {a: 4416035161650235110, b: 6796953353505121410}
+entities:
+  - __class: Entity
+    name: !<str> SparklyConfetti
+    guid: {a: 1315710128347007233, b: 14382137126327023549}
+    selfvisible: true
+    components:
+      - {localId: 152}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 3767192829570041054, b: 7621875661192753836}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 20
+        fitMode:
+          __class: CameraFitMode
+          value: FILL
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> SparklyConfetti_Confetti
+    guid: {a: 3695377405648238237, b: 251569582386758304}
+    selfvisible: true
+    components:
+      - {localId: 153}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 2687134773715761597, b: 4154186160568716700}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 3037dab1-afeb-31e2-766d-7e39bbcedacb}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> SparklyConfetti_Overlay
+    guid: {a: 9314266247534622154, b: 8180648113521217709}
+    selfvisible: true
+    components:
+      - {localId: 154}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5066530413753673670, b: 1506612077630443145}
+        enabled: true
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 49a7f60c-a066-008a-6cb8-663248efac7a--49a7f60c-a066-008a-6cb8-663248efac7a.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &152
+name: !<str> ""
+guid: {a: 3116797191369644407, b: 3570180815053507748}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 153}
+  - {localId: 154}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &153
+name: !<str> ""
+guid: {a: 1463589585212714843, b: 5625901328510746528}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 152}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &154
+name: !<str> ""
+guid: {a: 15512231895886234528, b: 16592836713657734842}
+enabled: true
+localPosition: {x: 0, y: 0, z: -80}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 152}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false

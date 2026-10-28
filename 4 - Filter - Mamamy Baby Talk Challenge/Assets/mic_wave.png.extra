@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "35d9d74f-748b-61fc-0a14-d0440edcba0e",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "mic_wave",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/4 - Filter - Mamamy Baby Talk Challenge/Build/hud/mic_wave.png",
+    "references": []
+  }
+]

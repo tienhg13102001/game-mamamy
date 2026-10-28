@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "2a162ac3-5a52-787e-a396-48796efc3468",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "MMM SBD Effect 4 TACH HINH 8",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Volumes/SSD/MMM SBD Effect 4/MMM SBD Effect 4 TACH HINH 8.png",
+    "references": []
+  }
+]

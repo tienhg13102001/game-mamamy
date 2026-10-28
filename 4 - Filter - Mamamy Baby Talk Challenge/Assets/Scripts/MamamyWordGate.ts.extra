@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "988d1ed9-157c-c3df-e46f-b9044a19224c",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "MamamyWordGate",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

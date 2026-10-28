@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "9eceecc6-e511-0efa-0385-033855b0f2b4",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "gate_chew",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/4 - Filter - Mamamy Baby Talk Challenge/Build/sbd3/gate_chew.png",
+    "references": []
+  }
+]

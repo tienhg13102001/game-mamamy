@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "7cb31e86-77b6-2035-9191-b8c151390ccc",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "MamamyFaceCopy",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

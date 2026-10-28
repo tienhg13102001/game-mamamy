@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "423e364f-32bc-068e-fa6a-e58bc58c8cea",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "MMM SBD Effect 3 TACH HINH 20",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Downloads/MMM SBD Effect 3/MMM SBD Effect 3 TACH HINH 20.png",
+    "references": []
+  }
+]

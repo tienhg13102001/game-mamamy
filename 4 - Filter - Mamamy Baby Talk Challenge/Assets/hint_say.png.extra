@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "bfbc98fe-3286-ed70-959c-432f22056293",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "hint_say",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/Game 3/Build/text/hint_say.png",
+    "references": []
+  }
+]

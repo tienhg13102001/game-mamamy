@@ -1,0 +1,65 @@
+{
+ "cards": [
+  {
+   "key": "tongue",
+   "class": 0
+  },
+  {
+   "key": "cry",
+   "class": 1
+  },
+  {
+   "key": "wink",
+   "class": 2
+  },
+  {
+   "key": "sad",
+   "class": 3
+  },
+  {
+   "key": "neutral",
+   "class": 4
+  },
+  {
+   "key": "smile",
+   "class": 5
+  },
+  {
+   "key": "surprise",
+   "class": 0
+  },
+  {
+   "key": "eyes_shut_smile",
+   "class": 6
+  },
+  {
+   "key": "girl_grin",
+   "class": 5
+  },
+  {
+   "key": "laugh",
+   "class": 6
+  },
+  {
+   "key": "teeth_grin",
+   "class": 5
+  },
+  {
+   "key": "shield",
+   "class": 6
+  }
+ ],
+ "faces": [],
+ "card_box": [
+  472,
+  417,
+  1071,
+  860
+ ],
+ "face_box": [
+  229,
+  751,
+  766,
+  1240
+ ]
+}

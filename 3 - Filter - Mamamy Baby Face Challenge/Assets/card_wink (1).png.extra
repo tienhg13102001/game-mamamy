@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "13efb965-0d3c-812d-6cc7-94f8ee16622b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "card_wink (1)",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 1,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/tiennguyen/Documents/Game Mamamy/3 - Filter - Mamamy Baby Face Challenge/Build/sbd4/card_wink.png",
+    "references": []
+  }
+]

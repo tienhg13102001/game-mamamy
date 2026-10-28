@@ -1,0 +1,112 @@
+{
+    "Shader": "PhotoCrop",
+    "RenderQueue": 3000,
+    "Pass": [
+        {
+            "Ausl": "a1",
+            "Cull": "None",
+            "DepthTestEnable": "Off",
+            "DepthWriteEnable": "Off",
+            "ZTest": "Always",
+            "BlendMode": "Normal_v2",
+            "BlendModeOptions": [
+                "Normal_v2"
+            ]
+        }
+    ],
+    "API": ""
+}
+---ENDJSON
+
+---BEGIN UIPROPERTY
+
+    $omtl_albedo$
+    _AlbedoColor (omtl_color, Color) = [1.000000, 1.000000, 1.000000, 1.000000]
+    AlbedoTexture (omtl_texture_on, Defs) = 1
+    [AlbedoTexture] _AlbedoTexture (omtl_texture, 2D) = "Default_Material_Texture_Icon"
+
+    $omtl_uv_control$
+    UvControl (omtl_uv_control, Defs) = 1
+    [UvControl] _Tiling (omtl_tiling, Vec2) = [0.611100, 0.367200]
+    [UvControl] _UVOffset (omtl_offset, Vec2) = [0.194400, 0.375000]
+
+---END UIPROPERTY
+
+---BEGIN a1
+
+    #version 300 es
+    #pragma only_renderers glsl30 metal
+    #pragma multi_compile AE_AMAZING_USE_BONES
+    #pragma shader_feature AlbedoTexture
+    #pragma shader_feature UvControl
+
+    #pragma input attributes
+        in mediump vec3 attPosition;
+        in highp vec2 attTexcoord0;
+        #ifdef AE_AMAZING_USE_BONES
+            in mediump vec4 attBoneIds;
+            in highp vec4 attWeights;
+        #endif
+    #pragma end
+
+    #pragma varying varyings
+        highp vec2 v_uv;
+    #pragma end
+
+    #pragma output targets
+        out lowp vec4 o_fragColor;
+    #pragma end
+
+    #pragma vs attributes varyings
+        precision mediump float;
+        #ifdef AE_AMAZING_USE_BONES
+            const int MAX_BONES = 100;
+            struct BoneMatrix {
+                highp mat4 u_Bone[MAX_BONES];
+            };
+            layout(std140) uniform highp u_PalatteBuffer {
+                BoneMatrix boneMatrix;
+            };
+        #endif
+        uniform highp mat4 u_Model;
+        uniform highp mat4 u_MVP;
+        uniform highp mat4 u_TransposeInvModel;
+        #include "Packages/3D/Utilities/VertexTransform.glsl"
+    #pragma end
+
+    #pragma fs varyings targets
+        precision mediump float;
+        uniform lowp vec4 _AlbedoColor;
+        #ifdef AlbedoTexture
+            uniform lowp sampler2D _AlbedoTexture;
+        #endif
+        #ifdef UvControl
+            uniform highp vec2 _Tiling;
+            uniform highp vec2 _UVOffset;
+        #endif
+    #pragma end
+
+    void vertex() {
+        v_uv = attTexcoord0;
+    #ifdef AE_AMAZING_USE_BONES
+        highp mat4 boneTransform = getBoneTransform();
+        vec4 bm_pos = get_bm_postiton(boneTransform, attPosition);
+        gl_Position = get_gl_Position(bm_pos);
+    #else
+        gl_Position = get_gl_Position(attPosition);
+    #endif
+    }
+
+    void fragment() {
+        vec2 uv = v_uv;
+    #ifdef UvControl
+        uv = uv * _Tiling + _UVOffset;
+    #endif
+        vec4 color = _AlbedoColor;
+    #ifdef AlbedoTexture
+        color *= texture(_AlbedoTexture, uv);
+    #endif
+        o_fragColor = vec4(color.rgb, 1.0);
+    }
+
+---END a1
