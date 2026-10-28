@@ -1,0 +1,56 @@
+MAMAMY BABY TALK CHALLENGE - MÔ TẢ GAME
+(Effect 3 - Đọc to chữ trên cổng)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Đọc to từ tiếng Anh ghi trên cổng để chạy xuyên qua cổng. Qua hết
+10 cổng, cổng cuối là NINETEEN (khiên 19), là chiến thắng.
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn đầu chỉ có nút RECORD TO PLAY. Bấm quay (Record) để bắt đầu.
+- Điều khiển bằng GIỌNG NÓI (micro), không cần chạm.
+- Góc trên trái có nút MIC hồng: khi người chơi đọc, mic PHỒNG TO, LẮC
+  RUNG và toả vòng sóng; đọc càng to thì mic càng phồng/rung mạnh, im
+  lặng thì mic đứng yên. Góc trên phải là đồng hồ đếm giờ chơi (ô trắng, số hồng, không viền).
+- Cổng đầu tiên: giữa mặt và cổng hiện chữ "HÃY ĐỌC TO" nhấp nhô lên
+  xuống để hướng dẫn; qua cổng đầu tiên thì chữ tắt.
+- Cổng phía sau (cổng kế tiếp) được làm nhỏ hơn để không rối chữ.
+- Con đường uốn lượn ở nửa dưới màn hình:
+    + Cổng gần (to, bên trái) mang từ cần đọc.
+    + Cổng xa (nhỏ, bên phải) cho biết từ tiếp theo.
+    + Em bé to ở góc dưới bên phải.
+- Đọc đúng từ trên cổng gần -> cổng trượt theo đường tới em bé, em bé
+  đứng gọn trong cổng, rồi cổng trượt tiếp ra khỏi màn hình. Lúc đó
+  em bé đổi thành em bé của cổng vừa qua; cổng xa tiến lên thành
+  cổng gần.
+- Đọc nhầm từ của cổng khác -> cổng đâm vào em bé rồi lùi lại, phải
+  đọc lại.
+
+Thứ tự 10 cổng:
+    EAT -> CHEW -> POO -> CLAP -> SLEEP -> LAUGH -> CRY -> HUG
+    -> PEE -> NINETEEN (khiên 19)
+
+==================================================
+3. THẮNG / THUA
+==================================================
+- Không có thua và không giới hạn thời gian: cổng đứng chờ cho tới khi
+  nghe được đúng từ.
+- Qua được cổng NINETEEN:
+    + Khiên 19 bay lên và bung ra thành logo MEGA MAMAMY 19
+      (có dòng thời gian khuyến mãi).
+    + Có pháo giấy.
+    + Màn thắng chỉ có logo + pháo giấy, không có nút PLAY AGAIN.
+- Chạm màn hình (hoặc bấm quay lại) để chơi lại.
+- Logo MEGA MAMAMY 19 chỉ xuất hiện ở frame cuối. Không có chữ chèn
+  thêm.
+
+==================================================
+4. MẸO CHƠI
+==================================================
+- Đọc to, rõ, từng từ một bằng tiếng Anh, ở nơi yên tĩnh.
+- Bộ nhận giọng của TikTok chỉ nghe tiếng Anh. Nếu đọc mãi không qua,
+  đọc chậm lại và nhấn rõ âm đầu.
+- Đọc xong một từ thì chờ cổng đi qua hẳn rồi mới đọc từ tiếp theo.

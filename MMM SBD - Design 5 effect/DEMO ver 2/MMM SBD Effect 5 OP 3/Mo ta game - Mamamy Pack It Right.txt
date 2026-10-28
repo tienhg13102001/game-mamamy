@@ -1,0 +1,94 @@
+MAMAMY PACK IT RIGHT CHALLENGE - MÔ TẢ GAME
+(Effect 5 - In bao bì đúng thứ tự)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Dùng 3 cây cọ lăn để in hoàn chỉnh lần lượt 5 món (5 round). Món cuối
+cùng là logo MEGA MAMAMY 19; in xong logo là chiến thắng.
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn đầu chỉ có nút RECORD TO PLAY. Bấm quay (Record) để bắt đầu.
+- Trên cùng có 5 NGÔI SAO = 5 round. Qua được round nào thì ngôi sao
+  đó sáng lên (chuyển màu hồng, bật nảy). Ngôi sao bo tròn mềm ở đầu
+  cánh, viền trắng.
+- Giữa màn hình là khung bao bì trống, xung quanh có 3 cọ lăn:
+  trái, dưới, trên.
+- Chạm vào một cọ -> nó lăn qua bao bì và in lớp của nó lên.
+- Mỗi cọ chỉ dùng 1 lần; mỗi món luôn được lăn đủ 3 lần, sau lần thứ 3
+  mới chấm đúng/sai.
+
+Thứ tự đúng (thứ tự MÀU không bao giờ đổi):
+    - Bao bì sản phẩm: TRẮNG -> HOA VĂN / MÀU SẢN PHẨM -> HỒNG có logo.
+    - Logo MEGA MAMAMY 19: TÍM -> HỒNG -> VÀNG GOLD. Khung logo trống
+      là 1 TẤM TRẮNG chữ nhật bo góc (không thấy hình chữ); các màu tím,
+      hồng, gold lần lượt in logo lên tấm trắng đó.
+    - Cọ màu đầu tiên (trắng / tím) luôn nằm bên TRÁI.
+    - 2 cọ còn lại được ĐỔI VỊ TRÍ ngẫu nhiên mỗi round (cọ trên và cọ
+      dưới có thể đổi chỗ cho nhau, tuỳ máy mỗi người chơi). Người chơi
+      phải nhìn màu cọ để chọn đúng, không nhớ theo vị trí.
+
+Hướng dẫn:
+    - ROUND 1: góc trên bên trái có hình món hoàn chỉnh (hình preview),
+      và cây cọ cần lăn tiếp theo RUNG LÊN, kèm 1 MŨI TÊN hồng MẢNH NHẤP NHÁY
+      ở vị trí cố định cạnh cọ đó, chỉ theo chiều cọ sẽ lăn (cọ trái:
+      mũi tên ngang ở mép trái chỉ sang phải; cọ trên: mũi tên phía trên
+      bên phải chỉ xuống; cọ dưới: mũi tên phía dưới bên trái chỉ lên). Lăn xong cọ
+      này thì mũi tên chuyển sang cọ tiếp theo (hướng dẫn lần lượt).
+    - ROUND 2-5: không có hình preview, không có cọ rung, không mũi tên.
+
+Con lăn in gì:
+    - Cọ đúng lượt -> in lớp tiếp theo (nền trắng -> hoa văn -> hoàn
+      chỉnh).
+    - Cọ sai lượt -> lem màu của cọ đó ra cả bao, bao rung nhẹ, vẫn lăn
+      tiếp cho đủ 3 lần.
+
+5 món mỗi lượt:
+    1. Khăn ướt Tropical
+    2. Khăn khô Tropical
+    3-4. Nước giặt xả và Bọt tắm gội (thứ tự 2 món này ngẫu nhiên)
+    5. Logo MEGA MAMAMY 19
+
+- In đúng một món -> sáng thêm 1 ngôi sao (sao sáng lần lượt từ trái
+  sang phải), bao hoàn chỉnh bật lên, món tiếp theo trượt vào.
+- In sai một món -> bao rung, không sáng thêm sao (nên sai 1 món thì
+  ngôi sao CUỐI CÙNG bên phải sẽ tắt, không phải sao ở giữa), nhưng vẫn chơi
+  tiếp món sau. Người chơi luôn tô hết cả 5 món.
+- Không giới hạn thời gian.
+
+==================================================
+3. KHI THUA
+==================================================
+- Tô xong cả 5 món mà chưa đủ 5 sao (có món in sai) -> màn thua như
+  cũ: bao bì mờ đi, icon mặt bé buồn + logo MEGA MAMAMY 19 (có dòng
+  thời gian) + nút PLAY AGAIN. Không bắn pháo.
+- Bấm PLAY AGAIN (chạm màn hình) -> chơi lại từ đầu (món 1, sao tắt hết).
+- Bấm quay (Record) lại thì luôn chơi lại từ đầu (round 1).
+
+==================================================
+4. THẮNG
+==================================================
+Tô xong cả 5 món, đủ 5/5 sao:
+- Banner MEGA MAMAMY 19 (có dòng thời gian khuyến mãi) bung ra từ khiên
+  19 trên logo vừa in.
+- Có pháo giấy.
+- Màn thắng chỉ có logo + pháo giấy, không có nút PLAY AGAIN.
+- Chạm màn hình để chơi lại từ đầu.
+
+==================================================
+5. LƯU Ý
+==================================================
+- Frame cuối (thắng hoặc thua) chỉ có logo (+ mặt bé buồn và PLAY
+  AGAIN khi thua); ngôi sao ẩn đi ở frame cuối và hiện lại khi chơi
+  lại.
+- Không có chữ chèn thêm (không OOPS!...).
+
+==================================================
+6. MẸO CHƠI
+==================================================
+- Luôn bắt đầu bằng cọ bên trái.
+- Nhớ thứ tự màu: "trắng - hoa văn - hồng"; logo cuối: "tím - hồng - vàng".
+- Cọ có thể đổi chỗ trên/dưới: nhìn MÀU cọ chứ đừng nhớ vị trí.
+- Round 1: làm theo cọ đang rung và mũi tên nhấp nháy.

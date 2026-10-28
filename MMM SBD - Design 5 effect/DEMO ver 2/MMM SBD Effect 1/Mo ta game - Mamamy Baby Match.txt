@@ -1,0 +1,79 @@
+MAMAMY BABY MATCH CHALLENGE - MÔ TẢ GAME
+(Effect 1 - Món này dành cho bé nào?)
+
+==================================================
+1. MỤC TIÊU
+==================================================
+Trao mỗi sản phẩm Mamamy cho đúng em bé đang cần nó, qua 2 vòng.
+Vòng 2 có khiên 19: trao đúng hết thì khiên bung ra thành logo
+MEGA MAMAMY 19 và chiến thắng.
+
+==================================================
+2. CÁCH CHƠI
+==================================================
+- Màn đầu chỉ có nút RECORD TO PLAY. Bấm quay (Record) để bắt đầu.
+- 4 ô ở 4 góc màn hình, mỗi ô là một em bé đang có "vấn đề" riêng.
+- Sản phẩm hiện ở giữa màn hình, lần lượt từng món.
+- Chọn em bé cần món đó bằng một trong hai cách:
+    + Chạm vào em bé, hoặc
+    + Kéo sản phẩm thả vào em bé.
+- Mỗi sản phẩm chỉ được chọn 1 lần.
+- Hướng dẫn (chỉ ở sản phẩm ĐẦU TIÊN của ván): hiện chữ "Chọn em bé" (chữ trắng, không viền),
+  em bé cần sản phẩm đó RUNG RUNG, và 1 bản mờ của sản phẩm liên tục
+  bay vào em bé đó để minh hoạ cách chơi. Chọn xong món đầu là hướng
+  dẫn tắt, các món sau không có hướng dẫn.
+
+VÒNG 1: 4 em bé, 4 sản phẩm
+    (khăn ướt Tropical -> bé tã bẩn, bọt tắm gội -> bé gái đang mếu,
+     bình sữa + cọ -> bé uống sữa, nước giặt xả -> bé quần áo bẩn)
+VÒNG 2: 3 em bé mới + khiên 19 ở góc trên bên phải, 4 sản phẩm
+    (khăn ướt mini, khăn khô Tropical, dầu tắm gội, logo Mamamy)
+    -> Món cuối cùng của vòng 2 luôn là logo Mamamy (BABY GOOD GOODS),
+       dành cho khiên 19.
+
+- Đúng: sản phẩm bay vào, em bé vui lên.
+- Phải đúng hết 4/4 ở vòng 1 mới được sang vòng 2.
+- Không giới hạn thời gian.
+
+==================================================
+3. KHI NÀO THUA
+==================================================
+- Trao sai: em bé đó khóc và bị KHÓA (khóc luôn, không chọn lại được,
+  kể cả khi sau đó là đúng món của bé).
+- Khiên 19 nhận sai món -> khiên rung mạnh (không nứt vỡ).
+- Cả 4 sản phẩm của vòng vẫn luôn hiện đủ. Món nào mà em bé cần nó đã
+  bị khóa thì chọn kiểu gì cũng sai.
+- Hết vòng mà còn ô chưa được trao đúng -> các bé còn lại khóc -> THUA.
+
+==================================================
+4. THẮNG
+==================================================
+(Màn cuối thắng hay thua: ẩn hết em bé, logo ở cùng một vị trí, thấp ngang ngực.)
+Vòng 2 trao đúng hết (món cuối cho khiên 19):
+- Khiên hiện "19 năm kiên định chuẩn an toàn".
+- Các em bé mờ đi, khiên trở lại khiên 19, bay lên và bung ra thành
+  logo MEGA MAMAMY 19 (có dòng thời gian khuyến mãi).
+- Toàn khung hình phủ lớp đen mờ (~25%); logo có quầng sáng trắng
+  mềm xung quanh. Logo bung ra, đặt thấp ngang
+  ngực để không che mặt.
+- Có pháo giấy.
+- Màn thắng chỉ có logo + pháo giấy, không có nút PLAY AGAIN.
+
+==================================================
+5. MÀN CUỐI KHI THUA
+==================================================
+- Toàn khung hình phủ lớp đen mờ (~25%); logo có quầng sáng trắng
+  mềm xung quanh. Hiện icon mặt bé buồn (lấy từ
+  game Baby Face) + logo MEGA MAMAMY 19 (có dòng thời gian, thấp ngang ngực)
+  + nút PLAY AGAIN bên dưới.
+  Không bắn pháo.
+- Chạm PLAY AGAIN (hoặc bất kỳ đâu trên màn hình) là chơi lại ngay, không cần
+  quay lại video từ đầu (thắng hay thua đều được).
+- Logo MEGA MAMAMY 19 chỉ xuất hiện ở frame cuối. Không có chữ chèn
+  thêm (không ĐÚNG RỒI / CHƯA ĐÚNG, không thời gian...).
+
+==================================================
+6. MẸO CHƠI
+==================================================
+- Nhìn kỹ từng bé đang làm gì / đang gặp chuyện gì trước khi chọn.
+- Vòng 2 bé đổi chỗ và đổi sản phẩm, đừng chọn theo vị trí của vòng 1.
